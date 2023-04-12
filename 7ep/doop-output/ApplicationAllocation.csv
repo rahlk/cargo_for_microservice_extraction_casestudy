@@ -1,0 +1,524 @@
+NUMBER_1	com.coveros.training.mathematics.AckermannIterative$$$Field
+NUMBER_2	com.coveros.training.mathematics.AckermannIterative$$$Field
+STACK	com.coveros.training.mathematics.AckermannIterative$$$Field
+FLAG	com.coveros.training.mathematics.AckermannIterative$$$Field
+book	com.coveros.training.library.LibraryLendServlet
+book	com.coveros.training.library.LibraryRegisterBookServlet
+borrower	com.coveros.training.library.LibraryLendServlet
+borrower	com.coveros.training.library.LibraryRegisterBorrowerServlet
+BASIC_PASSWORD_CHECKS_FAILED	com.coveros.training.authentication.domainobjects.PasswordResult
+NULL	com.coveros.training.authentication.domainobjects.PasswordResultEnums
+NULL	com.coveros.training.library.domainobjects.LibraryActionResults
+NO_BOOK_TITLE_PROVIDED	com.coveros.training.library.domainobjects.LibraryActionResults
+NO_BORROWER_PROVIDED	com.coveros.training.library.domainobjects.LibraryActionResults
+END	com.coveros.training.mathematics.TailRecursive$$
+END	com.coveros.training.mathematics.AckermannIterative$$
+ALREADY_REGISTERED	com.coveros.training.authentication.domainobjects.RegistrationStatusEnums
+EMPTY_USERNAME	com.coveros.training.authentication.domainobjects.RegistrationStatusEnums
+EMPTY_PASSWORD	com.coveros.training.authentication.domainobjects.PasswordResultEnums
+EMPTY_PASSWORD	com.coveros.training.authentication.domainobjects.RegistrationStatusEnums
+SUCCESSFULLY_REGISTERED	com.coveros.training.authentication.domainobjects.RegistrationStatusEnums
+BAD_PASSWORD	com.coveros.training.authentication.domainobjects.RegistrationStatusEnums
+EMPTY	com.coveros.training.authentication.domainobjects.RegistrationStatusEnums
+TOO_SHORT	com.coveros.training.authentication.domainobjects.PasswordResultEnums
+TOO_LONG	com.coveros.training.authentication.domainobjects.PasswordResultEnums
+INSUFFICIENT_ENTROPY	com.coveros.training.authentication.domainobjects.PasswordResultEnums
+SUCCESS	com.coveros.training.authentication.domainobjects.PasswordResultEnums
+SUCCESS	com.coveros.training.library.domainobjects.LibraryActionResults
+BOOK_NOT_REGISTERED	com.coveros.training.library.domainobjects.LibraryActionResults
+BORROWER_NOT_REGISTERED	com.coveros.training.library.domainobjects.LibraryActionResults
+BOOK_CHECKED_OUT	com.coveros.training.library.domainobjects.LibraryActionResults
+ALREADY_REGISTERED_BORROWER	com.coveros.training.library.domainobjects.LibraryActionResults
+ALREADY_REGISTERED_BOOK	com.coveros.training.library.domainobjects.LibraryActionResults
+NON_REGISTERED_BOOK_CANNOT_BE_DELETED	com.coveros.training.library.domainobjects.LibraryActionResults
+NON_REGISTERED_BORROWER_CANNOT_BE_DELETED	com.coveros.training.library.domainobjects.LibraryActionResults
+<class com.coveros.training.mathematics.TailRecursive$$>	com.coveros.training.mathematics.TailRecursive$$
+<class com.coveros.training.persistence.PersistenceLayer>	com.coveros.training.persistence.PersistenceLayer
+<class com.coveros.training.persistence.EmptyDataSource>	com.coveros.training.persistence.PersistenceLayer
+<class com.coveros.training.authentication.domainobjects.RegistrationStatusEnums>	com.coveros.training.authentication.domainobjects.RegistrationStatusEnums
+<class com.coveros.training.authentication.domainobjects.PasswordResultEnums>	com.coveros.training.authentication.domainobjects.PasswordResultEnums
+<class com.coveros.training.mathematics.AckermannIterative$$>	com.coveros.training.mathematics.AckermannIterative$$
+<class com.coveros.training.mathematics.AckermannIterative$$$Field>	com.coveros.training.mathematics.AckermannIterative$$$Field
+<class com.coveros.training.library.domainobjects.LibraryActionResults>	com.coveros.training.library.domainobjects.LibraryActionResults
+<class java.lang.Void>	com.coveros.training.persistence.ParameterObject
+<com.coveros.training.library.domainobjects.Loan: boolean equals(java.lang.Object)>/new org.apache.commons.lang3.builder.EqualsBuilder/0	com.coveros.training.library.domainobjects.Loan
+<com.coveros.training.library.domainobjects.Loan: int hashCode()>/new org.apache.commons.lang3.builder.HashCodeBuilder/0	com.coveros.training.library.domainobjects.Loan
+<com.coveros.training.library.domainobjects.Loan: com.coveros.training.library.domainobjects.Loan createEmpty()>/new com.coveros.training.library.domainobjects.Loan/0	com.coveros.training.library.domainobjects.Loan
+<com.coveros.training.library.domainobjects.Loan: com.coveros.training.library.domainobjects.Loan createEmpty()>/new java.sql.Date/0	com.coveros.training.library.domainobjects.Loan
+<com.coveros.training.authentication.domainobjects.PasswordResult: com.coveros.training.authentication.domainobjects.PasswordResult createDefault(com.coveros.training.authentication.domainobjects.PasswordResultEnums)>/new com.coveros.training.authentication.domainobjects.PasswordResult/0	com.coveros.training.authentication.domainobjects.PasswordResult
+<com.coveros.training.authentication.domainobjects.PasswordResult: boolean equals(java.lang.Object)>/new org.apache.commons.lang3.builder.EqualsBuilder/0	com.coveros.training.authentication.domainobjects.PasswordResult
+<com.coveros.training.authentication.domainobjects.PasswordResult: int hashCode()>/new org.apache.commons.lang3.builder.HashCodeBuilder/0	com.coveros.training.authentication.domainobjects.PasswordResult
+<com.coveros.training.authentication.domainobjects.PasswordResult: java.lang.String toPrettyString()>/new java.lang.Object[]/0	com.coveros.training.authentication.domainobjects.PasswordResult
+<com.coveros.training.authentication.domainobjects.PasswordResult: java.lang.String toPrettyString()>/new java.lang.Object[]/1	com.coveros.training.authentication.domainobjects.PasswordResult
+<com.coveros.training.authentication.domainobjects.PasswordResult: java.lang.String toPrettyString()>/new java.lang.Object[]/2	com.coveros.training.authentication.domainobjects.PasswordResult
+<com.coveros.training.authentication.domainobjects.PasswordResult: java.lang.String toPrettyString()>/new java.lang.Object[]/3	com.coveros.training.authentication.domainobjects.PasswordResult
+<com.coveros.training.authentication.domainobjects.PasswordResult: java.lang.String toPrettyString()>/new java.lang.Object[]/4	com.coveros.training.authentication.domainobjects.PasswordResult
+<com.coveros.training.authentication.domainobjects.PasswordResult: com.coveros.training.authentication.domainobjects.PasswordResult createEmpty()>/new com.coveros.training.authentication.domainobjects.PasswordResult/0	com.coveros.training.authentication.domainobjects.PasswordResult
+<com.coveros.training.library.LibraryLendServlet: void <clinit>()>/new com.coveros.training.library.LibraryUtils/0	com.coveros.training.library.LibraryLendServlet
+<com.coveros.training.mathematics.TailRecursive$$: void <clinit>()>/new com.coveros.training.mathematics.TailRecursive$$/0	com.coveros.training.mathematics.TailRecursive$$
+<com.coveros.training.mathematics.TailRecursive$$: void <clinit>()>/new com.coveros.training.mathematics.TailRecursive$$[]/0	com.coveros.training.mathematics.TailRecursive$$
+<com.coveros.training.tomcat.WebAppListener: void <init>()>/new com.coveros.training.persistence.PersistenceLayer/0	com.coveros.training.tomcat.WebAppListener
+<com.coveros.training.library.LibraryRegisterBookServlet: void <clinit>()>/new com.coveros.training.library.LibraryUtils/0	com.coveros.training.library.LibraryRegisterBookServlet
+<com.coveros.training.mathematics.Calculator: void <init>()>/new com.coveros.training.mathematics.Calculator$Baz/0	com.coveros.training.mathematics.Calculator
+<com.coveros.training.persistence.PersistenceLayer: void executeUpdateTemplate(java.lang.String,java.lang.String,java.lang.Object[])>/new com.coveros.training.persistence.SqlData/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: void executeUpdateTemplate(java.lang.String,java.lang.String,java.lang.Object[])>/new com.coveros.training.persistence.SqlRuntimeException/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: long executeInsertTemplate(java.lang.String,java.lang.String,java.lang.Object[])>/new com.coveros.training.persistence.SqlData/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: long executeInsertTemplate(java.lang.String,java.lang.String,java.lang.Object[])>/new com.coveros.training.persistence.SqlRuntimeException/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: long executeInsertOnPreparedStatement(com.coveros.training.persistence.SqlData,java.sql.PreparedStatement)>/new java.lang.AssertionError/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: long executeInsertOnPreparedStatement(com.coveros.training.persistence.SqlData,java.sql.PreparedStatement)>/new com.coveros.training.persistence.SqlRuntimeException/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional runQuery(com.coveros.training.persistence.SqlData)>/new com.coveros.training.persistence.SqlRuntimeException/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: long saveNewBorrower(java.lang.String)>/new java.lang.String[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: long saveNewBorrower(java.lang.String)>/new java.lang.Object[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: long createLoan(com.coveros.training.library.domainobjects.Book,com.coveros.training.library.domainobjects.Borrower,java.sql.Date)>/new java.lang.Object[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: long saveNewBook(java.lang.String)>/new java.lang.String[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: long saveNewBook(java.lang.String)>/new java.lang.Object[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: void updateBorrower(long,java.lang.String)>/new java.lang.String[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: void updateBorrower(long,java.lang.String)>/new java.lang.Object[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: void deleteBook(long)>/new java.lang.Object[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: void deleteBorrower(long)>/new java.lang.Object[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional getBorrowerName(long)>/new com.coveros.training.persistence.SqlData/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional getBorrowerName(long)>/new java.lang.Object[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional searchBorrowerDataByName(java.lang.String)>/new java.lang.String[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional searchBorrowerDataByName(java.lang.String)>/new com.coveros.training.persistence.SqlData/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional searchBorrowerDataByName(java.lang.String)>/new java.lang.Object[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional searchBooksByTitle(java.lang.String)>/new java.lang.String[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional searchBooksByTitle(java.lang.String)>/new com.coveros.training.persistence.SqlData/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional searchBooksByTitle(java.lang.String)>/new java.lang.Object[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional searchBooksById(long)>/new com.coveros.training.persistence.SqlData/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional searchBooksById(long)>/new java.lang.Object[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional searchBorrowersById(long)>/new com.coveros.training.persistence.SqlData/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional searchBorrowersById(long)>/new java.lang.Object[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional listBooks(java.lang.String,java.lang.String)>/new com.coveros.training.persistence.SqlData/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional listBooks(java.lang.String,java.lang.String)>/new java.lang.Object[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional listAllBorrowers()>/new com.coveros.training.persistence.SqlData/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional listAllBorrowers()>/new java.lang.Object[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional searchForLoanByBorrower(com.coveros.training.library.domainobjects.Borrower)>/new com.coveros.training.persistence.SqlData/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional searchForLoanByBorrower(com.coveros.training.library.domainobjects.Borrower)>/new java.lang.Object[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional searchForLoanByBook(com.coveros.training.library.domainobjects.Book)>/new com.coveros.training.persistence.SqlData/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional searchForLoanByBook(com.coveros.training.library.domainobjects.Book)>/new java.lang.Object[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: long saveNewUser(java.lang.String)>/new java.lang.String[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: long saveNewUser(java.lang.String)>/new java.lang.Object[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional searchForUserByName(java.lang.String)>/new java.lang.String[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional searchForUserByName(java.lang.String)>/new com.coveros.training.persistence.SqlData/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional searchForUserByName(java.lang.String)>/new java.lang.Object[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional areCredentialsValid(java.lang.String,java.lang.String)>/new com.coveros.training.persistence.SqlData/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional areCredentialsValid(java.lang.String,java.lang.String)>/new java.lang.Object[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: void updateUserWithPassword(long,java.lang.String)>/new java.lang.Object[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.lang.String createHashedValueFromPassword(java.lang.String)>/new java.lang.String[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.lang.String createHashedValueFromPassword(java.lang.String)>/new com.coveros.training.persistence.SqlRuntimeException/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.lang.String bytesToHex(byte[])>/new java.lang.StringBuilder/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: com.coveros.training.persistence.IPersistenceLayer createEmpty()>/new com.coveros.training.persistence.PersistenceLayer/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: com.coveros.training.persistence.IPersistenceLayer createEmpty()>/new com.coveros.training.persistence.EmptyDataSource/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: void runBackup(java.lang.String)>/new com.coveros.training.persistence.SqlRuntimeException/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: void runRestore(java.lang.String)>/new com.coveros.training.persistence.SqlRuntimeException/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: org.flywaydb.core.Flyway configureFlyway()>/new java.lang.String[]/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$areCredentialsValid$12(java.sql.ResultSet)>/new java.lang.AssertionError/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$searchForUserByName$11(java.lang.String,java.sql.ResultSet)>/new com.coveros.training.authentication.domainobjects.User/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$searchForLoanByBook$10(com.coveros.training.library.domainobjects.Book,java.sql.ResultSet)>/new com.coveros.training.library.domainobjects.Loan/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$searchForLoanByBook$10(com.coveros.training.library.domainobjects.Book,java.sql.ResultSet)>/new com.coveros.training.library.domainobjects.Borrower/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$searchForLoanByBorrower$9(com.coveros.training.library.domainobjects.Borrower,java.sql.ResultSet)>/new java.util.ArrayList/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$searchForLoanByBorrower$9(com.coveros.training.library.domainobjects.Borrower,java.sql.ResultSet)>/new com.coveros.training.library.domainobjects.Loan/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$searchForLoanByBorrower$9(com.coveros.training.library.domainobjects.Borrower,java.sql.ResultSet)>/new com.coveros.training.library.domainobjects.Book/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$listAllBorrowers$8(java.sql.ResultSet)>/new java.util.ArrayList/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$listAllBorrowers$8(java.sql.ResultSet)>/new com.coveros.training.library.domainobjects.Borrower/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$listBooks$7(java.sql.ResultSet)>/new java.util.ArrayList/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$listBooks$7(java.sql.ResultSet)>/new com.coveros.training.library.domainobjects.Book/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$searchBorrowersById$6(java.sql.ResultSet)>/new com.coveros.training.library.domainobjects.Borrower/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$searchBooksById$5(java.sql.ResultSet)>/new com.coveros.training.library.domainobjects.Book/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$searchBooksByTitle$4(java.lang.String,java.sql.ResultSet)>/new com.coveros.training.library.domainobjects.Book/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$searchBorrowerDataByName$3(java.sql.ResultSet)>/new com.coveros.training.library.domainobjects.Borrower/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.persistence.PersistenceLayer: java.lang.Object lambda$throwingFunctionWrapper$0(com.coveros.training.persistence.PersistenceLayer$ThrowingFunction,java.sql.ResultSet)>/new com.coveros.training.persistence.SqlRuntimeException/0	com.coveros.training.persistence.PersistenceLayer
+<com.coveros.training.mathematics.FibonacciIterative: void <init>()>/new java.lang.IllegalStateException/0	com.coveros.training.mathematics.FibonacciIterative
+<com.coveros.training.authentication.domainobjects.RegistrationStatusEnums: void <clinit>()>/new com.coveros.training.authentication.domainobjects.RegistrationStatusEnums/0	com.coveros.training.authentication.domainobjects.RegistrationStatusEnums
+<com.coveros.training.authentication.domainobjects.RegistrationStatusEnums: void <clinit>()>/new com.coveros.training.authentication.domainobjects.RegistrationStatusEnums/1	com.coveros.training.authentication.domainobjects.RegistrationStatusEnums
+<com.coveros.training.authentication.domainobjects.RegistrationStatusEnums: void <clinit>()>/new com.coveros.training.authentication.domainobjects.RegistrationStatusEnums/2	com.coveros.training.authentication.domainobjects.RegistrationStatusEnums
+<com.coveros.training.authentication.domainobjects.RegistrationStatusEnums: void <clinit>()>/new com.coveros.training.authentication.domainobjects.RegistrationStatusEnums/3	com.coveros.training.authentication.domainobjects.RegistrationStatusEnums
+<com.coveros.training.authentication.domainobjects.RegistrationStatusEnums: void <clinit>()>/new com.coveros.training.authentication.domainobjects.RegistrationStatusEnums/4	com.coveros.training.authentication.domainobjects.RegistrationStatusEnums
+<com.coveros.training.authentication.domainobjects.RegistrationStatusEnums: void <clinit>()>/new com.coveros.training.authentication.domainobjects.RegistrationStatusEnums/5	com.coveros.training.authentication.domainobjects.RegistrationStatusEnums
+<com.coveros.training.authentication.domainobjects.RegistrationStatusEnums: void <clinit>()>/new com.coveros.training.authentication.domainobjects.RegistrationStatusEnums[]/0	com.coveros.training.authentication.domainobjects.RegistrationStatusEnums
+<com.coveros.training.authentication.domainobjects.PasswordResultEnums: void <clinit>()>/new com.coveros.training.authentication.domainobjects.PasswordResultEnums/0	com.coveros.training.authentication.domainobjects.PasswordResultEnums
+<com.coveros.training.authentication.domainobjects.PasswordResultEnums: void <clinit>()>/new com.coveros.training.authentication.domainobjects.PasswordResultEnums/1	com.coveros.training.authentication.domainobjects.PasswordResultEnums
+<com.coveros.training.authentication.domainobjects.PasswordResultEnums: void <clinit>()>/new com.coveros.training.authentication.domainobjects.PasswordResultEnums/2	com.coveros.training.authentication.domainobjects.PasswordResultEnums
+<com.coveros.training.authentication.domainobjects.PasswordResultEnums: void <clinit>()>/new com.coveros.training.authentication.domainobjects.PasswordResultEnums/3	com.coveros.training.authentication.domainobjects.PasswordResultEnums
+<com.coveros.training.authentication.domainobjects.PasswordResultEnums: void <clinit>()>/new com.coveros.training.authentication.domainobjects.PasswordResultEnums/4	com.coveros.training.authentication.domainobjects.PasswordResultEnums
+<com.coveros.training.authentication.domainobjects.PasswordResultEnums: void <clinit>()>/new com.coveros.training.authentication.domainobjects.PasswordResultEnums/5	com.coveros.training.authentication.domainobjects.PasswordResultEnums
+<com.coveros.training.authentication.domainobjects.PasswordResultEnums: void <clinit>()>/new com.coveros.training.authentication.domainobjects.PasswordResultEnums[]/0	com.coveros.training.authentication.domainobjects.PasswordResultEnums
+<com.coveros.training.helpers.ServletUtils: void forwardToResult(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.slf4j.Logger)>/new java.lang.Object[]/0	com.coveros.training.helpers.ServletUtils
+<com.coveros.training.helpers.ServletUtils: void forwardToRestfulResult(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.slf4j.Logger)>/new java.lang.Object[]/0	com.coveros.training.helpers.ServletUtils
+<com.coveros.training.persistence.EmptyDataSource: java.sql.Connection getConnection()>/new com.coveros.training.persistence.NotImplementedException/0	com.coveros.training.persistence.EmptyDataSource
+<com.coveros.training.persistence.EmptyDataSource: java.sql.Connection getConnection(java.lang.String,java.lang.String)>/new com.coveros.training.persistence.NotImplementedException/0	com.coveros.training.persistence.EmptyDataSource
+<com.coveros.training.persistence.EmptyDataSource: java.lang.Object unwrap(java.lang.Class)>/new com.coveros.training.persistence.NotImplementedException/0	com.coveros.training.persistence.EmptyDataSource
+<com.coveros.training.persistence.EmptyDataSource: boolean isWrapperFor(java.lang.Class)>/new com.coveros.training.persistence.NotImplementedException/0	com.coveros.training.persistence.EmptyDataSource
+<com.coveros.training.persistence.EmptyDataSource: java.io.PrintWriter getLogWriter()>/new com.coveros.training.persistence.NotImplementedException/0	com.coveros.training.persistence.EmptyDataSource
+<com.coveros.training.persistence.EmptyDataSource: void setLogWriter(java.io.PrintWriter)>/new com.coveros.training.persistence.NotImplementedException/0	com.coveros.training.persistence.EmptyDataSource
+<com.coveros.training.persistence.EmptyDataSource: void setLoginTimeout(int)>/new com.coveros.training.persistence.NotImplementedException/0	com.coveros.training.persistence.EmptyDataSource
+<com.coveros.training.persistence.EmptyDataSource: int getLoginTimeout()>/new com.coveros.training.persistence.NotImplementedException/0	com.coveros.training.persistence.EmptyDataSource
+<com.coveros.training.persistence.EmptyDataSource: java.util.logging.Logger getParentLogger()>/new com.coveros.training.persistence.NotImplementedException/0	com.coveros.training.persistence.EmptyDataSource
+<com.coveros.training.helpers.CheckUtils: void IntParameterMustBePositive(long)>/new java.lang.IllegalArgumentException/0	com.coveros.training.helpers.CheckUtils
+<com.coveros.training.helpers.CheckUtils: void StringMustNotBeNullOrEmpty(java.lang.String[])>/new java.lang.IllegalArgumentException/0	com.coveros.training.helpers.CheckUtils
+<com.coveros.training.helpers.CheckUtils: void mustBeTrueAtThisPoint(boolean,java.lang.String)>/new com.coveros.training.helpers.AssertionException/0	com.coveros.training.helpers.CheckUtils
+<com.coveros.training.library.LibraryBorrowerListSearchServlet: void <clinit>()>/new com.coveros.training.library.LibraryUtils/0	com.coveros.training.library.LibraryBorrowerListSearchServlet
+<com.coveros.training.mathematics.AckermannIterative$$: java.lang.Object lambda$tail$0(java.math.BigInteger,java.math.BigInteger,java.util.Deque,boolean,com.coveros.training.mathematics.AckermannIterative$$$Field)>/new java.lang.UnsupportedOperationException/0	com.coveros.training.mathematics.AckermannIterative$$
+<com.coveros.training.mathematics.AckermannIterative$$: void <clinit>()>/new com.coveros.training.mathematics.AckermannIterative$$/0	com.coveros.training.mathematics.AckermannIterative$$
+<com.coveros.training.mathematics.AckermannIterative$$: void <clinit>()>/new com.coveros.training.mathematics.AckermannIterative$$[]/0	com.coveros.training.mathematics.AckermannIterative$$
+<com.coveros.training.mathematics.AckServlet: void doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>/new java.lang.Object[]/0	com.coveros.training.mathematics.AckServlet
+<com.coveros.training.library.LibraryRegisterBorrowerServlet: void <clinit>()>/new com.coveros.training.library.LibraryUtils/0	com.coveros.training.library.LibraryRegisterBorrowerServlet
+<com.coveros.training.mathematics.Ackermann: void <init>()>/new java.lang.IllegalStateException/0	com.coveros.training.mathematics.Ackermann
+<com.coveros.training.library.LibraryBookListAvailableServlet: void <clinit>()>/new com.coveros.training.library.LibraryUtils/0	com.coveros.training.library.LibraryBookListAvailableServlet
+<com.coveros.training.authentication.RegistrationUtils: void <init>()>/new com.coveros.training.persistence.PersistenceLayer/0	com.coveros.training.authentication.RegistrationUtils
+<com.coveros.training.authentication.RegistrationUtils: com.coveros.training.authentication.domainobjects.RegistrationResult processRegistration(java.lang.String,java.lang.String)>/new java.lang.String[]/0	com.coveros.training.authentication.RegistrationUtils
+<com.coveros.training.authentication.RegistrationUtils: com.coveros.training.authentication.domainobjects.RegistrationResult processRegistration(java.lang.String,java.lang.String)>/new java.lang.String[]/1	com.coveros.training.authentication.RegistrationUtils
+<com.coveros.training.authentication.RegistrationUtils: com.coveros.training.authentication.domainobjects.RegistrationResult processRegistration(java.lang.String,java.lang.String)>/new com.coveros.training.authentication.domainobjects.RegistrationResult/0	com.coveros.training.authentication.RegistrationUtils
+<com.coveros.training.authentication.RegistrationUtils: com.coveros.training.authentication.domainobjects.RegistrationResult processRegistration(java.lang.String,java.lang.String)>/new com.coveros.training.authentication.domainobjects.RegistrationResult/1	com.coveros.training.authentication.RegistrationUtils
+<com.coveros.training.authentication.RegistrationUtils: com.coveros.training.authentication.domainobjects.RegistrationResult processRegistration(java.lang.String,java.lang.String)>/new com.coveros.training.authentication.domainobjects.RegistrationResult/2	com.coveros.training.authentication.RegistrationUtils
+<com.coveros.training.authentication.RegistrationUtils: com.coveros.training.authentication.RegistrationUtils createEmpty()>/new com.coveros.training.authentication.RegistrationUtils/0	com.coveros.training.authentication.RegistrationUtils
+<com.coveros.training.authentication.RegistrationUtils: com.coveros.training.authentication.domainobjects.PasswordResult isPasswordGood(java.lang.String)>/new java.lang.String[]/0	com.coveros.training.authentication.RegistrationUtils
+<com.coveros.training.authentication.RegistrationUtils: com.coveros.training.authentication.domainobjects.PasswordResult isPasswordGood(java.lang.String)>/new me.gosimple.nbvcxz.Nbvcxz/0	com.coveros.training.authentication.RegistrationUtils
+<com.coveros.training.authentication.RegistrationUtils: com.coveros.training.authentication.domainobjects.PasswordResult isPasswordGood(java.lang.String)>/new com.coveros.training.authentication.domainobjects.PasswordResult/0	com.coveros.training.authentication.RegistrationUtils
+<com.coveros.training.authentication.RegistrationUtils: com.coveros.training.authentication.domainobjects.PasswordResult isPasswordGood(java.lang.String)>/new com.coveros.training.authentication.domainobjects.PasswordResult/1	com.coveros.training.authentication.RegistrationUtils
+<com.coveros.training.authentication.domainobjects.User: boolean equals(java.lang.Object)>/new org.apache.commons.lang3.builder.EqualsBuilder/0	com.coveros.training.authentication.domainobjects.User
+<com.coveros.training.authentication.domainobjects.User: int hashCode()>/new org.apache.commons.lang3.builder.HashCodeBuilder/0	com.coveros.training.authentication.domainobjects.User
+<com.coveros.training.authentication.domainobjects.User: com.coveros.training.authentication.domainobjects.User createEmpty()>/new com.coveros.training.authentication.domainobjects.User/0	com.coveros.training.authentication.domainobjects.User
+<com.coveros.training.persistence.SqlData: void <init>(java.lang.String,java.lang.String,java.util.function.Function,java.lang.Object[])>/new java.util.ArrayList/0	com.coveros.training.persistence.SqlData
+<com.coveros.training.persistence.SqlData: void addParameter(java.lang.Object,java.lang.Class)>/new com.coveros.training.persistence.ParameterObject/0	com.coveros.training.persistence.SqlData
+<com.coveros.training.persistence.SqlData: void applyParametersToPreparedStatement(java.sql.PreparedStatement)>/new com.coveros.training.persistence.SqlRuntimeException/0	com.coveros.training.persistence.SqlData
+<com.coveros.training.persistence.SqlData: boolean equals(java.lang.Object)>/new org.apache.commons.lang3.builder.EqualsBuilder/0	com.coveros.training.persistence.SqlData
+<com.coveros.training.persistence.SqlData: int hashCode()>/new org.apache.commons.lang3.builder.HashCodeBuilder/0	com.coveros.training.persistence.SqlData
+<com.coveros.training.persistence.SqlData: java.lang.String toString()>/new java.lang.StringBuilder/0	com.coveros.training.persistence.SqlData
+<com.coveros.training.persistence.SqlData: java.lang.String toString()>/new org.apache.commons.lang3.builder.ToStringBuilder/0	com.coveros.training.persistence.SqlData
+<com.coveros.training.persistence.SqlData: com.coveros.training.persistence.SqlData createEmpty()>/new com.coveros.training.persistence.SqlData/0	com.coveros.training.persistence.SqlData
+<com.coveros.training.persistence.SqlData: com.coveros.training.persistence.SqlData createEmpty()>/new java.lang.Object[]/0	com.coveros.training.persistence.SqlData
+<com.coveros.training.mathematics.AckermannIterative$$$Field: void <clinit>()>/new com.coveros.training.mathematics.AckermannIterative$$$Field/0	com.coveros.training.mathematics.AckermannIterative$$$Field
+<com.coveros.training.mathematics.AckermannIterative$$$Field: void <clinit>()>/new com.coveros.training.mathematics.AckermannIterative$$$Field/1	com.coveros.training.mathematics.AckermannIterative$$$Field
+<com.coveros.training.mathematics.AckermannIterative$$$Field: void <clinit>()>/new com.coveros.training.mathematics.AckermannIterative$$$Field/2	com.coveros.training.mathematics.AckermannIterative$$$Field
+<com.coveros.training.mathematics.AckermannIterative$$$Field: void <clinit>()>/new com.coveros.training.mathematics.AckermannIterative$$$Field/3	com.coveros.training.mathematics.AckermannIterative$$$Field
+<com.coveros.training.mathematics.AckermannIterative$$$Field: void <clinit>()>/new com.coveros.training.mathematics.AckermannIterative$$$Field[]/0	com.coveros.training.mathematics.AckermannIterative$$$Field
+<com.coveros.training.authentication.LoginUtils: void <init>()>/new com.coveros.training.persistence.PersistenceLayer/0	com.coveros.training.authentication.LoginUtils
+<com.coveros.training.authentication.LoginUtils: boolean isUserRegistered(java.lang.String,java.lang.String)>/new java.lang.String[]/0	com.coveros.training.authentication.LoginUtils
+<com.coveros.training.authentication.LoginUtils: com.coveros.training.authentication.LoginUtils createEmpty()>/new com.coveros.training.authentication.LoginUtils/0	com.coveros.training.authentication.LoginUtils
+<com.coveros.training.authentication.LoginServlet: void <clinit>()>/new com.coveros.training.authentication.LoginUtils/0	com.coveros.training.authentication.LoginServlet
+<com.coveros.training.authentication.RegisterServlet: void <clinit>()>/new com.coveros.training.authentication.RegistrationUtils/0	com.coveros.training.authentication.RegisterServlet
+<com.coveros.training.library.domainobjects.Book: boolean equals(java.lang.Object)>/new org.apache.commons.lang3.builder.EqualsBuilder/0	com.coveros.training.library.domainobjects.Book
+<com.coveros.training.library.domainobjects.Book: int hashCode()>/new org.apache.commons.lang3.builder.HashCodeBuilder/0	com.coveros.training.library.domainobjects.Book
+<com.coveros.training.library.domainobjects.Book: java.lang.String toOutputString()>/new java.lang.Object[]/0	com.coveros.training.library.domainobjects.Book
+<com.coveros.training.library.domainobjects.Book: com.coveros.training.library.domainobjects.Book createEmpty()>/new com.coveros.training.library.domainobjects.Book/0	com.coveros.training.library.domainobjects.Book
+<com.coveros.training.library.LibraryUtils: void <init>()>/new com.coveros.training.persistence.PersistenceLayer/0	com.coveros.training.library.LibraryUtils
+<com.coveros.training.library.LibraryUtils: com.coveros.training.library.domainobjects.LibraryActionResults lendBook(java.lang.String,java.lang.String,java.sql.Date)>/new com.coveros.training.library.domainobjects.Book/0	com.coveros.training.library.LibraryUtils
+<com.coveros.training.library.LibraryUtils: com.coveros.training.library.domainobjects.LibraryActionResults lendBook(java.lang.String,java.lang.String,java.sql.Date)>/new com.coveros.training.library.domainobjects.Borrower/0	com.coveros.training.library.LibraryUtils
+<com.coveros.training.library.LibraryUtils: com.coveros.training.library.domainobjects.LibraryActionResults registerBook(java.lang.String)>/new java.lang.IllegalArgumentException/0	com.coveros.training.library.LibraryUtils
+<com.coveros.training.library.LibraryUtils: java.util.List searchForLoanByBorrower(com.coveros.training.library.domainobjects.Borrower)>/new java.util.ArrayList/0	com.coveros.training.library.LibraryUtils
+<com.coveros.training.library.LibraryUtils: com.coveros.training.library.domainobjects.Book searchForBookByTitle(java.lang.String)>/new java.lang.IllegalArgumentException/0	com.coveros.training.library.LibraryUtils
+<com.coveros.training.library.LibraryUtils: com.coveros.training.library.domainobjects.Book searchForBookById(long)>/new java.lang.IllegalArgumentException/0	com.coveros.training.library.LibraryUtils
+<com.coveros.training.library.LibraryUtils: com.coveros.training.library.domainobjects.Borrower searchForBorrowerById(long)>/new java.lang.IllegalArgumentException/0	com.coveros.training.library.LibraryUtils
+<com.coveros.training.library.LibraryUtils: com.coveros.training.library.LibraryUtils createEmpty()>/new com.coveros.training.library.LibraryUtils/0	com.coveros.training.library.LibraryUtils
+<com.coveros.training.library.LibraryUtils: java.util.List listAllBooks()>/new java.util.ArrayList/0	com.coveros.training.library.LibraryUtils
+<com.coveros.training.library.LibraryUtils: java.util.List listAllBorrowers()>/new java.util.ArrayList/0	com.coveros.training.library.LibraryUtils
+<com.coveros.training.library.LibraryUtils: java.util.List listAvailableBooks()>/new java.util.ArrayList/0	com.coveros.training.library.LibraryUtils
+<com.coveros.training.mathematics.AckermannIterative$1: void <clinit>()>/new int[]/0	com.coveros.training.mathematics.AckermannIterative$1
+<com.coveros.training.persistence.DbServlet: void <init>()>/new com.coveros.training.persistence.PersistenceLayer/0	com.coveros.training.persistence.DbServlet
+<com.coveros.training.library.LibraryBookListSearchServlet: void <clinit>()>/new com.coveros.training.library.LibraryUtils/0	com.coveros.training.library.LibraryBookListSearchServlet
+<com.coveros.training.library.domainobjects.LibraryActionResults: void <clinit>()>/new com.coveros.training.library.domainobjects.LibraryActionResults/0	com.coveros.training.library.domainobjects.LibraryActionResults
+<com.coveros.training.library.domainobjects.LibraryActionResults: void <clinit>()>/new com.coveros.training.library.domainobjects.LibraryActionResults/1	com.coveros.training.library.domainobjects.LibraryActionResults
+<com.coveros.training.library.domainobjects.LibraryActionResults: void <clinit>()>/new com.coveros.training.library.domainobjects.LibraryActionResults/2	com.coveros.training.library.domainobjects.LibraryActionResults
+<com.coveros.training.library.domainobjects.LibraryActionResults: void <clinit>()>/new com.coveros.training.library.domainobjects.LibraryActionResults/3	com.coveros.training.library.domainobjects.LibraryActionResults
+<com.coveros.training.library.domainobjects.LibraryActionResults: void <clinit>()>/new com.coveros.training.library.domainobjects.LibraryActionResults/4	com.coveros.training.library.domainobjects.LibraryActionResults
+<com.coveros.training.library.domainobjects.LibraryActionResults: void <clinit>()>/new com.coveros.training.library.domainobjects.LibraryActionResults/5	com.coveros.training.library.domainobjects.LibraryActionResults
+<com.coveros.training.library.domainobjects.LibraryActionResults: void <clinit>()>/new com.coveros.training.library.domainobjects.LibraryActionResults/6	com.coveros.training.library.domainobjects.LibraryActionResults
+<com.coveros.training.library.domainobjects.LibraryActionResults: void <clinit>()>/new com.coveros.training.library.domainobjects.LibraryActionResults/7	com.coveros.training.library.domainobjects.LibraryActionResults
+<com.coveros.training.library.domainobjects.LibraryActionResults: void <clinit>()>/new com.coveros.training.library.domainobjects.LibraryActionResults/8	com.coveros.training.library.domainobjects.LibraryActionResults
+<com.coveros.training.library.domainobjects.LibraryActionResults: void <clinit>()>/new com.coveros.training.library.domainobjects.LibraryActionResults/9	com.coveros.training.library.domainobjects.LibraryActionResults
+<com.coveros.training.library.domainobjects.LibraryActionResults: void <clinit>()>/new com.coveros.training.library.domainobjects.LibraryActionResults/10	com.coveros.training.library.domainobjects.LibraryActionResults
+<com.coveros.training.library.domainobjects.LibraryActionResults: void <clinit>()>/new com.coveros.training.library.domainobjects.LibraryActionResults[]/0	com.coveros.training.library.domainobjects.LibraryActionResults
+<com.coveros.training.expenses.AlcoholResult: com.coveros.training.expenses.AlcoholResult returnEmpty()>/new com.coveros.training.expenses.AlcoholResult/0	com.coveros.training.expenses.AlcoholResult
+<com.coveros.training.library.domainobjects.Borrower: boolean equals(java.lang.Object)>/new org.apache.commons.lang3.builder.EqualsBuilder/0	com.coveros.training.library.domainobjects.Borrower
+<com.coveros.training.library.domainobjects.Borrower: int hashCode()>/new org.apache.commons.lang3.builder.HashCodeBuilder/0	com.coveros.training.library.domainobjects.Borrower
+<com.coveros.training.library.domainobjects.Borrower: java.lang.String toOutputString()>/new java.lang.Object[]/0	com.coveros.training.library.domainobjects.Borrower
+<com.coveros.training.library.domainobjects.Borrower: com.coveros.training.library.domainobjects.Borrower createEmpty()>/new com.coveros.training.library.domainobjects.Borrower/0	com.coveros.training.library.domainobjects.Borrower
+<com.coveros.training.helpers.StringUtils: java.lang.String escapeForJson(java.lang.String)>/new java.lang.StringBuilder/0	com.coveros.training.helpers.StringUtils
+<com.coveros.training.authentication.domainobjects.RegistrationResult: boolean equals(java.lang.Object)>/new org.apache.commons.lang3.builder.EqualsBuilder/0	com.coveros.training.authentication.domainobjects.RegistrationResult
+<com.coveros.training.authentication.domainobjects.RegistrationResult: int hashCode()>/new org.apache.commons.lang3.builder.HashCodeBuilder/0	com.coveros.training.authentication.domainobjects.RegistrationResult
+<com.coveros.training.authentication.domainobjects.RegistrationResult: java.lang.String toPrettyString()>/new java.lang.Object[]/0	com.coveros.training.authentication.domainobjects.RegistrationResult
+<com.coveros.training.authentication.domainobjects.RegistrationResult: java.lang.String toPrettyString()>/new java.lang.Object[]/1	com.coveros.training.authentication.domainobjects.RegistrationResult
+<com.coveros.training.authentication.domainobjects.RegistrationResult: java.lang.String toPrettyString()>/new java.lang.Object[]/2	com.coveros.training.authentication.domainobjects.RegistrationResult
+<com.coveros.training.authentication.domainobjects.RegistrationResult: com.coveros.training.authentication.domainobjects.RegistrationResult createEmpty()>/new com.coveros.training.authentication.domainobjects.RegistrationResult/0	com.coveros.training.authentication.domainobjects.RegistrationResult
+<com.coveros.training.persistence.ParameterObject: boolean equals(java.lang.Object)>/new org.apache.commons.lang3.builder.EqualsBuilder/0	com.coveros.training.persistence.ParameterObject
+<com.coveros.training.persistence.ParameterObject: int hashCode()>/new org.apache.commons.lang3.builder.HashCodeBuilder/0	com.coveros.training.persistence.ParameterObject
+<com.coveros.training.persistence.ParameterObject: com.coveros.training.persistence.ParameterObject createEmpty()>/new com.coveros.training.persistence.ParameterObject/0	com.coveros.training.persistence.ParameterObject
+<method type (java.lang.Object,java.lang.Object)java.lang.Object>	com.coveros.training.mathematics.AckermannIterative$$
+<method type (java.lang.Object,java.lang.Object)java.lang.Object>	com.coveros.training.mathematics.TailRecursive
+<handle <com.coveros.training.mathematics.TailRecursive: java.lang.Object lambda$tailie$0(java.util.function.BiFunction,java.util.function.UnaryOperator,java.util.function.Predicate,java.util.function.Function,java.lang.Object,java.lang.Object)>>	com.coveros.training.mathematics.TailRecursive
+<<\\"\\">>	com.coveros.training.library.domainobjects.Book
+<<\\"\\">>	com.coveros.training.library.domainobjects.Borrower
+<<\\"\\">>	com.coveros.training.authentication.domainobjects.PasswordResult
+<<\\"\\">>	com.coveros.training.persistence.SqlData
+<<\\"\\">>	com.coveros.training.authentication.domainobjects.User
+<<\\"\\">>	com.coveros.training.persistence.ParameterObject
+<<\\"\\">>	com.coveros.training.helpers.StringUtils
+<<\\"\\">>	com.coveros.training.authentication.domainobjects.RegistrationResult
+<<\\"\\">>	com.coveros.training.cartesianproduct.CartesianProduct
+status: %s%n	com.coveros.training.authentication.domainobjects.PasswordResult
+status: %s%n	com.coveros.training.authentication.domainobjects.RegistrationResult
+entropy: %s%n	com.coveros.training.authentication.domainobjects.PasswordResult
+time to crack offline: %s%n	com.coveros.training.authentication.domainobjects.PasswordResult
+time to crack online: %s%n	com.coveros.training.authentication.domainobjects.PasswordResult
+Nbvcxz response: %s%n	com.coveros.training.authentication.domainobjects.PasswordResult
+date	com.coveros.training.library.LibraryLendServlet
+received request to lend a book, {}, to {}	com.coveros.training.library.LibraryLendServlet
+result	com.coveros.training.library.LibraryLendServlet
+result	com.coveros.training.library.LibraryRegisterBookServlet
+result	com.coveros.training.mathematics.MathServlet
+result	com.coveros.training.library.LibraryBorrowerListSearchServlet
+result	com.coveros.training.mathematics.AckServlet
+result	com.coveros.training.library.LibraryRegisterBorrowerServlet
+result	com.coveros.training.library.LibraryBookListAvailableServlet
+result	com.coveros.training.mathematics.FibServlet
+result	com.coveros.training.authentication.LoginServlet
+result	com.coveros.training.authentication.RegisterServlet
+result	com.coveros.training.persistence.DbServlet
+result	com.coveros.training.library.LibraryBookListSearchServlet
+return_page	com.coveros.training.library.LibraryLendServlet
+return_page	com.coveros.training.library.LibraryRegisterBookServlet
+return_page	com.coveros.training.library.LibraryRegisterBorrowerServlet
+return_page	com.coveros.training.authentication.LoginServlet
+return_page	com.coveros.training.authentication.RegisterServlet
+return_page	com.coveros.training.persistence.DbServlet
+library.html	com.coveros.training.library.LibraryLendServlet
+library.html	com.coveros.training.library.LibraryRegisterBookServlet
+library.html	com.coveros.training.library.LibraryRegisterBorrowerServlet
+library.html	com.coveros.training.authentication.LoginServlet
+library.html	com.coveros.training.authentication.RegisterServlet
+library.html	com.coveros.training.persistence.DbServlet
+<method type ()java.lang.Object>	com.coveros.training.mathematics.TailRecursive$$
+<method type ()java.lang.Object>	com.coveros.training.mathematics.AckermannIterative$$
+<handle <java.lang.RuntimeException: void <init>()>>	com.coveros.training.mathematics.TailRecursive$$
+<method type ()java.lang.RuntimeException>	com.coveros.training.mathematics.TailRecursive$$
+input for the book field was empty	com.coveros.training.library.LibraryRegisterBookServlet
+received request to register a book, {}	com.coveros.training.library.LibraryRegisterBookServlet
+zero	com.coveros.training.mathematics.Calculator
+one	com.coveros.training.mathematics.Calculator
+two	com.coveros.training.mathematics.Calculator
+three	com.coveros.training.mathematics.Calculator
+four	com.coveros.training.mathematics.Calculator
+five	com.coveros.training.mathematics.Calculator
+six	com.coveros.training.mathematics.Calculator
+seven	com.coveros.training.mathematics.Calculator
+eight	com.coveros.training.mathematics.Calculator
+nine	com.coveros.training.mathematics.Calculator
+ten	com.coveros.training.mathematics.Calculator
+dunno	com.coveros.training.mathematics.Calculator
+<method type (java.lang.Object)java.lang.Object>	com.coveros.training.persistence.PersistenceLayer
+<method type (java.lang.Object)java.lang.Object>	com.coveros.training.persistence.SqlData
+<method type (java.lang.Object)java.lang.Object>	com.coveros.training.library.LibraryBorrowerListSearchServlet
+<method type (java.lang.Object)java.lang.Object>	com.coveros.training.mathematics.AckermannIterative$$
+<method type (java.lang.Object)java.lang.Object>	com.coveros.training.library.LibraryBookListAvailableServlet
+<method type (java.lang.Object)java.lang.Object>	com.coveros.training.library.LibraryBookListSearchServlet
+<handle <com.coveros.training.persistence.PersistenceLayer: java.lang.Object lambda$throwingFunctionWrapper$0(com.coveros.training.persistence.PersistenceLayer$ThrowingFunction,java.sql.ResultSet)>>	com.coveros.training.persistence.PersistenceLayer
+<method type (java.sql.ResultSet)java.lang.Object>	com.coveros.training.persistence.PersistenceLayer
+<handle <com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$createExtractor$1(com.coveros.training.persistence.PersistenceLayer$ThrowingFunction,java.sql.ResultSet)>>	com.coveros.training.persistence.PersistenceLayer
+<method type (java.sql.ResultSet)java.util.Optional>	com.coveros.training.persistence.PersistenceLayer
+<method type (java.sql.ResultSet)java.util.Optional>	com.coveros.training.persistence.SqlData
+adds a new library borrower	com.coveros.training.persistence.PersistenceLayer
+INSERT INTO library.borrower (name) VALUES (?);	com.coveros.training.persistence.PersistenceLayer
+Creates a new loan of a book to a borrower	com.coveros.training.persistence.PersistenceLayer
+INSERT INTO library.loan (book, borrower, borrow_date) VALUES (?, ?, ?);	com.coveros.training.persistence.PersistenceLayer
+Creates a new book in the database	com.coveros.training.persistence.PersistenceLayer
+INSERT INTO library.book (title) VALUES (?);	com.coveros.training.persistence.PersistenceLayer
+Updates the borrower\'s data	com.coveros.training.persistence.PersistenceLayer
+UPDATE library.borrower SET name = ? WHERE id = ?;	com.coveros.training.persistence.PersistenceLayer
+Deletes a book from the database	com.coveros.training.persistence.PersistenceLayer
+DELETE FROM library.book WHERE id = ?;	com.coveros.training.persistence.PersistenceLayer
+Deletes a borrower from the database	com.coveros.training.persistence.PersistenceLayer
+DELETE FROM library.borrower WHERE id = ?;	com.coveros.training.persistence.PersistenceLayer
+<handle <com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$getBorrowerName$2(java.sql.ResultSet)>>	com.coveros.training.persistence.PersistenceLayer
+get a borrower\'s name by their id	com.coveros.training.persistence.PersistenceLayer
+SELECT name FROM library.borrower WHERE id = ?;	com.coveros.training.persistence.PersistenceLayer
+<handle <com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$searchBorrowerDataByName$3(java.sql.ResultSet)>>	com.coveros.training.persistence.PersistenceLayer
+search for details on a borrower by name	com.coveros.training.persistence.PersistenceLayer
+SELECT id, name FROM library.borrower WHERE name = ?;	com.coveros.training.persistence.PersistenceLayer
+<handle <com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$searchBooksByTitle$4(java.lang.String,java.sql.ResultSet)>>	com.coveros.training.persistence.PersistenceLayer
+search for a book by title	com.coveros.training.persistence.PersistenceLayer
+SELECT id FROM library.book WHERE title = ?;	com.coveros.training.persistence.PersistenceLayer
+<handle <com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$searchBooksById$5(java.sql.ResultSet)>>	com.coveros.training.persistence.PersistenceLayer
+SELECT id, title FROM library.book WHERE id = ?;	com.coveros.training.persistence.PersistenceLayer
+<handle <com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$searchBorrowersById$6(java.sql.ResultSet)>>	com.coveros.training.persistence.PersistenceLayer
+search for a borrower by name	com.coveros.training.persistence.PersistenceLayer
+SELECT id, name FROM library.borrower WHERE id = ?;	com.coveros.training.persistence.PersistenceLayer
+get all books	com.coveros.training.persistence.PersistenceLayer
+SELECT id, title FROM library.book;	com.coveros.training.persistence.PersistenceLayer
+get all available books	com.coveros.training.persistence.PersistenceLayer
+SELECT b.id, b.title FROM library.book b LEFT JOIN library.loan l ON b.id = l.book WHERE l.borrow_date IS NULL;	com.coveros.training.persistence.PersistenceLayer
+<handle <com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$listBooks$7(java.sql.ResultSet)>>	com.coveros.training.persistence.PersistenceLayer
+<handle <com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$listAllBorrowers$8(java.sql.ResultSet)>>	com.coveros.training.persistence.PersistenceLayer
+get all borrowers	com.coveros.training.persistence.PersistenceLayer
+SELECT id, name FROM library.borrower;	com.coveros.training.persistence.PersistenceLayer
+<handle <com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$searchForLoanByBorrower$9(com.coveros.training.library.domainobjects.Borrower,java.sql.ResultSet)>>	com.coveros.training.persistence.PersistenceLayer
+search for all loans by borrower	com.coveros.training.persistence.PersistenceLayer
+SELECT loan.id, loan.borrow_date, loan.book, book.title FROM library.loan loan JOIN library.book book ON book.id = loan.book WHERE loan.borrower = ?;	com.coveros.training.persistence.PersistenceLayer
+<handle <com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$searchForLoanByBook$10(com.coveros.training.library.domainobjects.Book,java.sql.ResultSet)>>	com.coveros.training.persistence.PersistenceLayer
+search for a loan by book	com.coveros.training.persistence.PersistenceLayer
+SELECT loan.id, loan.borrow_date, loan.borrower, bor.name FROM library.loan loan JOIN library.borrower bor ON bor.id = loan.borrower WHERE loan.book = ?;	com.coveros.training.persistence.PersistenceLayer
+Creates a new user in the database	com.coveros.training.persistence.PersistenceLayer
+INSERT INTO auth.user (name) VALUES (?);	com.coveros.training.persistence.PersistenceLayer
+<handle <com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$searchForUserByName$11(java.lang.String,java.sql.ResultSet)>>	com.coveros.training.persistence.PersistenceLayer
+search for a user by id, return that user if found, otherwise return an empty user	com.coveros.training.persistence.PersistenceLayer
+SELECT id  FROM auth.user WHERE name = ?;	com.coveros.training.persistence.PersistenceLayer
+<handle <com.coveros.training.persistence.PersistenceLayer: java.util.Optional lambda$areCredentialsValid$12(java.sql.ResultSet)>>	com.coveros.training.persistence.PersistenceLayer
+check to see if the credentials for a user are valid	com.coveros.training.persistence.PersistenceLayer
+SELECT id FROM auth.user WHERE name = ? AND password_hash = ?;	com.coveros.training.persistence.PersistenceLayer
+Updates the user\'s password field with a new hash	com.coveros.training.persistence.PersistenceLayer
+UPDATE auth.user SET password_hash = ? WHERE id = ?;	com.coveros.training.persistence.PersistenceLayer
+SHA-256	com.coveros.training.persistence.PersistenceLayer
+SCRIPT TO ?	com.coveros.training.persistence.PersistenceLayer
+src/integration_test/resources/db_sample_files/	com.coveros.training.persistence.PersistenceLayer
+DROP SCHEMA IF EXISTS ADMINISTRATIVE CASCADE;DROP SCHEMA IF EXISTS AUTH CASCADE;DROP SCHEMA IF EXISTS LIBRARY CASCADE;	com.coveros.training.persistence.PersistenceLayer
+RUNSCRIPT FROM ?	com.coveros.training.persistence.PersistenceLayer
+ADMINISTRATIVE	com.coveros.training.persistence.PersistenceLayer
+LIBRARY	com.coveros.training.persistence.PersistenceLayer
+AUTH	com.coveros.training.persistence.PersistenceLayer
+0000-01-01	com.coveros.training.persistence.PersistenceLayer
+Utility class	com.coveros.training.mathematics.FibonacciIterative
+Utility class	com.coveros.training.mathematics.Ackermann
+item_a	com.coveros.training.mathematics.MathServlet
+item_b	com.coveros.training.mathematics.MathServlet
+received request to add two numbers, {} and {}	com.coveros.training.mathematics.MathServlet
+Error: only accepts integers	com.coveros.training.mathematics.MathServlet
+Error: only accepts integers	com.coveros.training.mathematics.AckServlet
+Error: only accepts integers	com.coveros.training.mathematics.FibServlet
+failed during forward: %s	com.coveros.training.helpers.ServletUtils
+int value must be 1 or above.	com.coveros.training.helpers.CheckUtils
+string must not be null or empty at this point	com.coveros.training.helpers.CheckUtils
+Received request for borrowers, by name and id - id {} and name {}	com.coveros.training.library.LibraryBorrowerListSearchServlet
+Error: please search by either name or id, not both	com.coveros.training.library.LibraryBorrowerListSearchServlet
+Received request for borrowers, name requested - searching for borrower by name {}	com.coveros.training.library.LibraryBorrowerListSearchServlet
+Received request for borrowers, id requested - searching for borrower by id {}	com.coveros.training.library.LibraryBorrowerListSearchServlet
+Error: could not parse the borrower id as an integer	com.coveros.training.library.LibraryBorrowerListSearchServlet
+Received request for borrowers, no name or id requested - listing all borrowers	com.coveros.training.library.LibraryBorrowerListSearchServlet
+<handle <com.coveros.training.library.domainobjects.Borrower: java.lang.String toOutputString()>>	com.coveros.training.library.LibraryBorrowerListSearchServlet
+<method type (com.coveros.training.library.domainobjects.Borrower)java.lang.String>	com.coveros.training.library.LibraryBorrowerListSearchServlet
+,	com.coveros.training.library.LibraryBorrowerListSearchServlet
+,	com.coveros.training.library.LibraryBookListAvailableServlet
+,	com.coveros.training.library.LibraryBookListSearchServlet
+No borrowers exist in the database	com.coveros.training.library.LibraryBorrowerListSearchServlet
+<method type (java.lang.Enum)java.lang.Object>	com.coveros.training.mathematics.AckermannIterative$$
+<handle <com.coveros.training.mathematics.AckermannIterative$$: java.lang.Object lambda$tail$0(java.math.BigInteger,java.math.BigInteger,java.util.Deque,boolean,com.coveros.training.mathematics.AckermannIterative$$$Field)>>	com.coveros.training.mathematics.AckermannIterative$$
+<method type (com.coveros.training.mathematics.AckermannIterative$$$Field)java.lang.Object>	com.coveros.training.mathematics.AckermannIterative$$
+<handle <java.util.ArrayDeque: void <init>()>>	com.coveros.training.mathematics.AckermannIterative$$
+<method type ()java.util.ArrayDeque>	com.coveros.training.mathematics.AckermannIterative$$
+Field checker has not been updated properly.	com.coveros.training.mathematics.AckermannIterative$$
+Field is not of the correct type.	com.coveros.training.mathematics.AckermannIterative$$
+<handle <com.coveros.training.mathematics.AckermannIterative$$: com.coveros.training.mathematics.AckermannIterative lambda$static$1(java.math.BigInteger,java.math.BigInteger)>>	com.coveros.training.mathematics.AckermannIterative$$
+<method type (java.math.BigInteger,java.math.BigInteger)com.coveros.training.mathematics.AckermannIterative>	com.coveros.training.mathematics.AckermannIterative$$
+<handle <com.coveros.training.mathematics.AckermannIterative$$: com.coveros.training.mathematics.AckermannIterative lambda$static$2(com.coveros.training.mathematics.AckermannIterative)>>	com.coveros.training.mathematics.AckermannIterative$$
+<method type (com.coveros.training.mathematics.AckermannIterative)com.coveros.training.mathematics.AckermannIterative>	com.coveros.training.mathematics.AckermannIterative$$
+<method type (java.lang.Object)boolean>	com.coveros.training.mathematics.AckermannIterative$$
+<handle <com.coveros.training.mathematics.AckermannIterative$$: boolean lambda$static$3(com.coveros.training.mathematics.AckermannIterative)>>	com.coveros.training.mathematics.AckermannIterative$$
+<method type (com.coveros.training.mathematics.AckermannIterative)boolean>	com.coveros.training.mathematics.AckermannIterative$$
+<handle <com.coveros.training.mathematics.AckermannIterative: java.math.BigInteger number2()>>	com.coveros.training.mathematics.AckermannIterative$$
+<method type (com.coveros.training.mathematics.AckermannIterative)java.math.BigInteger>	com.coveros.training.mathematics.AckermannIterative$$
+<handle <java.util.function.BiFunction: java.lang.Object apply(java.lang.Object,java.lang.Object)>>	com.coveros.training.mathematics.AckermannIterative$$
+<method type (java.math.BigInteger,java.math.BigInteger)java.math.BigInteger>	com.coveros.training.mathematics.AckermannIterative$$
+ack_param_m	com.coveros.training.mathematics.AckServlet
+ack_param_n	com.coveros.training.mathematics.AckServlet
+received request to calculate Ackermann\'s with {} and {} and the {} algorithm	com.coveros.training.mathematics.AckServlet
+tail_recursive	com.coveros.training.mathematics.AckServlet
+Ackermann\'s result is {}	com.coveros.training.mathematics.AckServlet
+input for the borrower field was empty	com.coveros.training.library.LibraryRegisterBorrowerServlet
+received request to register a borrower, {}	com.coveros.training.library.LibraryRegisterBorrowerServlet
+Received request for all available books	com.coveros.training.library.LibraryBookListAvailableServlet
+No books exist in the database	com.coveros.training.library.LibraryBookListAvailableServlet
+No books exist in the database	com.coveros.training.library.LibraryBookListSearchServlet
+<handle <com.coveros.training.library.domainobjects.Book: java.lang.String toOutputString()>>	com.coveros.training.library.LibraryBookListAvailableServlet
+<handle <com.coveros.training.library.domainobjects.Book: java.lang.String toOutputString()>>	com.coveros.training.library.LibraryBookListSearchServlet
+<method type (com.coveros.training.library.domainobjects.Book)java.lang.String>	com.coveros.training.library.LibraryBookListAvailableServlet
+<method type (com.coveros.training.library.domainobjects.Book)java.lang.String>	com.coveros.training.library.LibraryBookListSearchServlet
+fib_param_n	com.coveros.training.mathematics.FibServlet
+received request to calculate the {}th fibonacci number by {}	com.coveros.training.mathematics.FibServlet
+tail_recursive_1	com.coveros.training.mathematics.FibServlet
+tail_recursive_2	com.coveros.training.mathematics.FibServlet
+Fibonacci value is {}	com.coveros.training.mathematics.FibServlet
+Starting registration	com.coveros.training.authentication.RegistrationUtils
+cannot register this user - they are already registered	com.coveros.training.authentication.RegistrationUtils
+user provided a bad password during registration	com.coveros.training.authentication.RegistrationUtils
+saving new user, {}, to database	com.coveros.training.authentication.RegistrationUtils
+password was empty	com.coveros.training.authentication.RegistrationUtils
+password was too short	com.coveros.training.authentication.RegistrationUtils
+At this point, the password cannot be too small	com.coveros.training.authentication.RegistrationUtils
+password was too long	com.coveros.training.authentication.RegistrationUtils
+At this point, the password cannot be too large	com.coveros.training.authentication.RegistrationUtils
+;	com.coveros.training.authentication.RegistrationUtils
+There must be *some* entropy at this point, more than 0	com.coveros.training.authentication.RegistrationUtils
+minimum entropy for password was not met	com.coveros.training.authentication.RegistrationUtils
+password met required entropy	com.coveros.training.authentication.RegistrationUtils
+<handle <com.coveros.training.persistence.SqlData: java.util.Optional lambda$new$0(java.sql.ResultSet)>>	com.coveros.training.persistence.SqlData
+checking if credentials for {} are valid for login	com.coveros.training.authentication.LoginUtils
+credentials for {} are valid - granting access	com.coveros.training.authentication.LoginUtils
+credentials for {} were invalid - denying access	com.coveros.training.authentication.LoginUtils
+username	com.coveros.training.authentication.LoginServlet
+username	com.coveros.training.authentication.RegisterServlet
+password	com.coveros.training.authentication.LoginServlet
+password	com.coveros.training.authentication.RegisterServlet
+no username provided	com.coveros.training.authentication.LoginServlet
+no username provided	com.coveros.training.authentication.RegisterServlet
+no password provided	com.coveros.training.authentication.LoginServlet
+no password provided	com.coveros.training.authentication.RegisterServlet
+received request to authenticate a user, {}	com.coveros.training.authentication.LoginServlet
+access granted	com.coveros.training.authentication.LoginServlet
+access denied	com.coveros.training.authentication.LoginServlet
+received request to register a user, {}	com.coveros.training.authentication.RegisterServlet
+{\\\"Title\\\": \\\"%s\\\", \\\"Id\\\": \\\"%s\\\"}	com.coveros.training.library.domainobjects.Book
+starting process to lend a book: {} to borrower: {}	com.coveros.training.library.LibraryUtils
+book: {} was not registered.  Lending failed	com.coveros.training.library.LibraryUtils
+borrower: {} was not registered.  Lending failed	com.coveros.training.library.LibraryUtils
+book: {} was already checked out on {}.  Lending failed	com.coveros.training.library.LibraryUtils
+book: {} is available for borrowing by valid borrower: {}	com.coveros.training.library.LibraryUtils
+creating loan for book: {} by borrower: {}	com.coveros.training.library.LibraryUtils
+trying to register a borrower with name: {}	com.coveros.training.library.LibraryUtils
+borrower: {} was already registered	com.coveros.training.library.LibraryUtils
+borrower: {} was not found.  Registering new borrower...	com.coveros.training.library.LibraryUtils
+saving new borrower: {}	com.coveros.training.library.LibraryUtils
+bookTitle was an empty string - disallowed when registering books	com.coveros.training.library.LibraryUtils
+trying to register a book with title: {}	com.coveros.training.library.LibraryUtils
+book: {} was already registered	com.coveros.training.library.LibraryUtils
+book: {} was not found.  Registering new book...	com.coveros.training.library.LibraryUtils
+saving a new book: {}	com.coveros.training.library.LibraryUtils
+searching for loan by book with title: {}	com.coveros.training.library.LibraryUtils
+searching for loan by borrower with name: {}	com.coveros.training.library.LibraryUtils
+searching for borrower by name: {}	com.coveros.training.library.LibraryUtils
+when searching for a book, must include a non-empty string for title	com.coveros.training.library.LibraryUtils
+search for book with title: {}	com.coveros.training.library.LibraryUtils
+No book found with title of {}	com.coveros.training.library.LibraryUtils
+book found with title of {}	com.coveros.training.library.LibraryUtils
+when searching for a book, must include an id of one or greater	com.coveros.training.library.LibraryUtils
+search for book with id: {}	com.coveros.training.library.LibraryUtils
+No book found with id of {}	com.coveros.training.library.LibraryUtils
+Book found with id of {}	com.coveros.training.library.LibraryUtils
+when searching for a borrower, must include an id of one or greater	com.coveros.training.library.LibraryUtils
+search for borrower with id: {}	com.coveros.training.library.LibraryUtils
+No borrower found with id of {}	com.coveros.training.library.LibraryUtils
+borrower found with id of {}	com.coveros.training.library.LibraryUtils
+deleting a book.  id: {}, title: {}	com.coveros.training.library.LibraryUtils
+book not found in database.  Therefore, obviously, cannot be deleted	com.coveros.training.library.LibraryUtils
+book with title: {} and id: {} was deleted	com.coveros.training.library.LibraryUtils
+deleting a borrower.  id: {}, name: {}	com.coveros.training.library.LibraryUtils
+borrower not found in database.  Therefore, obviously, cannot be deleted	com.coveros.training.library.LibraryUtils
+borrower with name: {} and id: {} was deleted	com.coveros.training.library.LibraryUtils
+received request to list all books	com.coveros.training.library.LibraryUtils
+received request to list all borrowers	com.coveros.training.library.LibraryUtils
+received request to list available books	com.coveros.training.library.LibraryUtils
+clean	com.coveros.training.persistence.DbServlet
+migrate	com.coveros.training.persistence.DbServlet
+received request to clean the database - i.e. remove all data and schema	com.coveros.training.persistence.DbServlet
+cleaned	com.coveros.training.persistence.DbServlet
+received request to migrate the database - i.e. add schema, but no data	com.coveros.training.persistence.DbServlet
+migrated	com.coveros.training.persistence.DbServlet
+received request to clean, then migrate the database - i.e. putting it a fresh state with no data	com.coveros.training.persistence.DbServlet
+cleaned and migrated	com.coveros.training.persistence.DbServlet
+Received request for books, by title and id - id {} and title {}	com.coveros.training.library.LibraryBookListSearchServlet
+Error: please search by either title or id, not both	com.coveros.training.library.LibraryBookListSearchServlet
+Received request for books, name requested - searching for book by title {}	com.coveros.training.library.LibraryBookListSearchServlet
+Received request for books, id requested - searching for book by id {}	com.coveros.training.library.LibraryBookListSearchServlet
+Error: could not parse the book id as an integer	com.coveros.training.library.LibraryBookListSearchServlet
+Received request for books, no title or id requested - listing all books	com.coveros.training.library.LibraryBookListSearchServlet
+{\\\"Name\\\": \\\"%s\\\", \\\"Id\\\": \\\"%s\\\"}	com.coveros.training.library.domainobjects.Borrower
+successfully registered: %s%n	com.coveros.training.authentication.domainobjects.RegistrationResult
+message: %n%n%s%n	com.coveros.training.authentication.domainobjects.RegistrationResult

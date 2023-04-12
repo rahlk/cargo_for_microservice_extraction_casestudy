@@ -1,0 +1,16 @@
+java.lang.String::MockObject	java.lang.String
+com.coveros.training.library.LibraryLendServlet::MockObject	com.coveros.training.library.LibraryLendServlet
+com.coveros.training.tomcat.WebAppListener::MockObject	com.coveros.training.tomcat.WebAppListener
+com.coveros.training.library.LibraryRegisterBookServlet::MockObject	com.coveros.training.library.LibraryRegisterBookServlet
+com.coveros.training.persistence.PersistenceLayer::MockObject	com.coveros.training.persistence.PersistenceLayer
+com.coveros.training.mathematics.MathServlet::MockObject	com.coveros.training.mathematics.MathServlet
+com.coveros.training.library.LibraryBorrowerListSearchServlet::MockObject	com.coveros.training.library.LibraryBorrowerListSearchServlet
+com.coveros.training.mathematics.AckServlet::MockObject	com.coveros.training.mathematics.AckServlet
+com.coveros.training.library.LibraryRegisterBorrowerServlet::MockObject	com.coveros.training.library.LibraryRegisterBorrowerServlet
+com.coveros.training.library.LibraryBookListAvailableServlet::MockObject	com.coveros.training.library.LibraryBookListAvailableServlet
+com.coveros.training.mathematics.FibServlet::MockObject	com.coveros.training.mathematics.FibServlet
+com.coveros.training.authentication.LoginServlet::MockObject	com.coveros.training.authentication.LoginServlet
+com.coveros.training.authentication.RegisterServlet::MockObject	com.coveros.training.authentication.RegisterServlet
+com.coveros.training.persistence.DbServlet::MockObject	com.coveros.training.persistence.DbServlet
+com.coveros.training.library.LibraryBookListSearchServlet::MockObject	com.coveros.training.library.LibraryBookListSearchServlet
+com.coveros.training.persistence.EmptyDataSource::MockObject	com.coveros.training.persistence.EmptyDataSource
