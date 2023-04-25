@@ -1,0 +1,234 @@
+{
+  "tool": {
+    "decomposition": {
+      "partition0": [
+        {
+          "id": "CatalogItem"
+        },
+        {
+          "id": "ConfigurationHelpers"
+        },
+        {
+          "id": "ConfigurationManager"
+        },
+        {
+          "id": "Constants"
+        },
+        {
+          "id": "CreateOrderProcessTask"
+        },
+        {
+          "id": "DeliveryAddress"
+        },
+        {
+          "id": "Main"
+        },
+        {
+          "id": "MrpConnectService"
+        },
+        {
+          "id": "Order"
+        },
+        {
+          "id": "OrderItem"
+        },
+        {
+          "id": "OrderMessage"
+        },
+        {
+          "id": "PhoneInfo"
+        },
+        {
+          "id": "ProductItem"
+        },
+        {
+          "id": "ProductMessage"
+        },
+        {
+          "id": "QueueFactory"
+        },
+        {
+          "id": "QueueResponse"
+        },
+        {
+          "id": "QueueService"
+        },
+        {
+          "id": "Quote"
+        },
+        {
+          "id": "QuoteItemInfo"
+        },
+        {
+          "id": "ShipmentEventInfo"
+        },
+        {
+          "id": "ShipmentRecord"
+        },
+        {
+          "id": "UpdateProductProcessTask"
+        },
+        {
+          "id": "AppInsightsFilter"
+        },
+        {
+          "id": "BadRequestException"
+        },
+        {
+          "id": "CatalogController"
+        },
+        {
+          "id": "CatalogItem"
+        },
+        {
+          "id": "CatalogItem"
+        },
+        {
+          "id": "CatalogItemsRepository"
+        },
+        {
+          "id": "ConflictingRequestException"
+        },
+        {
+          "id": "Dealer"
+        },
+        {
+          "id": "DealerController"
+        },
+        {
+          "id": "DealerInfo"
+        },
+        {
+          "id": "DealersRepository"
+        },
+        {
+          "id": "Delivery"
+        },
+        {
+          "id": "DeliveryAddress"
+        },
+        {
+          "id": "MockCatalogItemsRepository"
+        },
+        {
+          "id": "MockDealersRepository"
+        },
+        {
+          "id": "MockOrderRepository"
+        },
+        {
+          "id": "MockQuoteRepository"
+        },
+        {
+          "id": "MockShipmentRepository"
+        },
+        {
+          "id": "MongoCatalogItemsRepository"
+        },
+        {
+          "id": "MongoDBProperties"
+        },
+        {
+          "id": "MongoDealersRepository"
+        },
+        {
+          "id": "MongoOperationsWithRetry"
+        },
+        {
+          "id": "MongoOrderRepository"
+        },
+        {
+          "id": "MongoQuoteRepository"
+        },
+        {
+          "id": "MongoShipmentRepository"
+        },
+        {
+          "id": "Order"
+        },
+        {
+          "id": "OrderController"
+        },
+        {
+          "id": "OrderDetails"
+        },
+        {
+          "id": "OrderEventInfo"
+        },
+        {
+          "id": "OrderingConfiguration"
+        },
+        {
+          "id": "OrderingInitializer"
+        },
+        {
+          "id": "OrderingServiceProperties"
+        },
+        {
+          "id": "OrderRepository"
+        },
+        {
+          "id": "OrderStatus"
+        },
+        {
+          "id": "OrderUpdateInfo"
+        },
+        {
+          "id": "PhoneInfo"
+        },
+        {
+          "id": "PingController"
+        },
+        {
+          "id": "PostgresqlProperties"
+        },
+        {
+          "id": "PropertyHelper"
+        },
+        {
+          "id": "Quote"
+        },
+        {
+          "id": "QuoteController"
+        },
+        {
+          "id": "QuoteDetails"
+        },
+        {
+          "id": "QuoteItemInfo"
+        },
+        {
+          "id": "QuoteRepository"
+        },
+        {
+          "id": "RepositoryFactory"
+        },
+        {
+          "id": "ShipmentController"
+        },
+        {
+          "id": "ShipmentDetails"
+        },
+        {
+          "id": "ShipmentEventInfo"
+        },
+        {
+          "id": "ShipmentRecord"
+        },
+        {
+          "id": "ShipmentRepository"
+        },
+        {
+          "id": "SimpleCORSFilter"
+        },
+        {
+          "id": "TestPath"
+        },
+        {
+          "id": "Utility"
+        }
+      ]
+    }
+  }
+}
+
