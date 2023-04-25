@@ -1,0 +1,956 @@
+1	smpl.ordering.SimpleCORSFilter
+-	org.springframework.boot.loader.PropertiesLauncher
+-	org.springframework.boot.loader.archive.JarFileArchive
+/	org.springframework.boot.loader.jar.JarFile
+/	org.springframework.boot.loader.jar.JarEntryData
+/	org.springframework.boot.loader.PropertiesLauncher
+/	org.springframework.boot.loader.archive.JarFileArchive
+name	smpl.ordering.models.DealerInfo
+main	org.springframework.boot.loader.MainMethodRunner
+.	org.springframework.boot.loader.archive.ExplodedArchive
+.	org.springframework.boot.loader.PropertiesLauncher
+.	org.springframework.boot.loader.util.SystemPropertyUtils
+description	smpl.ordering.models.CatalogItem
+file	org.springframework.boot.loader.archive.ExplodedArchive
+archive	org.springframework.boot.loader.archive.Archive
+dealers	smpl.ordering.repositories.mongodb.MongoDealersRepository
+quotes	smpl.ordering.repositories.mongodb.MongoQuoteRepository
+None	smpl.ordering.models.OrderStatus
+Created	smpl.ordering.models.OrderStatus
+PER_READ	org.springframework.boot.loader.data.RandomAccessData$ResourceAccess
+Confirmed	smpl.ordering.models.OrderStatus
+Started	smpl.ordering.models.OrderStatus
+Built	smpl.ordering.models.OrderStatus
+DeliveryConfirmed	smpl.ordering.models.OrderStatus
+Shipped	smpl.ordering.models.OrderStatus
+Delivered	smpl.ordering.models.OrderStatus
+Installed	smpl.ordering.models.OrderStatus
+ONCE	org.springframework.boot.loader.data.RandomAccessData$ResourceAccess
+quoteId	smpl.ordering.models.Order
+orderDate	smpl.ordering.models.Order
+customerName	smpl.ordering.models.Quote
+dealerName	smpl.ordering.models.Quote
+orders	smpl.ordering.repositories.mongodb.MongoOrderRepository
+catalog	integration.services.MrpConnectService
+shipments	smpl.ordering.repositories.mongodb.MongoShipmentRepository
+<class integration.models.website.ProductMessage>	integration.scheduled.UpdateProductProcessTask
+<class org.springframework.boot.loader.ExecutableArchiveLauncher>	org.springframework.boot.loader.ExecutableArchiveLauncher
+<class smpl.ordering.OrderingConfiguration>	smpl.ordering.OrderingInitializer
+<class smpl.ordering.OrderingConfiguration>	smpl.ordering.OrderingConfiguration
+<class integration.models.mrp.ShipmentRecord>	integration.services.MrpConnectService
+<class smpl.ordering.PropertyHelper>	smpl.ordering.PropertyHelper
+<class integration.scheduled.CreateOrderProcessTask>	integration.Main
+<class integration.scheduled.UpdateProductProcessTask>	integration.Main
+<class org.springframework.boot.loader.Launcher>	org.springframework.boot.loader.PropertiesLauncher
+<class org.springframework.boot.loader.Launcher>	org.springframework.boot.loader.Launcher
+<class smpl.ordering.models.OrderStatus>	smpl.ordering.models.OrderStatus
+<class org.springframework.boot.loader.data.RandomAccessData$ResourceAccess>	org.springframework.boot.loader.data.RandomAccessData$ResourceAccess
+<class java.lang.ClassLoader>	org.springframework.boot.loader.PropertiesLauncher
+<class java.net.URL[]>	org.springframework.boot.loader.PropertiesLauncher
+<class integration.infrastructure.ConfigurationHelpers>	integration.infrastructure.ConfigurationHelpers
+<class integration.models.website.OrderMessage>	integration.scheduled.CreateOrderProcessTask
+<class java.lang.String[]>	org.springframework.boot.loader.MainMethodRunner
+<class java.lang.String[]>	org.springframework.boot.loader.Launcher
+<class org.springframework.boot.loader.util.AsciiBytes>	org.springframework.boot.loader.util.AsciiBytes
+<class smpl.ordering.repositories.mongodb.models.CatalogItem>	smpl.ordering.repositories.mongodb.MongoCatalogItemsRepository
+<class java.net.URLStreamHandler>	org.springframework.boot.loader.jar.Handler
+<class java.net.URL>	org.springframework.boot.loader.jar.Handler
+<class java.lang.String>	org.springframework.boot.loader.Launcher
+<integration.models.website.ProductMessage: void <init>()>/new java.util.ArrayList/0	integration.models.website.ProductMessage
+<org.springframework.boot.loader.data.RandomAccessDataFile: void <init>(java.io.File,int)>/new java.lang.IllegalArgumentException/0	org.springframework.boot.loader.data.RandomAccessDataFile
+<integration.models.website.ProductMessage: void <init>(java.util.List)>/new integration.models.website.ProductItem/0	integration.models.website.ProductMessage
+<org.springframework.boot.loader.data.RandomAccessDataFile: void <init>(java.io.File,int)>/new java.lang.IllegalArgumentException/1	org.springframework.boot.loader.data.RandomAccessDataFile
+<org.springframework.boot.loader.data.RandomAccessDataFile: void <init>(java.io.File,int)>/new org.springframework.boot.loader.data.RandomAccessDataFile$FilePool/0	org.springframework.boot.loader.data.RandomAccessDataFile
+<org.springframework.boot.loader.WarLauncher: void main(java.lang.String[])>/new org.springframework.boot.loader.WarLauncher/0	org.springframework.boot.loader.WarLauncher
+<org.springframework.boot.loader.WarLauncher: void <clinit>()>/new org.springframework.boot.loader.util.AsciiBytes/0	org.springframework.boot.loader.WarLauncher
+<smpl.ordering.OrderingInitializer: org.springframework.boot.builder.SpringApplicationBuilder configure(org.springframework.boot.builder.SpringApplicationBuilder)>/new java.lang.Class[]/0	smpl.ordering.OrderingInitializer
+<org.springframework.boot.loader.data.RandomAccessDataFile: java.io.InputStream getInputStream(org.springframework.boot.loader.data.RandomAccessData$ResourceAccess)>/new org.springframework.boot.loader.data.RandomAccessDataFile$DataInputStream/0	org.springframework.boot.loader.data.RandomAccessDataFile
+<org.springframework.boot.loader.ExecutableArchiveLauncher: void <init>()>/new org.springframework.boot.loader.InputArgumentsJavaAgentDetector/0	org.springframework.boot.loader.ExecutableArchiveLauncher
+<org.springframework.boot.loader.PropertiesLauncher$ArchiveEntryFilter: void <clinit>()>/new org.springframework.boot.loader.util.AsciiBytes/0	org.springframework.boot.loader.PropertiesLauncher$ArchiveEntryFilter
+<org.springframework.boot.loader.ExecutableArchiveLauncher: void <init>(org.springframework.boot.loader.JavaAgentDetector)>/new java.lang.IllegalStateException/0	org.springframework.boot.loader.ExecutableArchiveLauncher
+<org.springframework.boot.loader.PropertiesLauncher$ArchiveEntryFilter: void <clinit>()>/new org.springframework.boot.loader.util.AsciiBytes/1	org.springframework.boot.loader.PropertiesLauncher$ArchiveEntryFilter
+<org.springframework.boot.loader.ExecutableArchiveLauncher: void <init>(org.springframework.boot.loader.archive.Archive)>/new org.springframework.boot.loader.InputArgumentsJavaAgentDetector/0	org.springframework.boot.loader.ExecutableArchiveLauncher
+<smpl.ordering.controllers.PingController: org.springframework.http.ResponseEntity ping()>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.PingController
+<org.springframework.boot.loader.data.RandomAccessDataFile: org.springframework.boot.loader.data.RandomAccessData getSubsection(long,long)>/new java.lang.IndexOutOfBoundsException/0	org.springframework.boot.loader.data.RandomAccessDataFile
+<org.springframework.boot.loader.data.RandomAccessDataFile: org.springframework.boot.loader.data.RandomAccessData getSubsection(long,long)>/new org.springframework.boot.loader.data.RandomAccessDataFile/0	org.springframework.boot.loader.data.RandomAccessDataFile
+<integration.services.MrpConnectService: void <init>(java.lang.String)>/new org.springframework.web.client.RestTemplate/0	integration.services.MrpConnectService
+<org.springframework.boot.loader.ExecutableArchiveLauncher: java.util.List getClassPathArchives()>/new java.util.ArrayList/0	org.springframework.boot.loader.ExecutableArchiveLauncher
+<org.springframework.boot.loader.ExecutableArchiveLauncher: java.util.List getClassPathArchives()>/new org.springframework.boot.loader.ExecutableArchiveLauncher$1/0	org.springframework.boot.loader.ExecutableArchiveLauncher
+<org.springframework.boot.loader.ExecutableArchiveLauncher: java.lang.ClassLoader createClassLoader(java.net.URL[])>/new java.util.LinkedHashSet/0	org.springframework.boot.loader.ExecutableArchiveLauncher
+<integration.services.MrpConnectService: void createNewOrder(integration.models.website.OrderMessage)>/new java.lang.StringBuilder/0	integration.services.MrpConnectService
+<org.springframework.boot.loader.ExecutableArchiveLauncher: java.lang.ClassLoader createClassLoader(java.net.URL[])>/new java.net.URL[]/0	org.springframework.boot.loader.ExecutableArchiveLauncher
+<integration.services.MrpConnectService: void createNewOrder(integration.models.website.OrderMessage)>/new java.lang.StringBuilder/1	integration.services.MrpConnectService
+<integration.services.MrpConnectService: void createNewOrder(integration.models.website.OrderMessage)>/new java.lang.StringBuilder/2	integration.services.MrpConnectService
+<smpl.ordering.repositories.mongodb.MongoQuoteRepository: smpl.ordering.repositories.mongodb.models.QuoteDetails findExistingQuote(java.lang.String)>/new org.springframework.data.mongodb.core.query.Query/0	smpl.ordering.repositories.mongodb.MongoQuoteRepository
+<org.springframework.boot.loader.ExecutableArchiveLauncher: boolean addDefaultClassloaderUrl(java.net.URL[],java.net.URL)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.ExecutableArchiveLauncher
+<integration.services.MrpConnectService: void createShipment(integration.models.website.OrderMessage,java.lang.String)>/new integration.models.mrp.ShipmentRecord/0	integration.services.MrpConnectService
+<smpl.ordering.controllers.PingController: org.springframework.http.ResponseEntity getStatus()>/new java.lang.Object[]/0	smpl.ordering.controllers.PingController
+<integration.services.MrpConnectService: void createShipment(integration.models.website.OrderMessage,java.lang.String)>/new java.lang.Object[]/0	integration.services.MrpConnectService
+<smpl.ordering.repositories.mongodb.MongoQuoteRepository: java.util.List getQuotesByCustomerName(java.lang.String)>/new java.util.ArrayList/0	smpl.ordering.repositories.mongodb.MongoQuoteRepository
+<smpl.ordering.controllers.PingController: org.springframework.http.ResponseEntity getStatus()>/new java.lang.StringBuilder/0	smpl.ordering.controllers.PingController
+<integration.services.MrpConnectService: integration.models.mrp.Order createOrder(java.lang.String)>/new java.lang.Object[]/0	integration.services.MrpConnectService
+<integration.services.MrpConnectService: integration.models.mrp.Order createOrder(java.lang.String)>/new java.lang.Object[]/1	integration.services.MrpConnectService
+<smpl.ordering.controllers.PingController: org.springframework.http.ResponseEntity getStatus()>/new java.lang.StringBuilder/1	smpl.ordering.controllers.PingController
+<smpl.ordering.controllers.PingController: org.springframework.http.ResponseEntity getStatus()>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.PingController
+<smpl.ordering.repositories.mongodb.MongoQuoteRepository: java.util.List getQuoteIdsByDealerName(java.lang.String)>/new org.springframework.data.mongodb.core.query.Query/0	smpl.ordering.repositories.mongodb.MongoQuoteRepository
+<integration.services.MrpConnectService: integration.models.mrp.Quote createQuote(integration.models.website.OrderMessage)>/new integration.models.mrp.Quote/0	integration.services.MrpConnectService
+<smpl.ordering.controllers.PingController: org.springframework.http.ResponseEntity getStatus()>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.PingController
+<smpl.ordering.repositories.mongodb.MongoQuoteRepository: java.util.List getQuoteIdsByDealerName(java.lang.String)>/new java.util.ArrayList/0	smpl.ordering.repositories.mongodb.MongoQuoteRepository
+<integration.services.MrpConnectService: integration.models.mrp.Quote createQuote(integration.models.website.OrderMessage)>/new java.lang.Object[]/0	integration.services.MrpConnectService
+<smpl.ordering.controllers.PingController: org.springframework.http.ResponseEntity getStatus()>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.PingController
+<integration.services.MrpConnectService: java.util.List getCatalogItems()>/new java.lang.String[]/0	integration.services.MrpConnectService
+<integration.services.MrpConnectService: java.util.List getCatalogItems()>/new java.util.ArrayList/0	integration.services.MrpConnectService
+<integration.services.MrpConnectService: java.util.List getCatalogItems()>/new java.lang.Object[]/0	integration.services.MrpConnectService
+<smpl.ordering.repositories.mongodb.MongoQuoteRepository: smpl.ordering.models.Quote createQuote(smpl.ordering.models.Quote)>/new smpl.ordering.models.Quote/0	smpl.ordering.repositories.mongodb.MongoQuoteRepository
+<smpl.ordering.repositories.mongodb.MongoQuoteRepository: smpl.ordering.models.Quote createQuote(smpl.ordering.models.Quote)>/new smpl.ordering.models.DealerInfo/0	smpl.ordering.repositories.mongodb.MongoQuoteRepository
+<smpl.ordering.repositories.mongodb.MongoQuoteRepository: smpl.ordering.models.Quote createQuote(smpl.ordering.models.Quote)>/new java.lang.Object[]/0	smpl.ordering.repositories.mongodb.MongoQuoteRepository
+<smpl.ordering.repositories.mongodb.MongoQuoteRepository: smpl.ordering.models.Quote createQuote(smpl.ordering.models.Quote)>/new smpl.ordering.BadRequestException/0	smpl.ordering.repositories.mongodb.MongoQuoteRepository
+<smpl.ordering.repositories.mongodb.MongoQuoteRepository: smpl.ordering.models.Quote createQuote(smpl.ordering.models.Quote)>/new java.lang.Object[]/1	smpl.ordering.repositories.mongodb.MongoQuoteRepository
+<smpl.ordering.repositories.mongodb.MongoQuoteRepository: smpl.ordering.models.Quote createQuote(smpl.ordering.models.Quote)>/new smpl.ordering.repositories.mongodb.models.QuoteDetails/0	smpl.ordering.repositories.mongodb.MongoQuoteRepository
+<smpl.ordering.PropertyHelper: java.util.Properties getPropValues(java.lang.String)>/new java.util.Properties/0	smpl.ordering.PropertyHelper
+<smpl.ordering.PropertyHelper: java.util.Properties getPropValues(java.lang.String)>/new java.io.FileNotFoundException/0	smpl.ordering.PropertyHelper
+<smpl.ordering.PropertyHelper: java.util.Properties getPropValues(java.lang.String)>/new java.lang.StringBuilder/0	smpl.ordering.PropertyHelper
+<smpl.ordering.repositories.mongodb.MongoQuoteRepository: boolean updateQuote(java.lang.String,smpl.ordering.models.Quote,java.lang.String)>/new smpl.ordering.models.DealerInfo/0	smpl.ordering.repositories.mongodb.MongoQuoteRepository
+<smpl.ordering.PropertyHelper: void <clinit>()>/new java.util.Properties/0	smpl.ordering.PropertyHelper
+<smpl.ordering.repositories.mongodb.MongoQuoteRepository: boolean updateQuote(java.lang.String,smpl.ordering.models.Quote,java.lang.String)>/new smpl.ordering.repositories.mongodb.models.QuoteDetails/0	smpl.ordering.repositories.mongodb.MongoQuoteRepository
+<org.springframework.boot.loader.jar.JarURLConnection: org.springframework.boot.loader.jar.JarURLConnection$JarEntryName getJarEntryName(java.lang.String)>/new org.springframework.boot.loader.jar.JarURLConnection$JarEntryName/0	org.springframework.boot.loader.jar.JarURLConnection
+<smpl.ordering.repositories.mongodb.models.ShipmentDetails: void <init>(smpl.ordering.models.ShipmentRecord)>/new smpl.ordering.models.ShipmentEventInfo[]/0	smpl.ordering.repositories.mongodb.models.ShipmentDetails
+<smpl.ordering.repositories.mongodb.models.ShipmentDetails: void <init>(smpl.ordering.models.ShipmentRecord)>/new smpl.ordering.models.ShipmentEventInfo[]/1	smpl.ordering.repositories.mongodb.models.ShipmentDetails
+<smpl.ordering.repositories.mongodb.MongoQuoteRepository: boolean removeQuote(java.lang.String,java.lang.String)>/new org.springframework.data.mongodb.core.query.Query/0	smpl.ordering.repositories.mongodb.MongoQuoteRepository
+<smpl.ordering.repositories.mongodb.MongoQuoteRepository: void <init>(org.springframework.data.mongodb.core.MongoTemplate,smpl.ordering.repositories.DealersRepository)>/new smpl.ordering.repositories.mongodb.MongoOperationsWithRetry/0	smpl.ordering.repositories.mongodb.MongoQuoteRepository
+<smpl.ordering.repositories.mongodb.models.ShipmentDetails: smpl.ordering.models.ShipmentRecord toShipmentRecord()>/new smpl.ordering.models.ShipmentRecord/0	smpl.ordering.repositories.mongodb.models.ShipmentDetails
+<org.springframework.boot.loader.jar.JarURLConnection: void throwFileNotFound(java.lang.Object,org.springframework.boot.loader.jar.JarFile)>/new java.io.FileNotFoundException/0	org.springframework.boot.loader.jar.JarURLConnection
+<org.springframework.boot.loader.jar.JarURLConnection: void throwFileNotFound(java.lang.Object,org.springframework.boot.loader.jar.JarFile)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.jar.JarURLConnection
+<smpl.ordering.repositories.mongodb.MongoQuoteRepository: void <clinit>()>/new java.util.Random/0	smpl.ordering.repositories.mongodb.MongoQuoteRepository
+<org.springframework.boot.loader.archive.ExplodedArchive$FileNotFoundURLConnection: void connect()>/new java.io.FileNotFoundException/0	org.springframework.boot.loader.archive.ExplodedArchive$FileNotFoundURLConnection
+<org.springframework.boot.loader.jar.JarURLConnection$JarEntryName: org.springframework.boot.loader.util.AsciiBytes decode(java.lang.String)>/new org.springframework.boot.loader.util.AsciiBytes/0	org.springframework.boot.loader.jar.JarURLConnection$JarEntryName
+<org.springframework.boot.loader.jar.JarURLConnection$JarEntryName: org.springframework.boot.loader.util.AsciiBytes decode(java.lang.String)>/new java.io.ByteArrayOutputStream/0	org.springframework.boot.loader.jar.JarURLConnection$JarEntryName
+<org.springframework.boot.loader.jar.JarURLConnection$JarEntryName: org.springframework.boot.loader.util.AsciiBytes decode(java.lang.String)>/new java.lang.IllegalArgumentException/0	org.springframework.boot.loader.jar.JarURLConnection$JarEntryName
+<org.springframework.boot.loader.jar.JarURLConnection$JarEntryName: org.springframework.boot.loader.util.AsciiBytes decode(java.lang.String)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.jar.JarURLConnection$JarEntryName
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity getOrderById(java.lang.String)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.OrderController
+<org.springframework.boot.loader.jar.JarURLConnection: java.net.URL buildJarFileUrl()>/new java.net.URL/0	org.springframework.boot.loader.jar.JarURLConnection
+<org.springframework.boot.loader.jar.JarURLConnection: java.net.URL buildJarFileUrl()>/new java.net.URL/1	org.springframework.boot.loader.jar.JarURLConnection
+<org.springframework.boot.loader.jar.JarURLConnection: java.net.URL buildJarFileUrl()>/new java.lang.StringBuilder/0	org.springframework.boot.loader.jar.JarURLConnection
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity getOrderById(java.lang.String)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.OrderController
+<org.springframework.boot.loader.jar.JarURLConnection$JarEntryName: org.springframework.boot.loader.util.AsciiBytes decode(java.lang.String)>/new org.springframework.boot.loader.util.AsciiBytes/1	org.springframework.boot.loader.jar.JarURLConnection$JarEntryName
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity getOrderById(java.lang.String)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.OrderController
+<org.springframework.boot.loader.jar.JarURLConnection: java.net.URL buildJarFileUrl()>/new java.lang.IllegalStateException/0	org.springframework.boot.loader.jar.JarURLConnection
+<org.springframework.boot.loader.jar.JarURLConnection$JarEntryName: char decodeEscapeSequence(java.lang.String,int)>/new java.lang.IllegalArgumentException/0	org.springframework.boot.loader.jar.JarURLConnection$JarEntryName
+<org.springframework.boot.loader.jar.JarURLConnection$JarEntryName: char decodeEscapeSequence(java.lang.String,int)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.jar.JarURLConnection$JarEntryName
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity getOrdersByDealerName(java.lang.String,smpl.ordering.models.OrderStatus)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.OrderController
+<org.springframework.boot.loader.jar.JarURLConnection: java.io.InputStream getInputStream()>/new java.io.IOException/0	org.springframework.boot.loader.jar.JarURLConnection
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity getOrdersByDealerName(java.lang.String,smpl.ordering.models.OrderStatus)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.OrderController
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity getOrdersByDealerName(java.lang.String,smpl.ordering.models.OrderStatus)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.OrderController
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity createOrder(java.lang.String)>/new org.springframework.http.HttpHeaders/0	smpl.ordering.controllers.OrderController
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity createOrder(java.lang.String)>/new java.lang.StringBuilder/0	smpl.ordering.controllers.OrderController
+<org.springframework.boot.loader.jar.JarURLConnection: void <clinit>()>/new java.io.FileNotFoundException/0	org.springframework.boot.loader.jar.JarURLConnection
+<org.springframework.boot.loader.jar.JarURLConnection: void <clinit>()>/new java.net.URL/0	org.springframework.boot.loader.jar.JarURLConnection
+<org.springframework.boot.loader.jar.JarURLConnection: void <clinit>()>/new org.springframework.boot.loader.jar.JarURLConnection$1/0	org.springframework.boot.loader.jar.JarURLConnection
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity createOrder(java.lang.String)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.OrderController
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity createOrder(java.lang.String)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.OrderController
+<org.springframework.boot.loader.jar.JarURLConnection: void <clinit>()>/new java.lang.IllegalStateException/0	org.springframework.boot.loader.jar.JarURLConnection
+<org.springframework.boot.loader.jar.JarURLConnection: void <clinit>()>/new org.springframework.boot.loader.jar.JarURLConnection$JarEntryName/0	org.springframework.boot.loader.jar.JarURLConnection
+<org.springframework.boot.loader.jar.JarURLConnection: void <clinit>()>/new java.lang.ThreadLocal/0	org.springframework.boot.loader.jar.JarURLConnection
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity createOrder(java.lang.String)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.OrderController
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity createOrder(java.lang.String)>/new org.springframework.http.ResponseEntity/3	smpl.ordering.controllers.OrderController
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity createOrder(java.lang.String)>/new org.springframework.http.ResponseEntity/4	smpl.ordering.controllers.OrderController
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: void dropCollection(java.lang.Class)>/new java.util.Date/0	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: void dropCollection(java.lang.Class)>/new java.util.Date/1	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: void dropCollection(java.lang.Class)>/new java.util.Date/2	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity addEvent(java.lang.String,smpl.ordering.models.OrderEventInfo)>/new java.util.Date/0	smpl.ordering.controllers.OrderController
+<smpl.ordering.Utility: int validateStringField(java.lang.String,java.lang.String,int,java.lang.StringBuilder)>/new java.lang.Object[]/0	smpl.ordering.Utility
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity addEvent(java.lang.String,smpl.ordering.models.OrderEventInfo)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.OrderController
+<smpl.ordering.Utility: int validateStringField(java.lang.String,java.lang.String,int,java.lang.StringBuilder)>/new java.lang.Object[]/1	smpl.ordering.Utility
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity addEvent(java.lang.String,smpl.ordering.models.OrderEventInfo)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.OrderController
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: void sendTelemetry(java.util.Date,java.util.Date,java.lang.String,boolean)>/new com.microsoft.applicationinsights.telemetry.RemoteDependencyTelemetry/0	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: void sendTelemetry(java.util.Date,java.util.Date,java.lang.String,boolean)>/new java.lang.Object[]/0	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity addEvent(java.lang.String,smpl.ordering.models.OrderEventInfo)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.OrderController
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: void sendTelemetry(java.util.Date,java.util.Date,java.lang.String,boolean)>/new com.microsoft.applicationinsights.telemetry.Duration/0	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.repositories.mongodb.MongoOrderRepository: boolean hasOrder(java.lang.String)>/new org.springframework.data.mongodb.core.query.Query/0	smpl.ordering.repositories.mongodb.MongoOrderRepository
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity updateOrder(java.lang.String,smpl.ordering.models.Order)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.OrderController
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: void dropCollection(java.lang.String)>/new java.util.Date/0	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity updateOrder(java.lang.String,smpl.ordering.models.Order)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.OrderController
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: void dropCollection(java.lang.String)>/new java.util.Date/1	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: void dropCollection(java.lang.String)>/new java.util.Date/2	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity updateOrder(java.lang.String,smpl.ordering.models.Order)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.OrderController
+<smpl.ordering.repositories.mongodb.MongoOrderRepository: smpl.ordering.repositories.mongodb.models.OrderDetails findExistingOrder(java.lang.String)>/new org.springframework.data.mongodb.core.query.Query/0	smpl.ordering.repositories.mongodb.MongoOrderRepository
+<smpl.ordering.AppInsightsFilter: void doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)>/new java.util.Date/0	smpl.ordering.AppInsightsFilter
+<smpl.ordering.AppInsightsFilter: void doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)>/new com.microsoft.applicationinsights.telemetry.RequestTelemetry/0	smpl.ordering.AppInsightsFilter
+<smpl.ordering.AppInsightsFilter: void doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)>/new java.lang.Object[]/0	smpl.ordering.AppInsightsFilter
+<smpl.ordering.AppInsightsFilter: void doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)>/new java.lang.Object[]/1	smpl.ordering.AppInsightsFilter
+<smpl.ordering.repositories.mongodb.MongoOrderRepository: java.util.List getOrdersByStatus(smpl.ordering.models.OrderStatus)>/new org.springframework.data.mongodb.core.query.Query/0	smpl.ordering.repositories.mongodb.MongoOrderRepository
+<smpl.ordering.repositories.mongodb.MongoOrderRepository: java.util.List getOrdersByStatus(smpl.ordering.models.OrderStatus)>/new java.util.ArrayList/0	smpl.ordering.repositories.mongodb.MongoOrderRepository
+<smpl.ordering.AppInsightsFilter: void doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)>/new java.lang.Object[]/2	smpl.ordering.AppInsightsFilter
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity updateStatus(java.lang.String,smpl.ordering.models.OrderUpdateInfo)>/new java.util.Date/0	smpl.ordering.controllers.OrderController
+<smpl.ordering.AppInsightsFilter: void doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)>/new java.util.Date/1	smpl.ordering.AppInsightsFilter
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity updateStatus(java.lang.String,smpl.ordering.models.OrderUpdateInfo)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.OrderController
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity updateStatus(java.lang.String,smpl.ordering.models.OrderUpdateInfo)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.OrderController
+<smpl.ordering.AppInsightsFilter: void doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)>/new com.microsoft.applicationinsights.telemetry.Duration/0	smpl.ordering.AppInsightsFilter
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: java.util.List findAll(java.lang.Class)>/new java.util.Date/0	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity updateStatus(java.lang.String,smpl.ordering.models.OrderUpdateInfo)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.OrderController
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: java.util.List findAll(java.lang.Class)>/new java.util.Date/1	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity updateStatus(java.lang.String,smpl.ordering.models.OrderUpdateInfo)>/new org.springframework.http.ResponseEntity/3	smpl.ordering.controllers.OrderController
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: java.util.List findAll(java.lang.Class)>/new java.util.Date/2	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.AppInsightsFilter: void doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)>/new java.util.Date/2	smpl.ordering.AppInsightsFilter
+<smpl.ordering.repositories.mongodb.MongoOrderRepository: java.util.List getOrdersByDealerName(java.lang.String,smpl.ordering.models.OrderStatus)>/new org.springframework.data.mongodb.core.query.Query/0	smpl.ordering.repositories.mongodb.MongoOrderRepository
+<smpl.ordering.AppInsightsFilter: void doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)>/new com.microsoft.applicationinsights.telemetry.ExceptionTelemetry/0	smpl.ordering.AppInsightsFilter
+<smpl.ordering.repositories.mongodb.MongoOrderRepository: java.util.List getOrdersByDealerName(java.lang.String,smpl.ordering.models.OrderStatus)>/new java.util.ArrayList/0	smpl.ordering.repositories.mongodb.MongoOrderRepository
+<smpl.ordering.AppInsightsFilter: void doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)>/new com.microsoft.applicationinsights.telemetry.Duration/1	smpl.ordering.AppInsightsFilter
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity deleteOrder(java.lang.String)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.OrderController
+<smpl.ordering.repositories.mongodb.MongoOrderRepository: smpl.ordering.models.Order getOrderByQuoteId(java.lang.String)>/new org.springframework.data.mongodb.core.query.Query/0	smpl.ordering.repositories.mongodb.MongoOrderRepository
+<smpl.ordering.controllers.OrderController: org.springframework.http.ResponseEntity deleteOrder(java.lang.String)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.OrderController
+<smpl.ordering.repositories.mongodb.MongoOrderRepository: smpl.ordering.models.Order createOrder(java.lang.String)>/new smpl.ordering.BadRequestException/0	smpl.ordering.repositories.mongodb.MongoOrderRepository
+<smpl.ordering.repositories.mongodb.MongoOrderRepository: smpl.ordering.models.Order createOrder(java.lang.String)>/new java.lang.Object[]/0	smpl.ordering.repositories.mongodb.MongoOrderRepository
+<smpl.ordering.repositories.mongodb.MongoOrderRepository: smpl.ordering.models.Order createOrder(java.lang.String)>/new smpl.ordering.ConflictingRequestException/0	smpl.ordering.repositories.mongodb.MongoOrderRepository
+<smpl.ordering.repositories.mongodb.MongoOrderRepository: smpl.ordering.models.Order createOrder(java.lang.String)>/new java.lang.Object[]/1	smpl.ordering.repositories.mongodb.MongoOrderRepository
+<smpl.ordering.repositories.mongodb.MongoOrderRepository: smpl.ordering.models.Order createOrder(java.lang.String)>/new smpl.ordering.models.Order/0	smpl.ordering.repositories.mongodb.MongoOrderRepository
+<integration.services.QueueService: integration.models.QueueResponse getQueueMessage()>/new com.fasterxml.jackson.databind.ObjectMapper/0	integration.services.QueueService
+<smpl.ordering.repositories.mongodb.MongoOrderRepository: smpl.ordering.models.Order createOrder(java.lang.String)>/new java.util.Date/0	smpl.ordering.repositories.mongodb.MongoOrderRepository
+<integration.services.QueueService: integration.models.QueueResponse getQueueMessage()>/new integration.models.QueueResponse/0	integration.services.QueueService
+<smpl.ordering.repositories.mongodb.MongoOrderRepository: smpl.ordering.models.Order createOrder(java.lang.String)>/new java.lang.Object[]/2	smpl.ordering.repositories.mongodb.MongoOrderRepository
+<integration.services.QueueService: integration.models.QueueResponse getQueueMessage()>/new java.lang.StringBuilder/0	integration.services.QueueService
+<org.springframework.boot.loader.archive.ExplodedArchive: void <init>(java.io.File,boolean)>/new java.util.LinkedHashMap/0	org.springframework.boot.loader.archive.ExplodedArchive
+<smpl.ordering.repositories.mongodb.MongoOrderRepository: smpl.ordering.models.Order createOrder(java.lang.String)>/new smpl.ordering.repositories.mongodb.models.OrderDetails/0	smpl.ordering.repositories.mongodb.MongoOrderRepository
+<org.springframework.boot.loader.archive.ExplodedArchive: void <init>(java.io.File,boolean)>/new java.lang.IllegalArgumentException/0	org.springframework.boot.loader.archive.ExplodedArchive
+<org.springframework.boot.loader.archive.ExplodedArchive: void <init>(java.io.File,boolean)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.archive.ExplodedArchive
+<org.springframework.boot.loader.archive.ExplodedArchive: void <init>(java.io.File,java.util.Map)>/new java.util.LinkedHashMap/0	org.springframework.boot.loader.archive.ExplodedArchive
+<integration.services.QueueService: void addQueueMessage(java.lang.Object)>/new com.fasterxml.jackson.databind.ObjectMapper/0	integration.services.QueueService
+<integration.services.QueueService: void addQueueMessage(java.lang.Object)>/new com.microsoft.azure.storage.queue.CloudQueueMessage/0	integration.services.QueueService
+<smpl.ordering.repositories.mongodb.MongoOrderRepository: boolean saveOrder(java.lang.String,smpl.ordering.models.Order,smpl.ordering.repositories.mongodb.models.OrderDetails)>/new smpl.ordering.repositories.mongodb.models.OrderDetails/0	smpl.ordering.repositories.mongodb.MongoOrderRepository
+<org.springframework.boot.loader.archive.ExplodedArchive: void buildEntries(java.io.File,boolean)>/new org.springframework.boot.loader.archive.ExplodedArchive$FileEntry/0	org.springframework.boot.loader.archive.ExplodedArchive
+<org.springframework.boot.loader.archive.ExplodedArchive: void buildEntries(java.io.File,boolean)>/new org.springframework.boot.loader.util.AsciiBytes/0	org.springframework.boot.loader.archive.ExplodedArchive
+<smpl.ordering.repositories.mongodb.MongoOrderRepository: boolean removeOrder(java.lang.String,java.lang.String)>/new org.springframework.data.mongodb.core.query.Query/0	smpl.ordering.repositories.mongodb.MongoOrderRepository
+<org.springframework.boot.loader.jar.JarEntryData: void <init>(org.springframework.boot.loader.jar.JarFile,byte[],java.io.InputStream)>/new org.springframework.boot.loader.util.AsciiBytes/0	org.springframework.boot.loader.jar.JarEntryData
+<smpl.ordering.repositories.mongodb.MongoOrderRepository: void <init>(org.springframework.data.mongodb.core.MongoTemplate,smpl.ordering.repositories.QuoteRepository)>/new smpl.ordering.repositories.mongodb.MongoOperationsWithRetry/0	smpl.ordering.repositories.mongodb.MongoOrderRepository
+<org.springframework.boot.loader.jar.JarEntryData: void <init>(org.springframework.boot.loader.jar.JarFile,byte[],java.io.InputStream)>/new org.springframework.boot.loader.util.AsciiBytes/1	org.springframework.boot.loader.jar.JarEntryData
+<org.springframework.boot.loader.archive.ExplodedArchive: java.net.URL getUrl()>/new org.springframework.boot.loader.archive.ExplodedArchive$FilteredURLStreamHandler/0	org.springframework.boot.loader.archive.ExplodedArchive
+<org.springframework.boot.loader.archive.ExplodedArchive: java.net.URL getUrl()>/new java.net.URL/0	org.springframework.boot.loader.archive.ExplodedArchive
+<smpl.ordering.repositories.mongodb.MongoOrderRepository: void reset()>/new java.util.concurrent.atomic.AtomicLong/0	smpl.ordering.repositories.mongodb.MongoOrderRepository
+<smpl.ordering.repositories.mongodb.MongoOrderRepository: void <clinit>()>/new java.util.concurrent.atomic.AtomicLong/0	smpl.ordering.repositories.mongodb.MongoOrderRepository
+<org.springframework.boot.loader.archive.ExplodedArchive: java.util.jar.Manifest getManifest()>/new java.io.FileInputStream/0	org.springframework.boot.loader.archive.ExplodedArchive
+<org.springframework.boot.loader.archive.ExplodedArchive: java.util.jar.Manifest getManifest()>/new java.util.jar.Manifest/0	org.springframework.boot.loader.archive.ExplodedArchive
+<org.springframework.boot.loader.jar.JarEntryData: java.io.InputStream getInputStream()>/new org.springframework.boot.loader.jar.ZipInflaterInputStream/0	org.springframework.boot.loader.jar.JarEntryData
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: java.lang.Object findOne(org.springframework.data.mongodb.core.query.Query,java.lang.Class)>/new java.util.Date/0	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: java.lang.Object findOne(org.springframework.data.mongodb.core.query.Query,java.lang.Class)>/new java.util.Date/1	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<org.springframework.boot.loader.archive.ExplodedArchive: java.util.List getNestedArchives(org.springframework.boot.loader.archive.Archive$EntryFilter)>/new java.util.ArrayList/0	org.springframework.boot.loader.archive.ExplodedArchive
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: java.lang.Object findOne(org.springframework.data.mongodb.core.query.Query,java.lang.Class)>/new java.util.Date/2	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<org.springframework.boot.loader.archive.ExplodedArchive: org.springframework.boot.loader.archive.Archive getNestedArchive(org.springframework.boot.loader.archive.Archive$Entry)>/new org.springframework.boot.loader.archive.ExplodedArchive/0	org.springframework.boot.loader.archive.ExplodedArchive
+<org.springframework.boot.loader.archive.ExplodedArchive: org.springframework.boot.loader.archive.Archive getNestedArchive(org.springframework.boot.loader.archive.Archive$Entry)>/new org.springframework.boot.loader.archive.JarFileArchive/0	org.springframework.boot.loader.archive.ExplodedArchive
+<org.springframework.boot.loader.jar.JarEntryData: org.springframework.boot.loader.jar.JarEntry asJarEntry()>/new org.springframework.boot.loader.jar.JarEntry/0	org.springframework.boot.loader.jar.JarEntryData
+<org.springframework.boot.loader.jar.JarEntryData: org.springframework.boot.loader.jar.JarEntry asJarEntry()>/new java.lang.ref.SoftReference/0	org.springframework.boot.loader.jar.JarEntryData
+<org.springframework.boot.loader.archive.ExplodedArchive: org.springframework.boot.loader.archive.Archive getFilteredArchive(org.springframework.boot.loader.archive.Archive$EntryRenameFilter)>/new java.util.LinkedHashMap/0	org.springframework.boot.loader.archive.ExplodedArchive
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: boolean exists(org.springframework.data.mongodb.core.query.Query,java.lang.Class)>/new java.util.Date/0	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: boolean exists(org.springframework.data.mongodb.core.query.Query,java.lang.Class)>/new java.util.Date/1	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<org.springframework.boot.loader.archive.ExplodedArchive: org.springframework.boot.loader.archive.Archive getFilteredArchive(org.springframework.boot.loader.archive.Archive$EntryRenameFilter)>/new org.springframework.boot.loader.archive.ExplodedArchive$FileEntry/0	org.springframework.boot.loader.archive.ExplodedArchive
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: boolean exists(org.springframework.data.mongodb.core.query.Query,java.lang.Class)>/new java.util.Date/2	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<org.springframework.boot.loader.archive.ExplodedArchive: org.springframework.boot.loader.archive.Archive getFilteredArchive(org.springframework.boot.loader.archive.Archive$EntryRenameFilter)>/new org.springframework.boot.loader.archive.ExplodedArchive/0	org.springframework.boot.loader.archive.ExplodedArchive
+<org.springframework.boot.loader.archive.ExplodedArchive: void <clinit>()>/new java.util.HashSet/0	org.springframework.boot.loader.archive.ExplodedArchive
+<org.springframework.boot.loader.archive.ExplodedArchive: void <clinit>()>/new java.lang.String[]/0	org.springframework.boot.loader.archive.ExplodedArchive
+<org.springframework.boot.loader.archive.ExplodedArchive: void <clinit>()>/new org.springframework.boot.loader.util.AsciiBytes/0	org.springframework.boot.loader.archive.ExplodedArchive
+<org.springframework.boot.loader.jar.JarEntryData: org.springframework.boot.loader.jar.JarEntryData createFilteredCopy(org.springframework.boot.loader.jar.JarFile,org.springframework.boot.loader.util.AsciiBytes)>/new org.springframework.boot.loader.jar.JarEntryData/0	org.springframework.boot.loader.jar.JarEntryData
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: java.util.List find(org.springframework.data.mongodb.core.query.Query,java.lang.Class)>/new java.util.Date/0	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: java.util.List find(org.springframework.data.mongodb.core.query.Query,java.lang.Class)>/new java.util.Date/1	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<org.springframework.boot.loader.jar.JarEntryData: org.springframework.boot.loader.jar.JarEntryData fromInputStream(org.springframework.boot.loader.jar.JarFile,java.io.InputStream)>/new byte[]/0	org.springframework.boot.loader.jar.JarEntryData
+<integration.Main: void main(java.lang.String[])>/new java.lang.Object[]/0	integration.Main
+<integration.Main: void main(java.lang.String[])>/new java.lang.String[]/0	integration.Main
+<org.springframework.boot.loader.jar.JarEntryData: org.springframework.boot.loader.jar.JarEntryData fromInputStream(org.springframework.boot.loader.jar.JarFile,java.io.InputStream)>/new org.springframework.boot.loader.jar.JarEntryData/0	org.springframework.boot.loader.jar.JarEntryData
+<org.springframework.boot.loader.PropertiesLauncher: void <init>()>/new java.util.ArrayList/0	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: java.util.List find(org.springframework.data.mongodb.core.query.Query,java.lang.Class)>/new java.util.Date/2	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<org.springframework.boot.loader.PropertiesLauncher: void <init>()>/new java.util.Properties/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.jar.JarEntryData: void <clinit>()>/new org.springframework.boot.loader.util.AsciiBytes/0	org.springframework.boot.loader.jar.JarEntryData
+<org.springframework.boot.loader.PropertiesLauncher: void <init>()>/new java.lang.IllegalStateException/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: java.io.File getHomeDirectory()>/new java.io.File/0	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.models.OrderStatus: void <clinit>()>/new smpl.ordering.models.OrderStatus/0	smpl.ordering.models.OrderStatus
+<smpl.ordering.models.OrderStatus: void <clinit>()>/new smpl.ordering.models.OrderStatus/1	smpl.ordering.models.OrderStatus
+<smpl.ordering.models.OrderStatus: void <clinit>()>/new smpl.ordering.models.OrderStatus/2	smpl.ordering.models.OrderStatus
+<smpl.ordering.models.OrderStatus: void <clinit>()>/new smpl.ordering.models.OrderStatus/3	smpl.ordering.models.OrderStatus
+<smpl.ordering.models.OrderStatus: void <clinit>()>/new smpl.ordering.models.OrderStatus/4	smpl.ordering.models.OrderStatus
+<smpl.ordering.models.OrderStatus: void <clinit>()>/new smpl.ordering.models.OrderStatus/5	smpl.ordering.models.OrderStatus
+<smpl.ordering.models.OrderStatus: void <clinit>()>/new smpl.ordering.models.OrderStatus/6	smpl.ordering.models.OrderStatus
+<smpl.ordering.models.OrderStatus: void <clinit>()>/new smpl.ordering.models.OrderStatus/7	smpl.ordering.models.OrderStatus
+<org.springframework.boot.loader.data.RandomAccessData$ResourceAccess: void <clinit>()>/new org.springframework.boot.loader.data.RandomAccessData$ResourceAccess/0	org.springframework.boot.loader.data.RandomAccessData$ResourceAccess
+<smpl.ordering.models.OrderStatus: void <clinit>()>/new smpl.ordering.models.OrderStatus/8	smpl.ordering.models.OrderStatus
+<org.springframework.boot.loader.data.RandomAccessData$ResourceAccess: void <clinit>()>/new org.springframework.boot.loader.data.RandomAccessData$ResourceAccess/1	org.springframework.boot.loader.data.RandomAccessData$ResourceAccess
+<smpl.ordering.models.OrderStatus: void <clinit>()>/new smpl.ordering.models.OrderStatus[]/0	smpl.ordering.models.OrderStatus
+<org.springframework.boot.loader.data.RandomAccessData$ResourceAccess: void <clinit>()>/new org.springframework.boot.loader.data.RandomAccessData$ResourceAccess[]/0	org.springframework.boot.loader.data.RandomAccessData$ResourceAccess
+<org.springframework.boot.loader.PropertiesLauncher: void initializeProperties(java.io.File)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.models.Order: java.lang.String validate()>/new java.lang.StringBuilder/0	smpl.ordering.models.Order
+<org.springframework.boot.loader.PropertiesLauncher: void initializeProperties(java.io.File)>/new java.lang.StringBuilder/1	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.repositories.mongodb.models.OrderDetails: void <init>(smpl.ordering.models.Order)>/new smpl.ordering.models.OrderEventInfo[]/0	smpl.ordering.repositories.mongodb.models.OrderDetails
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: java.lang.Object findAndRemove(org.springframework.data.mongodb.core.query.Query,java.lang.Class)>/new java.util.Date/0	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.repositories.mongodb.models.OrderDetails: void <init>(smpl.ordering.models.Order)>/new smpl.ordering.models.OrderEventInfo[]/1	smpl.ordering.repositories.mongodb.models.OrderDetails
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: java.lang.Object findAndRemove(org.springframework.data.mongodb.core.query.Query,java.lang.Class)>/new java.util.Date/1	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<org.springframework.boot.loader.PropertiesLauncher: void initializeProperties(java.io.File)>/new java.lang.StringBuilder/2	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: java.lang.Object findAndRemove(org.springframework.data.mongodb.core.query.Query,java.lang.Class)>/new java.util.Date/2	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.repositories.mongodb.models.OrderDetails: smpl.ordering.models.Order toOrder()>/new smpl.ordering.models.Order/0	smpl.ordering.repositories.mongodb.models.OrderDetails
+<smpl.ordering.models.Order: void <init>()>/new java.util.ArrayList/0	smpl.ordering.models.Order
+<org.springframework.boot.loader.jar.CentralDirectoryEndRecord: void <init>(org.springframework.boot.loader.data.RandomAccessData)>/new java.io.IOException/0	org.springframework.boot.loader.jar.CentralDirectoryEndRecord
+<org.springframework.boot.loader.jar.CentralDirectoryEndRecord: void <init>(org.springframework.boot.loader.data.RandomAccessData)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.jar.CentralDirectoryEndRecord
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: void insert(java.lang.Object)>/new java.util.Date/0	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: void insert(java.lang.Object)>/new java.util.Date/1	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<org.springframework.boot.loader.PropertiesLauncher: java.io.InputStream getClasspathResource(java.lang.String)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: void insert(java.lang.Object)>/new java.util.Date/2	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<org.springframework.boot.loader.PropertiesLauncher: java.io.InputStream getClasspathResource(java.lang.String)>/new java.lang.StringBuilder/1	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: java.io.InputStream getFileResource(java.lang.String)>/new java.io.File/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: java.io.InputStream getFileResource(java.lang.String)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: java.io.InputStream getFileResource(java.lang.String)>/new java.io.FileInputStream/0	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.models.Quote: java.lang.String validate()>/new java.lang.StringBuilder/0	smpl.ordering.models.Quote
+<org.springframework.boot.loader.PropertiesLauncher: java.io.InputStream getURLResource(java.lang.String)>/new java.net.URL/0	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: void save(java.lang.Object)>/new java.util.Date/0	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: void save(java.lang.Object)>/new java.util.Date/1	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.repositories.mongodb.MongoOperationsWithRetry: void save(java.lang.Object)>/new java.util.Date/2	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+<smpl.ordering.models.Quote: void addQuoteItem(java.lang.String,double)>/new java.util.ArrayList/0	smpl.ordering.models.Quote
+<smpl.ordering.models.Quote: void addQuoteItem(java.lang.String,double)>/new smpl.ordering.models.QuoteItemInfo/0	smpl.ordering.models.Quote
+<smpl.ordering.repositories.mock.MockDealersRepository: void <init>()>/new java.util.ArrayList/0	smpl.ordering.repositories.mock.MockDealersRepository
+<smpl.ordering.repositories.mock.MockDealersRepository: java.util.List getDealers()>/new java.util.ArrayList/0	smpl.ordering.repositories.mock.MockDealersRepository
+<smpl.ordering.repositories.mock.MockDealersRepository: java.util.List getDealers()>/new smpl.ordering.models.DealerInfo/0	smpl.ordering.repositories.mock.MockDealersRepository
+<org.springframework.boot.loader.PropertiesLauncher: void initializePaths()>/new java.lang.StringBuilder/0	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.repositories.mock.MockDealersRepository: smpl.ordering.models.DealerInfo getDealer(java.lang.String)>/new smpl.ordering.models.DealerInfo/0	smpl.ordering.repositories.mock.MockDealersRepository
+<org.springframework.boot.loader.PropertiesLauncher: java.util.List parsePathsProperty(java.lang.String)>/new java.util.ArrayList/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: java.lang.String[] getArgs(java.lang.String[])>/new java.lang.String[]/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: java.lang.String getMainClass()>/new java.lang.IllegalStateException/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: java.lang.ClassLoader createClassLoader(java.util.List)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.models.Quote: boolean equals(java.lang.Object)>/new smpl.ordering.models.QuoteItemInfo[]/0	smpl.ordering.models.Quote
+<smpl.ordering.models.Quote: boolean equals(java.lang.Object)>/new smpl.ordering.models.QuoteItemInfo[]/1	smpl.ordering.models.Quote
+<org.springframework.boot.loader.InputArgumentsJavaAgentDetector: java.util.List getInputArguments()>/new org.springframework.boot.loader.InputArgumentsJavaAgentDetector$1/0	org.springframework.boot.loader.InputArgumentsJavaAgentDetector
+<org.springframework.boot.loader.PropertiesLauncher: java.lang.ClassLoader wrapWithCustomClassLoader(java.lang.ClassLoader,java.lang.String)>/new java.lang.Class[]/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: java.lang.ClassLoader wrapWithCustomClassLoader(java.lang.ClassLoader,java.lang.String)>/new java.lang.Object[]/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.InputArgumentsJavaAgentDetector: java.util.Set getJavaAgentJars(java.util.List)>/new java.util.HashSet/0	org.springframework.boot.loader.InputArgumentsJavaAgentDetector
+<org.springframework.boot.loader.PropertiesLauncher: java.lang.ClassLoader wrapWithCustomClassLoader(java.lang.ClassLoader,java.lang.String)>/new java.lang.Class[]/1	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.InputArgumentsJavaAgentDetector: java.util.Set getJavaAgentJars(java.util.List)>/new java.io.File/0	org.springframework.boot.loader.InputArgumentsJavaAgentDetector
+<org.springframework.boot.loader.InputArgumentsJavaAgentDetector: java.util.Set getJavaAgentJars(java.util.List)>/new java.lang.IllegalStateException/0	org.springframework.boot.loader.InputArgumentsJavaAgentDetector
+<org.springframework.boot.loader.PropertiesLauncher: java.lang.ClassLoader wrapWithCustomClassLoader(java.lang.ClassLoader,java.lang.String)>/new java.lang.Object[]/1	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.InputArgumentsJavaAgentDetector: java.util.Set getJavaAgentJars(java.util.List)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.InputArgumentsJavaAgentDetector
+<org.springframework.boot.loader.PropertiesLauncher: java.lang.ClassLoader wrapWithCustomClassLoader(java.lang.ClassLoader,java.lang.String)>/new java.net.URL[]/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: java.lang.String getProperty(java.lang.String,java.lang.String)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.repositories.mock.MockQuoteRepository: void <init>(smpl.ordering.repositories.CatalogItemsRepository,smpl.ordering.repositories.DealersRepository)>/new java.util.ArrayList/0	smpl.ordering.repositories.mock.MockQuoteRepository
+<org.springframework.boot.loader.PropertiesLauncher: java.lang.String getProperty(java.lang.String,java.lang.String)>/new java.lang.StringBuilder/1	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: java.lang.String getProperty(java.lang.String,java.lang.String)>/new org.springframework.boot.loader.archive.ExplodedArchive/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: java.lang.String getProperty(java.lang.String,java.lang.String)>/new java.lang.StringBuilder/2	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.repositories.mock.MockQuoteRepository: java.util.List getQuotesByCustomerName(java.lang.String)>/new java.util.ArrayList/0	smpl.ordering.repositories.mock.MockQuoteRepository
+<org.springframework.boot.loader.PropertiesLauncher: java.lang.String getProperty(java.lang.String,java.lang.String)>/new java.lang.StringBuilder/3	org.springframework.boot.loader.PropertiesLauncher
+<integration.infrastructure.ConfigurationHelpers: java.util.Properties getPropValues(java.lang.String)>/new java.util.Properties/0	integration.infrastructure.ConfigurationHelpers
+<integration.infrastructure.ConfigurationHelpers: java.util.Properties getPropValues(java.lang.String)>/new java.io.FileNotFoundException/0	integration.infrastructure.ConfigurationHelpers
+<integration.infrastructure.ConfigurationHelpers: java.util.Properties getPropValues(java.lang.String)>/new java.lang.StringBuilder/0	integration.infrastructure.ConfigurationHelpers
+<smpl.ordering.repositories.mock.MockQuoteRepository: java.util.List getQuoteIdsByDealerName(java.lang.String)>/new java.util.ArrayList/0	smpl.ordering.repositories.mock.MockQuoteRepository
+<integration.infrastructure.ConfigurationHelpers: void <clinit>()>/new java.util.Properties/0	integration.infrastructure.ConfigurationHelpers
+<org.springframework.boot.loader.JarLauncher: void main(java.lang.String[])>/new org.springframework.boot.loader.JarLauncher/0	org.springframework.boot.loader.JarLauncher
+<org.springframework.boot.loader.PropertiesLauncher: java.util.List getClassPathArchives()>/new java.util.ArrayList/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.JarLauncher: void <clinit>()>/new org.springframework.boot.loader.util.AsciiBytes/0	org.springframework.boot.loader.JarLauncher
+<org.springframework.boot.loader.archive.JarFileArchive: void <init>(java.io.File,java.net.URL)>/new org.springframework.boot.loader.jar.JarFile/0	org.springframework.boot.loader.archive.JarFileArchive
+<org.springframework.boot.loader.PropertiesLauncher: java.util.List getClassPathArchives()>/new java.util.ArrayList/1	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.repositories.mock.MockQuoteRepository: smpl.ordering.models.Quote createQuote(smpl.ordering.models.Quote)>/new smpl.ordering.models.DealerInfo/0	smpl.ordering.repositories.mock.MockQuoteRepository
+<org.springframework.boot.loader.PropertiesLauncher: java.util.List getClassPathArchives()>/new org.springframework.boot.loader.PropertiesLauncher$ArchiveEntryFilter/0	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.repositories.mock.MockQuoteRepository: smpl.ordering.models.Quote createQuote(smpl.ordering.models.Quote)>/new java.lang.Object[]/0	smpl.ordering.repositories.mock.MockQuoteRepository
+<org.springframework.boot.loader.archive.JarFileArchive: void <init>(org.springframework.boot.loader.jar.JarFile)>/new java.util.ArrayList/0	org.springframework.boot.loader.archive.JarFileArchive
+<smpl.ordering.repositories.mock.MockQuoteRepository: smpl.ordering.models.Quote createQuote(smpl.ordering.models.Quote)>/new smpl.ordering.BadRequestException/0	smpl.ordering.repositories.mock.MockQuoteRepository
+<smpl.ordering.repositories.mock.MockQuoteRepository: smpl.ordering.models.Quote createQuote(smpl.ordering.models.Quote)>/new java.lang.Object[]/1	smpl.ordering.repositories.mock.MockQuoteRepository
+<org.springframework.boot.loader.archive.JarFileArchive: void <init>(org.springframework.boot.loader.jar.JarFile)>/new org.springframework.boot.loader.archive.JarFileArchive$JarFileEntry/0	org.springframework.boot.loader.archive.JarFileArchive
+<org.springframework.boot.loader.archive.ExplodedArchive$FilteredURLStreamHandler: java.net.URLConnection openConnection(java.net.URL)>/new org.springframework.boot.loader.util.AsciiBytes/0	org.springframework.boot.loader.archive.ExplodedArchive$FilteredURLStreamHandler
+<org.springframework.boot.loader.archive.ExplodedArchive$FilteredURLStreamHandler: java.net.URLConnection openConnection(java.net.URL)>/new java.net.URL/0	org.springframework.boot.loader.archive.ExplodedArchive$FilteredURLStreamHandler
+<org.springframework.boot.loader.archive.ExplodedArchive$FilteredURLStreamHandler: java.net.URLConnection openConnection(java.net.URL)>/new org.springframework.boot.loader.archive.ExplodedArchive$FileNotFoundURLConnection/0	org.springframework.boot.loader.archive.ExplodedArchive$FilteredURLStreamHandler
+<org.springframework.boot.loader.PropertiesLauncher: java.util.List getClassPathArchives(java.lang.String)>/new java.util.ArrayList/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: java.util.List getClassPathArchives(java.lang.String)>/new java.io.File/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: java.util.List getClassPathArchives(java.lang.String)>/new java.io.File/1	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: java.util.List getClassPathArchives(java.lang.String)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: java.util.List getClassPathArchives(java.lang.String)>/new org.springframework.boot.loader.archive.ExplodedArchive/0	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.repositories.mock.MockQuoteRepository: boolean updateQuote(java.lang.String,smpl.ordering.models.Quote,java.lang.String)>/new smpl.ordering.models.DealerInfo/0	smpl.ordering.repositories.mock.MockQuoteRepository
+<org.springframework.boot.loader.PropertiesLauncher: java.util.List getClassPathArchives(java.lang.String)>/new java.lang.StringBuilder/1	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.archive.JarFileArchive$1: org.springframework.boot.loader.util.AsciiBytes apply(org.springframework.boot.loader.util.AsciiBytes,org.springframework.boot.loader.jar.JarEntryData)>/new org.springframework.boot.loader.archive.JarFileArchive$JarFileEntry/0	org.springframework.boot.loader.archive.JarFileArchive$1
+<org.springframework.boot.loader.archive.JarFileArchive: java.util.List getNestedArchives(org.springframework.boot.loader.archive.Archive$EntryFilter)>/new java.util.ArrayList/0	org.springframework.boot.loader.archive.JarFileArchive
+<org.springframework.boot.loader.PropertiesLauncher: java.util.List getClassPathArchives(java.lang.String)>/new java.lang.StringBuilder/2	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.repositories.mock.MockQuoteRepository: void <clinit>()>/new java.util.Random/0	smpl.ordering.repositories.mock.MockQuoteRepository
+<smpl.ordering.controllers.QuoteController: org.springframework.http.ResponseEntity getQuoteById(java.lang.String)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.QuoteController
+<smpl.ordering.controllers.QuoteController: org.springframework.http.ResponseEntity getQuoteById(java.lang.String)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.QuoteController
+<smpl.ordering.controllers.QuoteController: org.springframework.http.ResponseEntity getQuoteById(java.lang.String)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.QuoteController
+<integration.services.QueueFactory: com.microsoft.azure.storage.queue.CloudQueue getQueue(java.lang.String)>/new java.util.concurrent.ConcurrentHashMap/0	integration.services.QueueFactory
+<org.springframework.boot.loader.archive.JarFileArchive: org.springframework.boot.loader.archive.Archive getNestedArchive(org.springframework.boot.loader.archive.Archive$Entry)>/new org.springframework.boot.loader.archive.JarFileArchive/0	org.springframework.boot.loader.archive.JarFileArchive
+<org.springframework.boot.loader.PropertiesLauncher: org.springframework.boot.loader.archive.Archive getArchive(java.io.File)>/new org.springframework.boot.loader.archive.JarFileArchive/0	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.controllers.QuoteController: org.springframework.http.ResponseEntity getQuotesByCustomerName(java.lang.String)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.QuoteController
+<smpl.ordering.controllers.QuoteController: org.springframework.http.ResponseEntity getQuotesByCustomerName(java.lang.String)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.QuoteController
+<smpl.ordering.controllers.QuoteController: org.springframework.http.ResponseEntity getQuotesByCustomerName(java.lang.String)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.QuoteController
+<org.springframework.boot.loader.PropertiesLauncher: org.springframework.boot.loader.archive.Archive getNestedArchive(java.lang.String)>/new org.springframework.boot.loader.PropertiesLauncher$PrefixMatchingArchiveFilter/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: org.springframework.boot.loader.archive.Archive getNestedArchive(java.lang.String)>/new org.springframework.boot.loader.archive.FilteredArchive/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.archive.JarFileArchive: org.springframework.boot.loader.archive.Archive getUnpackedNestedArchive(org.springframework.boot.loader.jar.JarEntryData)>/new java.io.File/0	org.springframework.boot.loader.archive.JarFileArchive
+<org.springframework.boot.loader.archive.JarFileArchive: org.springframework.boot.loader.archive.Archive getUnpackedNestedArchive(org.springframework.boot.loader.jar.JarEntryData)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.archive.JarFileArchive
+<integration.scheduled.CreateOrderProcessTask: void scheduledTask()>/new integration.services.MrpConnectService/0	integration.scheduled.CreateOrderProcessTask
+<smpl.ordering.controllers.QuoteController: org.springframework.http.ResponseEntity updateQuote(java.lang.String,smpl.ordering.models.Quote)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.QuoteController
+<integration.scheduled.CreateOrderProcessTask: void scheduledTask()>/new integration.services.QueueService/0	integration.scheduled.CreateOrderProcessTask
+<integration.scheduled.CreateOrderProcessTask: void scheduledTask()>/new java.lang.StringBuilder/0	integration.scheduled.CreateOrderProcessTask
+<smpl.ordering.controllers.QuoteController: org.springframework.http.ResponseEntity updateQuote(java.lang.String,smpl.ordering.models.Quote)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.QuoteController
+<integration.scheduled.CreateOrderProcessTask: void scheduledTask()>/new java.lang.StringBuilder/1	integration.scheduled.CreateOrderProcessTask
+<org.springframework.boot.loader.archive.JarFileArchive: org.springframework.boot.loader.archive.Archive getUnpackedNestedArchive(org.springframework.boot.loader.jar.JarEntryData)>/new org.springframework.boot.loader.archive.JarFileArchive/0	org.springframework.boot.loader.archive.JarFileArchive
+<smpl.ordering.controllers.QuoteController: org.springframework.http.ResponseEntity updateQuote(java.lang.String,smpl.ordering.models.Quote)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.QuoteController
+<integration.scheduled.CreateOrderProcessTask: void scheduledTask()>/new java.lang.StringBuilder/2	integration.scheduled.CreateOrderProcessTask
+<integration.scheduled.CreateOrderProcessTask: void scheduledTask()>/new java.lang.StringBuilder/3	integration.scheduled.CreateOrderProcessTask
+<org.springframework.boot.loader.archive.JarFileArchive: java.io.File getTempUnpackFolder()>/new java.io.File/0	org.springframework.boot.loader.archive.JarFileArchive
+<org.springframework.boot.loader.PropertiesLauncher: void addParentClassLoaderEntries(java.util.List)>/new java.util.ArrayList/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.archive.JarFileArchive: java.io.File getTempUnpackFolder()>/new java.io.File/1	org.springframework.boot.loader.archive.JarFileArchive
+<org.springframework.boot.loader.PropertiesLauncher: void addParentClassLoaderEntries(java.util.List)>/new org.springframework.boot.loader.archive.JarFileArchive/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: void addParentClassLoaderEntries(java.util.List)>/new java.io.File/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: void addParentClassLoaderEntries(java.util.List)>/new java.io.File/1	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: void addParentClassLoaderEntries(java.util.List)>/new org.springframework.boot.loader.archive.ExplodedArchive/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: void addParentClassLoaderEntries(java.util.List)>/new java.io.File/2	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.controllers.QuoteController: org.springframework.http.ResponseEntity createQuote(smpl.ordering.models.Quote)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.QuoteController
+<org.springframework.boot.loader.PropertiesLauncher: void addParentClassLoaderEntries(java.util.List)>/new org.springframework.boot.loader.archive.ExplodedArchive/1	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: void addParentClassLoaderEntries(java.util.List)>/new java.io.File/3	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.controllers.CatalogController: org.springframework.http.ResponseEntity getCatalogItems()>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.CatalogController
+<org.springframework.boot.loader.archive.JarFileArchive: void unpack(org.springframework.boot.loader.jar.JarEntryData,java.io.File)>/new java.io.FileOutputStream/0	org.springframework.boot.loader.archive.JarFileArchive
+<smpl.ordering.controllers.CatalogController: org.springframework.http.ResponseEntity getCatalogItems()>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.CatalogController
+<smpl.ordering.controllers.QuoteController: org.springframework.http.ResponseEntity createQuote(smpl.ordering.models.Quote)>/new org.springframework.http.HttpHeaders/0	smpl.ordering.controllers.QuoteController
+<org.springframework.boot.loader.archive.JarFileArchive: void unpack(org.springframework.boot.loader.jar.JarEntryData,java.io.File)>/new byte[]/0	org.springframework.boot.loader.archive.JarFileArchive
+<smpl.ordering.controllers.QuoteController: org.springframework.http.ResponseEntity createQuote(smpl.ordering.models.Quote)>/new java.lang.StringBuilder/0	smpl.ordering.controllers.QuoteController
+<smpl.ordering.controllers.CatalogController: org.springframework.http.ResponseEntity getCatalogItems()>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.CatalogController
+<smpl.ordering.controllers.QuoteController: org.springframework.http.ResponseEntity createQuote(smpl.ordering.models.Quote)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.QuoteController
+<smpl.ordering.controllers.QuoteController: org.springframework.http.ResponseEntity createQuote(smpl.ordering.models.Quote)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.QuoteController
+<smpl.ordering.controllers.QuoteController: org.springframework.http.ResponseEntity createQuote(smpl.ordering.models.Quote)>/new org.springframework.http.ResponseEntity/3	smpl.ordering.controllers.QuoteController
+<smpl.ordering.controllers.QuoteController: org.springframework.http.ResponseEntity createQuote(smpl.ordering.models.Quote)>/new org.springframework.http.ResponseEntity/4	smpl.ordering.controllers.QuoteController
+<org.springframework.boot.loader.archive.JarFileArchive: org.springframework.boot.loader.archive.Archive getFilteredArchive(org.springframework.boot.loader.archive.Archive$EntryRenameFilter)>/new org.springframework.boot.loader.jar.JarEntryFilter[]/0	org.springframework.boot.loader.archive.JarFileArchive
+<org.springframework.boot.loader.archive.JarFileArchive: org.springframework.boot.loader.archive.Archive getFilteredArchive(org.springframework.boot.loader.archive.Archive$EntryRenameFilter)>/new org.springframework.boot.loader.archive.JarFileArchive$1/0	org.springframework.boot.loader.archive.JarFileArchive
+<org.springframework.boot.loader.archive.JarFileArchive: org.springframework.boot.loader.archive.Archive getFilteredArchive(org.springframework.boot.loader.archive.Archive$EntryRenameFilter)>/new org.springframework.boot.loader.archive.JarFileArchive/0	org.springframework.boot.loader.archive.JarFileArchive
+<smpl.ordering.controllers.CatalogController: org.springframework.http.ResponseEntity getCatalogItem(java.lang.String)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.CatalogController
+<org.springframework.boot.loader.archive.JarFileArchive: void <clinit>()>/new org.springframework.boot.loader.util.AsciiBytes/0	org.springframework.boot.loader.archive.JarFileArchive
+<smpl.ordering.controllers.CatalogController: org.springframework.http.ResponseEntity getCatalogItem(java.lang.String)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.CatalogController
+<org.springframework.boot.loader.PropertiesLauncher: void addNestedArchivesFromParent(java.util.List)>/new java.util.ArrayList/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: void addNestedArchivesFromParent(java.util.List)>/new org.springframework.boot.loader.PropertiesLauncher$ArchiveEntryFilter/0	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.controllers.CatalogController: org.springframework.http.ResponseEntity getCatalogItem(java.lang.String)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.CatalogController
+<smpl.ordering.controllers.QuoteController: org.springframework.http.ResponseEntity deleteQuote(java.lang.String)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.QuoteController
+<smpl.ordering.controllers.QuoteController: org.springframework.http.ResponseEntity deleteQuote(java.lang.String)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.QuoteController
+<integration.scheduled.UpdateProductProcessTask: void scheduledTask()>/new integration.services.MrpConnectService/0	integration.scheduled.UpdateProductProcessTask
+<integration.scheduled.UpdateProductProcessTask: void scheduledTask()>/new integration.models.website.ProductMessage/0	integration.scheduled.UpdateProductProcessTask
+<integration.scheduled.UpdateProductProcessTask: void scheduledTask()>/new integration.services.QueueService/0	integration.scheduled.UpdateProductProcessTask
+<org.springframework.boot.loader.PropertiesLauncher$PrefixMatchingArchiveFilter: void <init>(java.lang.String)>/new org.springframework.boot.loader.PropertiesLauncher$ArchiveEntryFilter/0	org.springframework.boot.loader.PropertiesLauncher$PrefixMatchingArchiveFilter
+<integration.scheduled.UpdateProductProcessTask: void scheduledTask()>/new java.lang.StringBuilder/0	integration.scheduled.UpdateProductProcessTask
+<org.springframework.boot.loader.PropertiesLauncher$PrefixMatchingArchiveFilter: void <init>(java.lang.String)>/new org.springframework.boot.loader.util.AsciiBytes/0	org.springframework.boot.loader.PropertiesLauncher$PrefixMatchingArchiveFilter
+<smpl.ordering.controllers.CatalogController: org.springframework.http.ResponseEntity addCatalogItem(smpl.ordering.models.CatalogItem)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.CatalogController
+<smpl.ordering.controllers.CatalogController: org.springframework.http.ResponseEntity addCatalogItem(smpl.ordering.models.CatalogItem)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.CatalogController
+<smpl.ordering.controllers.CatalogController: org.springframework.http.ResponseEntity addCatalogItem(smpl.ordering.models.CatalogItem)>/new org.springframework.http.HttpHeaders/0	smpl.ordering.controllers.CatalogController
+<smpl.ordering.controllers.CatalogController: org.springframework.http.ResponseEntity addCatalogItem(smpl.ordering.models.CatalogItem)>/new java.lang.StringBuilder/0	smpl.ordering.controllers.CatalogController
+<org.springframework.boot.loader.MainMethodRunner: void run()>/new java.lang.Class[]/0	org.springframework.boot.loader.MainMethodRunner
+<smpl.ordering.controllers.CatalogController: org.springframework.http.ResponseEntity addCatalogItem(smpl.ordering.models.CatalogItem)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.CatalogController
+<org.springframework.boot.loader.MainMethodRunner: void run()>/new java.lang.IllegalStateException/0	org.springframework.boot.loader.MainMethodRunner
+<org.springframework.boot.loader.MainMethodRunner: void run()>/new java.lang.StringBuilder/0	org.springframework.boot.loader.MainMethodRunner
+<org.springframework.boot.loader.MainMethodRunner: void run()>/new java.lang.Object[]/0	org.springframework.boot.loader.MainMethodRunner
+<smpl.ordering.controllers.CatalogController: org.springframework.http.ResponseEntity addCatalogItem(smpl.ordering.models.CatalogItem)>/new org.springframework.http.ResponseEntity/3	smpl.ordering.controllers.CatalogController
+<org.springframework.boot.loader.PropertiesLauncher: java.lang.String cleanupPath(java.lang.String)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: void main(java.lang.String[])>/new org.springframework.boot.loader.PropertiesLauncher/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.PropertiesLauncher: java.lang.String toCamelCase(java.lang.CharSequence)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.controllers.CatalogController: org.springframework.http.ResponseEntity upsertCatalogItem(java.lang.String,smpl.ordering.models.CatalogItem)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.CatalogController
+<smpl.ordering.controllers.CatalogController: org.springframework.http.ResponseEntity upsertCatalogItem(java.lang.String,smpl.ordering.models.CatalogItem)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.CatalogController
+<smpl.ordering.controllers.CatalogController: org.springframework.http.ResponseEntity upsertCatalogItem(java.lang.String,smpl.ordering.models.CatalogItem)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.CatalogController
+<org.springframework.boot.loader.PropertiesLauncher: java.lang.Object capitalize(java.lang.String)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.PropertiesLauncher
+<smpl.ordering.controllers.CatalogController: org.springframework.http.ResponseEntity upsertCatalogItem(java.lang.String,smpl.ordering.models.CatalogItem)>/new org.springframework.http.ResponseEntity/3	smpl.ordering.controllers.CatalogController
+<org.springframework.boot.loader.PropertiesLauncher: void <clinit>()>/new java.lang.Object[]/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.util.SystemPropertyUtils: java.lang.String resolvePlaceholders(java.lang.String)>/new java.util.HashSet/0	org.springframework.boot.loader.util.SystemPropertyUtils
+<org.springframework.boot.loader.PropertiesLauncher: void <clinit>()>/new java.net.URL[]/0	org.springframework.boot.loader.PropertiesLauncher
+<org.springframework.boot.loader.util.SystemPropertyUtils: java.lang.String resolvePlaceholders(java.util.Properties,java.lang.String)>/new java.util.HashSet/0	org.springframework.boot.loader.util.SystemPropertyUtils
+<smpl.ordering.controllers.DealerController: org.springframework.http.ResponseEntity getDealers()>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.DealerController
+<smpl.ordering.controllers.DealerController: org.springframework.http.ResponseEntity getDealers()>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.DealerController
+<smpl.ordering.controllers.DealerController: org.springframework.http.ResponseEntity getDealers()>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.DealerController
+<smpl.ordering.controllers.CatalogController: org.springframework.http.ResponseEntity removeCatalogItem(java.lang.String)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.CatalogController
+<smpl.ordering.controllers.CatalogController: org.springframework.http.ResponseEntity removeCatalogItem(java.lang.String)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.CatalogController
+<smpl.ordering.controllers.CatalogController: org.springframework.http.ResponseEntity removeCatalogItem(java.lang.String)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.CatalogController
+<smpl.ordering.controllers.DealerController: org.springframework.http.ResponseEntity getDealer(java.lang.String)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.DealerController
+<smpl.ordering.controllers.DealerController: org.springframework.http.ResponseEntity getDealer(java.lang.String)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.DealerController
+<smpl.ordering.controllers.DealerController: org.springframework.http.ResponseEntity getDealer(java.lang.String)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.DealerController
+<org.springframework.boot.loader.jar.JarEntry: java.net.URL getUrl()>/new java.net.URL/0	org.springframework.boot.loader.jar.JarEntry
+<smpl.ordering.models.DealerInfo: java.lang.String validate()>/new java.lang.StringBuilder/0	smpl.ordering.models.DealerInfo
+<org.springframework.boot.loader.util.SystemPropertyUtils: java.lang.String parseStringValue(java.util.Properties,java.lang.String,java.lang.String,java.util.Set)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.util.SystemPropertyUtils
+<org.springframework.boot.loader.util.SystemPropertyUtils: java.lang.String parseStringValue(java.util.Properties,java.lang.String,java.lang.String,java.util.Set)>/new java.lang.IllegalArgumentException/0	org.springframework.boot.loader.util.SystemPropertyUtils
+<org.springframework.boot.loader.util.SystemPropertyUtils: java.lang.String parseStringValue(java.util.Properties,java.lang.String,java.lang.String,java.util.Set)>/new java.lang.StringBuilder/1	org.springframework.boot.loader.util.SystemPropertyUtils
+<smpl.ordering.controllers.DealerController: org.springframework.http.ResponseEntity addDealer(smpl.ordering.models.DealerInfo)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.DealerController
+<smpl.ordering.controllers.DealerController: org.springframework.http.ResponseEntity addDealer(smpl.ordering.models.DealerInfo)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.DealerController
+<smpl.ordering.controllers.DealerController: org.springframework.http.ResponseEntity addDealer(smpl.ordering.models.DealerInfo)>/new org.springframework.http.HttpHeaders/0	smpl.ordering.controllers.DealerController
+<smpl.ordering.controllers.DealerController: org.springframework.http.ResponseEntity addDealer(smpl.ordering.models.DealerInfo)>/new java.lang.StringBuilder/0	smpl.ordering.controllers.DealerController
+<smpl.ordering.controllers.DealerController: org.springframework.http.ResponseEntity addDealer(smpl.ordering.models.DealerInfo)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.DealerController
+<smpl.ordering.controllers.DealerController: org.springframework.http.ResponseEntity addDealer(smpl.ordering.models.DealerInfo)>/new org.springframework.http.ResponseEntity/3	smpl.ordering.controllers.DealerController
+<integration.models.mrp.Quote: void <init>(integration.models.website.OrderMessage)>/new java.text.SimpleDateFormat/0	integration.models.mrp.Quote
+<integration.models.mrp.Quote: void <init>(integration.models.website.OrderMessage)>/new java.util.ArrayList/0	integration.models.mrp.Quote
+<integration.models.mrp.Quote: void <init>(integration.models.website.OrderMessage)>/new integration.models.mrp.QuoteItemInfo/0	integration.models.mrp.Quote
+<smpl.ordering.controllers.DealerController: org.springframework.http.ResponseEntity updateDealer(java.lang.String,smpl.ordering.models.DealerInfo)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.DealerController
+<smpl.ordering.controllers.DealerController: org.springframework.http.ResponseEntity updateDealer(java.lang.String,smpl.ordering.models.DealerInfo)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.DealerController
+<smpl.ordering.controllers.DealerController: org.springframework.http.ResponseEntity updateDealer(java.lang.String,smpl.ordering.models.DealerInfo)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.DealerController
+<smpl.ordering.controllers.DealerController: org.springframework.http.ResponseEntity updateDealer(java.lang.String,smpl.ordering.models.DealerInfo)>/new org.springframework.http.ResponseEntity/3	smpl.ordering.controllers.DealerController
+<org.springframework.boot.loader.data.RandomAccessDataFile$FilePool: void <init>(org.springframework.boot.loader.data.RandomAccessDataFile,int)>/new java.util.concurrent.Semaphore/0	org.springframework.boot.loader.data.RandomAccessDataFile$FilePool
+<org.springframework.boot.loader.data.RandomAccessDataFile$FilePool: void <init>(org.springframework.boot.loader.data.RandomAccessDataFile,int)>/new java.util.concurrent.ConcurrentLinkedQueue/0	org.springframework.boot.loader.data.RandomAccessDataFile$FilePool
+<smpl.ordering.controllers.DealerController: org.springframework.http.ResponseEntity removeDealer(java.lang.String)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.DealerController
+<smpl.ordering.controllers.DealerController: org.springframework.http.ResponseEntity removeDealer(java.lang.String)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.DealerController
+<org.springframework.boot.loader.data.RandomAccessDataFile$FilePool: java.io.RandomAccessFile acquire()>/new java.io.RandomAccessFile/0	org.springframework.boot.loader.data.RandomAccessDataFile$FilePool
+<smpl.ordering.controllers.DealerController: org.springframework.http.ResponseEntity removeDealer(java.lang.String)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.DealerController
+<org.springframework.boot.loader.data.RandomAccessDataFile$FilePool: java.io.RandomAccessFile acquire()>/new java.io.IOException/0	org.springframework.boot.loader.data.RandomAccessDataFile$FilePool
+<org.springframework.boot.loader.util.SystemPropertyUtils: java.lang.String getProperty(java.lang.String,java.lang.String,java.lang.String)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.util.SystemPropertyUtils
+<smpl.ordering.repositories.mongodb.models.Dealer: smpl.ordering.models.DealerInfo toDealerInfo()>/new smpl.ordering.models.DealerInfo/0	smpl.ordering.repositories.mongodb.models.Dealer
+<org.springframework.boot.loader.data.RandomAccessDataFile$FilePool: void close()>/new java.io.IOException/0	org.springframework.boot.loader.data.RandomAccessDataFile$FilePool
+<smpl.ordering.repositories.mongodb.MongoDealersRepository: java.util.List getDealers()>/new java.util.ArrayList/0	smpl.ordering.repositories.mongodb.MongoDealersRepository
+<smpl.ordering.repositories.mongodb.MongoDealersRepository: smpl.ordering.models.DealerInfo getDealer(java.lang.String)>/new org.springframework.data.mongodb.core.query.Query/0	smpl.ordering.repositories.mongodb.MongoDealersRepository
+<org.springframework.boot.loader.util.AsciiBytes: void <init>(byte[],int,int)>/new java.lang.IndexOutOfBoundsException/0	org.springframework.boot.loader.util.AsciiBytes
+<smpl.ordering.repositories.mongodb.MongoDealersRepository: boolean upsertDealer(smpl.ordering.models.DealerInfo,java.lang.String)>/new org.springframework.data.mongodb.core.query.Query/0	smpl.ordering.repositories.mongodb.MongoDealersRepository
+<smpl.ordering.repositories.mongodb.MongoDealersRepository: boolean upsertDealer(smpl.ordering.models.DealerInfo,java.lang.String)>/new smpl.ordering.repositories.mongodb.models.Dealer/0	smpl.ordering.repositories.mongodb.MongoDealersRepository
+<smpl.ordering.models.ShipmentRecord: void addEvent(java.lang.String,java.lang.String)>/new smpl.ordering.models.ShipmentEventInfo/0	smpl.ordering.models.ShipmentRecord
+<smpl.ordering.models.OrderUpdateInfo: void <init>(smpl.ordering.models.OrderStatus,java.lang.String)>/new smpl.ordering.models.OrderEventInfo/0	smpl.ordering.models.OrderUpdateInfo
+<smpl.ordering.models.OrderUpdateInfo: void <init>(smpl.ordering.models.OrderStatus,java.lang.String)>/new java.util.Date/0	smpl.ordering.models.OrderUpdateInfo
+<smpl.ordering.repositories.mongodb.MongoDealersRepository: boolean removeDealer(java.lang.String,java.lang.String)>/new org.springframework.data.mongodb.core.query.Query/0	smpl.ordering.repositories.mongodb.MongoDealersRepository
+<smpl.ordering.repositories.mongodb.MongoDealersRepository: void <init>(org.springframework.data.mongodb.core.MongoTemplate)>/new smpl.ordering.repositories.mongodb.MongoOperationsWithRetry/0	smpl.ordering.repositories.mongodb.MongoDealersRepository
+<smpl.ordering.models.ShipmentRecord: void <init>()>/new java.util.ArrayList/0	smpl.ordering.models.ShipmentRecord
+<org.springframework.boot.loader.data.RandomAccessDataFile$DataInputStream: void <init>(org.springframework.boot.loader.data.RandomAccessDataFile,org.springframework.boot.loader.data.RandomAccessData$ResourceAccess)>/new java.io.RandomAccessFile/0	org.springframework.boot.loader.data.RandomAccessDataFile$DataInputStream
+<smpl.ordering.models.ShipmentRecord: void <init>(smpl.ordering.models.ShipmentRecord)>/new java.util.ArrayList/0	smpl.ordering.models.ShipmentRecord
+<smpl.ordering.repositories.mongodb.MongoCatalogItemsRepository: java.util.List getCatalogItems()>/new java.util.ArrayList/0	smpl.ordering.repositories.mongodb.MongoCatalogItemsRepository
+<smpl.ordering.models.ShipmentRecord: void <init>(smpl.ordering.models.ShipmentRecord)>/new smpl.ordering.models.ShipmentEventInfo/0	smpl.ordering.models.ShipmentRecord
+<org.springframework.boot.loader.util.AsciiBytes: org.springframework.boot.loader.util.AsciiBytes substring(int,int)>/new java.lang.IndexOutOfBoundsException/0	org.springframework.boot.loader.util.AsciiBytes
+<org.springframework.boot.loader.data.RandomAccessDataFile$DataInputStream: int read(byte[],int,int)>/new java.lang.NullPointerException/0	org.springframework.boot.loader.data.RandomAccessDataFile$DataInputStream
+<org.springframework.boot.loader.util.AsciiBytes: org.springframework.boot.loader.util.AsciiBytes substring(int,int)>/new org.springframework.boot.loader.util.AsciiBytes/0	org.springframework.boot.loader.util.AsciiBytes
+<smpl.ordering.repositories.mongodb.MongoCatalogItemsRepository: smpl.ordering.repositories.mongodb.models.CatalogItem findExistingCatalogItem(java.lang.String)>/new org.springframework.data.mongodb.core.query.Query/0	smpl.ordering.repositories.mongodb.MongoCatalogItemsRepository
+<smpl.ordering.models.ShipmentRecord: java.lang.String validate()>/new java.lang.StringBuilder/0	smpl.ordering.models.ShipmentRecord
+<smpl.ordering.repositories.mongodb.MongoCatalogItemsRepository: boolean upsertCatalogItem(java.lang.String,smpl.ordering.models.CatalogItem,java.lang.String)>/new smpl.ordering.repositories.mongodb.models.CatalogItem/0	smpl.ordering.repositories.mongodb.MongoCatalogItemsRepository
+<org.springframework.boot.loader.util.AsciiBytes: org.springframework.boot.loader.util.AsciiBytes append(byte[])>/new byte[]/0	org.springframework.boot.loader.util.AsciiBytes
+<org.springframework.boot.loader.jar.JarFile: void <init>(java.io.File)>/new org.springframework.boot.loader.data.RandomAccessDataFile/0	org.springframework.boot.loader.jar.JarFile
+<smpl.ordering.repositories.mongodb.MongoCatalogItemsRepository: boolean removeCatalogItem(java.lang.String,java.lang.String)>/new org.springframework.data.mongodb.core.query.Query/0	smpl.ordering.repositories.mongodb.MongoCatalogItemsRepository
+<org.springframework.boot.loader.util.AsciiBytes: org.springframework.boot.loader.util.AsciiBytes append(byte[])>/new org.springframework.boot.loader.util.AsciiBytes/0	org.springframework.boot.loader.util.AsciiBytes
+<smpl.ordering.repositories.mongodb.MongoCatalogItemsRepository: void <init>(org.springframework.data.mongodb.core.MongoTemplate)>/new smpl.ordering.repositories.mongodb.MongoOperationsWithRetry/0	smpl.ordering.repositories.mongodb.MongoCatalogItemsRepository
+<org.springframework.boot.loader.util.AsciiBytes: java.lang.String toString()>/new java.lang.String/0	org.springframework.boot.loader.util.AsciiBytes
+<org.springframework.boot.loader.jar.JarFile: void <init>(org.springframework.boot.loader.data.RandomAccessDataFile,java.lang.String,org.springframework.boot.loader.data.RandomAccessData)>/new org.springframework.boot.loader.jar.CentralDirectoryEndRecord/0	org.springframework.boot.loader.jar.JarFile
+<smpl.ordering.repositories.mongodb.MongoShipmentRepository: java.util.List getShipments(smpl.ordering.models.OrderStatus)>/new java.util.ArrayList/0	smpl.ordering.repositories.mongodb.MongoShipmentRepository
+<smpl.ordering.repositories.mongodb.MongoShipmentRepository: java.util.List getShipments(smpl.ordering.models.OrderStatus)>/new org.springframework.data.mongodb.core.query.Query/0	smpl.ordering.repositories.mongodb.MongoShipmentRepository
+<smpl.ordering.repositories.mongodb.MongoShipmentRepository: java.util.List getShipments(smpl.ordering.models.OrderStatus)>/new java.util.ArrayList/1	smpl.ordering.repositories.mongodb.MongoShipmentRepository
+<smpl.ordering.repositories.mongodb.MongoShipmentRepository: smpl.ordering.models.ShipmentRecord getShipmentById(java.lang.String)>/new org.springframework.data.mongodb.core.query.Query/0	smpl.ordering.repositories.mongodb.MongoShipmentRepository
+<smpl.ordering.repositories.mongodb.MongoShipmentRepository: smpl.ordering.models.ShipmentRecord createShipment(smpl.ordering.models.ShipmentRecord)>/new smpl.ordering.BadRequestException/0	smpl.ordering.repositories.mongodb.MongoShipmentRepository
+<smpl.ordering.repositories.mongodb.MongoShipmentRepository: smpl.ordering.models.ShipmentRecord createShipment(smpl.ordering.models.ShipmentRecord)>/new java.lang.Object[]/0	smpl.ordering.repositories.mongodb.MongoShipmentRepository
+<smpl.ordering.repositories.mongodb.MongoShipmentRepository: smpl.ordering.models.ShipmentRecord createShipment(smpl.ordering.models.ShipmentRecord)>/new smpl.ordering.ConflictingRequestException/0	smpl.ordering.repositories.mongodb.MongoShipmentRepository
+<smpl.ordering.repositories.mongodb.MongoShipmentRepository: smpl.ordering.models.ShipmentRecord createShipment(smpl.ordering.models.ShipmentRecord)>/new java.lang.Object[]/1	smpl.ordering.repositories.mongodb.MongoShipmentRepository
+<smpl.ordering.repositories.mongodb.MongoShipmentRepository: smpl.ordering.models.ShipmentRecord createShipment(smpl.ordering.models.ShipmentRecord)>/new smpl.ordering.repositories.mongodb.models.ShipmentDetails/0	smpl.ordering.repositories.mongodb.MongoShipmentRepository
+<smpl.ordering.repositories.mongodb.MongoShipmentRepository: smpl.ordering.models.ShipmentRecord createShipment(smpl.ordering.models.ShipmentRecord)>/new smpl.ordering.models.ShipmentRecord/0	smpl.ordering.repositories.mongodb.MongoShipmentRepository
+<org.springframework.boot.loader.jar.JarFile: java.util.List loadJarEntries(org.springframework.boot.loader.jar.CentralDirectoryEndRecord)>/new java.util.ArrayList/0	org.springframework.boot.loader.jar.JarFile
+<smpl.ordering.repositories.mongodb.MongoShipmentRepository: smpl.ordering.repositories.mongodb.models.ShipmentDetails findExistingShipmentDetails(java.lang.String)>/new org.springframework.data.mongodb.core.query.Query/0	smpl.ordering.repositories.mongodb.MongoShipmentRepository
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity getShipments(smpl.ordering.models.OrderStatus)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity getShipments(smpl.ordering.models.OrderStatus)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity getShipments(smpl.ordering.models.OrderStatus)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.models.ShipmentEventInfo: java.lang.String validate()>/new java.lang.StringBuilder/0	smpl.ordering.models.ShipmentEventInfo
+<smpl.ordering.repositories.mongodb.MongoShipmentRepository: boolean saveUpdates(smpl.ordering.repositories.mongodb.models.ShipmentDetails,smpl.ordering.models.ShipmentRecord)>/new smpl.ordering.repositories.mongodb.models.ShipmentDetails/0	smpl.ordering.repositories.mongodb.MongoShipmentRepository
+<org.springframework.boot.loader.jar.JarFile: java.util.List filterEntries(java.util.List,org.springframework.boot.loader.jar.JarEntryFilter[])>/new java.util.ArrayList/0	org.springframework.boot.loader.jar.JarFile
+<smpl.ordering.OrderingConfiguration: void main(java.lang.String[])>/new org.springframework.boot.SpringApplication/0	smpl.ordering.OrderingConfiguration
+<smpl.ordering.OrderingConfiguration: void main(java.lang.String[])>/new java.lang.Object[]/0	smpl.ordering.OrderingConfiguration
+<smpl.ordering.OrderingConfiguration: void <init>()>/new java.lang.ThreadLocal/0	smpl.ordering.OrderingConfiguration
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity getDeliveries()>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity getDeliveries()>/new java.util.ArrayList/0	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity getDeliveries()>/new smpl.ordering.models.Delivery/0	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.repositories.mongodb.MongoShipmentRepository: boolean removeShipment(java.lang.String,java.lang.String)>/new org.springframework.data.mongodb.core.query.Query/0	smpl.ordering.repositories.mongodb.MongoShipmentRepository
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity getDeliveries()>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.OrderingConfiguration: org.springframework.data.mongodb.core.MongoTemplate mongoTemplate()>/new java.net.URL/0	smpl.ordering.OrderingConfiguration
+<smpl.ordering.repositories.mongodb.MongoShipmentRepository: void <init>(org.springframework.data.mongodb.core.MongoTemplate,smpl.ordering.repositories.OrderRepository)>/new smpl.ordering.repositories.mongodb.MongoOperationsWithRetry/0	smpl.ordering.repositories.mongodb.MongoShipmentRepository
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity getDeliveries()>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.OrderingConfiguration: org.springframework.data.mongodb.core.MongoTemplate mongoTemplate()>/new java.util.ArrayList/0	smpl.ordering.OrderingConfiguration
+<smpl.ordering.OrderingConfiguration: org.springframework.data.mongodb.core.MongoTemplate mongoTemplate()>/new com.mongodb.ServerAddress/0	smpl.ordering.OrderingConfiguration
+<smpl.ordering.OrderingConfiguration: org.springframework.data.mongodb.core.MongoTemplate mongoTemplate()>/new com.mongodb.MongoClient/0	smpl.ordering.OrderingConfiguration
+<smpl.ordering.OrderingConfiguration: org.springframework.data.mongodb.core.MongoTemplate mongoTemplate()>/new com.mongodb.MongoClient/1	smpl.ordering.OrderingConfiguration
+<smpl.ordering.OrderingConfiguration: org.springframework.data.mongodb.core.MongoTemplate mongoTemplate()>/new org.springframework.data.mongodb.core.MongoTemplate/0	smpl.ordering.OrderingConfiguration
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity getShipment(java.lang.String)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity getShipment(java.lang.String)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity getShipment(java.lang.String)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.ShipmentController
+<org.springframework.boot.loader.jar.JarFile: java.util.jar.Manifest getManifest()>/new java.util.jar.Manifest/0	org.springframework.boot.loader.jar.JarFile
+<org.springframework.boot.loader.jar.JarFile: java.util.jar.Manifest getManifest()>/new java.lang.ref.SoftReference/0	org.springframework.boot.loader.jar.JarFile
+<org.springframework.boot.loader.jar.JarFile: java.util.Enumeration entries()>/new org.springframework.boot.loader.jar.JarFile$1/0	org.springframework.boot.loader.jar.JarFile
+<smpl.ordering.OrderingConfiguration: com.microsoft.applicationinsights.TelemetryClient getTelemetryClient()>/new com.microsoft.applicationinsights.TelemetryClient/0	smpl.ordering.OrderingConfiguration
+<smpl.ordering.models.OrderEventInfo: void <init>(java.lang.String)>/new java.util.Date/0	smpl.ordering.models.OrderEventInfo
+<org.springframework.boot.loader.jar.JarFile: org.springframework.boot.loader.jar.JarEntryData getJarEntryData(java.lang.String)>/new org.springframework.boot.loader.util.AsciiBytes/0	org.springframework.boot.loader.jar.JarFile
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity createShipmentRecord(smpl.ordering.models.ShipmentRecord)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity createShipmentRecord(smpl.ordering.models.ShipmentRecord)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity createShipmentRecord(smpl.ordering.models.ShipmentRecord)>/new org.springframework.http.HttpHeaders/0	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity createShipmentRecord(smpl.ordering.models.ShipmentRecord)>/new java.lang.StringBuilder/0	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity createShipmentRecord(smpl.ordering.models.ShipmentRecord)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity createShipmentRecord(smpl.ordering.models.ShipmentRecord)>/new org.springframework.http.ResponseEntity/3	smpl.ordering.controllers.ShipmentController
+<org.springframework.boot.loader.jar.JarFile: org.springframework.boot.loader.jar.JarEntryData getJarEntryData(org.springframework.boot.loader.util.AsciiBytes)>/new java.util.HashMap/0	org.springframework.boot.loader.jar.JarFile
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity createShipmentRecord(smpl.ordering.models.ShipmentRecord)>/new org.springframework.http.ResponseEntity/4	smpl.ordering.controllers.ShipmentController
+<org.springframework.boot.loader.jar.JarFile: org.springframework.boot.loader.jar.JarEntryData getJarEntryData(org.springframework.boot.loader.util.AsciiBytes)>/new java.lang.ref.SoftReference/0	org.springframework.boot.loader.jar.JarFile
+<smpl.ordering.repositories.mongodb.models.CatalogItem: smpl.ordering.models.CatalogItem toCatalogItem()>/new smpl.ordering.models.CatalogItem/0	smpl.ordering.repositories.mongodb.models.CatalogItem
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity updateShipment(java.lang.String,smpl.ordering.models.ShipmentRecord)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity updateShipment(java.lang.String,smpl.ordering.models.ShipmentRecord)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity updateShipment(java.lang.String,smpl.ordering.models.ShipmentRecord)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity updateShipment(java.lang.String,smpl.ordering.models.ShipmentRecord)>/new org.springframework.http.ResponseEntity/3	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity updateShipment(java.lang.String,smpl.ordering.models.ShipmentRecord)>/new org.springframework.http.ResponseEntity/4	smpl.ordering.controllers.ShipmentController
+<org.springframework.boot.loader.jar.JarFile: void setupEntryCertificates()>/new java.util.jar.JarInputStream/0	org.springframework.boot.loader.jar.JarFile
+<org.springframework.boot.loader.jar.JarFile: void setupEntryCertificates()>/new java.lang.IllegalStateException/0	org.springframework.boot.loader.jar.JarFile
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity addEvent(java.lang.String,smpl.ordering.models.ShipmentEventInfo)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity addEvent(java.lang.String,smpl.ordering.models.ShipmentEventInfo)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity addEvent(java.lang.String,smpl.ordering.models.ShipmentEventInfo)>/new java.util.Date/0	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity addEvent(java.lang.String,smpl.ordering.models.ShipmentEventInfo)>/new org.springframework.http.ResponseEntity/2	smpl.ordering.controllers.ShipmentController
+<org.springframework.boot.loader.jar.JarFile: org.springframework.boot.loader.jar.JarFile getNestedJarFile(org.springframework.boot.loader.jar.JarEntryData)>/new java.io.IOException/0	org.springframework.boot.loader.jar.JarFile
+<org.springframework.boot.loader.jar.JarFile: org.springframework.boot.loader.jar.JarFile getNestedJarFile(org.springframework.boot.loader.jar.JarEntryData)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.jar.JarFile
+<smpl.ordering.models.CatalogItem: java.lang.String validate()>/new java.lang.StringBuilder/0	smpl.ordering.models.CatalogItem
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity addEvent(java.lang.String,smpl.ordering.models.ShipmentEventInfo)>/new org.springframework.http.ResponseEntity/3	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.repositories.mock.MockCatalogItemsRepository: void <init>()>/new java.util.ArrayList/0	smpl.ordering.repositories.mock.MockCatalogItemsRepository
+<smpl.ordering.repositories.mock.MockCatalogItemsRepository: void <init>()>/new smpl.ordering.models.CatalogItem/0	smpl.ordering.repositories.mock.MockCatalogItemsRepository
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity deleteShipment(java.lang.String)>/new org.springframework.http.ResponseEntity/0	smpl.ordering.controllers.ShipmentController
+<smpl.ordering.controllers.ShipmentController: org.springframework.http.ResponseEntity deleteShipment(java.lang.String)>/new org.springframework.http.ResponseEntity/1	smpl.ordering.controllers.ShipmentController
+<org.springframework.boot.loader.jar.JarFile: org.springframework.boot.loader.jar.JarFile createJarFileFromDirectoryEntry(org.springframework.boot.loader.jar.JarEntryData)>/new org.springframework.boot.loader.jar.JarFile$2/0	org.springframework.boot.loader.jar.JarFile
+<org.springframework.boot.loader.jar.JarFile: org.springframework.boot.loader.jar.JarFile createJarFileFromDirectoryEntry(org.springframework.boot.loader.jar.JarEntryData)>/new org.springframework.boot.loader.jar.JarFile/0	org.springframework.boot.loader.jar.JarFile
+<org.springframework.boot.loader.jar.JarFile: org.springframework.boot.loader.jar.JarFile createJarFileFromDirectoryEntry(org.springframework.boot.loader.jar.JarEntryData)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.jar.JarFile
+<smpl.ordering.repositories.mock.MockCatalogItemsRepository: void <init>()>/new smpl.ordering.models.CatalogItem/1	smpl.ordering.repositories.mock.MockCatalogItemsRepository
+<smpl.ordering.repositories.mock.MockCatalogItemsRepository: void <init>()>/new smpl.ordering.models.CatalogItem/2	smpl.ordering.repositories.mock.MockCatalogItemsRepository
+<org.springframework.boot.loader.jar.JarFile: org.springframework.boot.loader.jar.JarFile createJarFileFromDirectoryEntry(org.springframework.boot.loader.jar.JarEntryData)>/new org.springframework.boot.loader.jar.JarEntryFilter[]/0	org.springframework.boot.loader.jar.JarFile
+<smpl.ordering.repositories.mock.MockCatalogItemsRepository: java.util.List getCatalogItems()>/new java.util.ArrayList/0	smpl.ordering.repositories.mock.MockCatalogItemsRepository
+<smpl.ordering.repositories.mock.MockCatalogItemsRepository: java.util.List getCatalogItems()>/new smpl.ordering.models.CatalogItem/0	smpl.ordering.repositories.mock.MockCatalogItemsRepository
+<org.springframework.boot.loader.jar.JarFile: org.springframework.boot.loader.jar.JarFile createJarFileFromFileEntry(org.springframework.boot.loader.jar.JarEntryData)>/new java.lang.IllegalStateException/0	org.springframework.boot.loader.jar.JarFile
+<org.springframework.boot.loader.jar.JarFile: org.springframework.boot.loader.jar.JarFile createJarFileFromFileEntry(org.springframework.boot.loader.jar.JarEntryData)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.jar.JarFile
+<smpl.ordering.repositories.mock.MockCatalogItemsRepository: smpl.ordering.models.CatalogItem getCatalogItem(java.lang.String)>/new smpl.ordering.models.CatalogItem/0	smpl.ordering.repositories.mock.MockCatalogItemsRepository
+<org.springframework.boot.loader.jar.Handler: java.net.URLConnection openConnection(java.net.URL)>/new org.springframework.boot.loader.jar.JarURLConnection/0	org.springframework.boot.loader.jar.Handler
+<org.springframework.boot.loader.jar.Handler: java.net.URLConnection openConnection(java.net.URL)>/new org.springframework.boot.loader.jar.JarURLConnection/1	org.springframework.boot.loader.jar.Handler
+<org.springframework.boot.loader.jar.JarFile: org.springframework.boot.loader.jar.JarFile createJarFileFromFileEntry(org.springframework.boot.loader.jar.JarEntryData)>/new org.springframework.boot.loader.jar.JarFile/0	org.springframework.boot.loader.jar.JarFile
+<org.springframework.boot.loader.jar.JarFile: org.springframework.boot.loader.jar.JarFile createJarFileFromFileEntry(org.springframework.boot.loader.jar.JarEntryData)>/new java.lang.StringBuilder/1	org.springframework.boot.loader.jar.JarFile
+<org.springframework.boot.loader.jar.JarFile: org.springframework.boot.loader.jar.JarFile getFilteredJarFile(org.springframework.boot.loader.jar.JarEntryFilter[])>/new org.springframework.boot.loader.jar.JarFile/0	org.springframework.boot.loader.jar.JarFile
+<org.springframework.boot.loader.jar.Handler: java.net.URLConnection openFallbackConnection(java.net.URL,java.lang.Exception)>/new java.lang.IllegalStateException/0	org.springframework.boot.loader.jar.Handler
+<org.springframework.boot.loader.jar.JarFile: org.springframework.boot.loader.jar.JarEntry getContainedEntry(java.util.zip.ZipEntry)>/new java.lang.IllegalArgumentException/0	org.springframework.boot.loader.jar.JarFile
+<org.springframework.boot.loader.jar.JarFile: java.net.URL getUrl()>/new org.springframework.boot.loader.jar.Handler/0	org.springframework.boot.loader.jar.JarFile
+<org.springframework.boot.loader.jar.JarFile: java.net.URL getUrl()>/new java.lang.StringBuilder/0	org.springframework.boot.loader.jar.JarFile
+<org.springframework.boot.loader.jar.Handler: java.net.URLStreamHandler getFallbackHandler()>/new java.lang.IllegalStateException/0	org.springframework.boot.loader.jar.Handler
+<org.springframework.boot.loader.jar.JarFile: java.net.URL getUrl()>/new java.net.URL/0	org.springframework.boot.loader.jar.JarFile
+<org.springframework.boot.loader.jar.Handler: java.net.URLConnection openConnection(java.net.URLStreamHandler,java.net.URL)>/new java.lang.IllegalStateException/0	org.springframework.boot.loader.jar.Handler
+<org.springframework.boot.loader.jar.Handler: java.net.URLConnection openConnection(java.net.URLStreamHandler,java.net.URL)>/new java.lang.Object[]/0	org.springframework.boot.loader.jar.Handler
+<org.springframework.boot.loader.jar.JarFile: java.lang.String getName()>/new java.lang.StringBuilder/0	org.springframework.boot.loader.jar.JarFile
+<org.springframework.boot.loader.jar.Handler: org.springframework.boot.loader.jar.JarFile getRootJarFileFromUrl(java.net.URL)>/new java.net.MalformedURLException/0	org.springframework.boot.loader.jar.Handler
+<org.springframework.boot.loader.jar.JarFile: void registerUrlProtocolHandler()>/new java.lang.StringBuilder/0	org.springframework.boot.loader.jar.JarFile
+<org.springframework.boot.loader.jar.JarFile: void <clinit>()>/new org.springframework.boot.loader.util.AsciiBytes/0	org.springframework.boot.loader.jar.JarFile
+<org.springframework.boot.loader.jar.Handler: org.springframework.boot.loader.jar.JarFile getRootJarFile(java.lang.String)>/new java.lang.IllegalStateException/0	org.springframework.boot.loader.jar.Handler
+<org.springframework.boot.loader.jar.Handler: org.springframework.boot.loader.jar.JarFile getRootJarFile(java.lang.String)>/new java.io.File/0	org.springframework.boot.loader.jar.Handler
+<org.springframework.boot.loader.jar.JarFile: void <clinit>()>/new org.springframework.boot.loader.util.AsciiBytes/1	org.springframework.boot.loader.jar.JarFile
+<org.springframework.boot.loader.jar.JarFile: void <clinit>()>/new org.springframework.boot.loader.util.AsciiBytes/2	org.springframework.boot.loader.jar.JarFile
+<org.springframework.boot.loader.jar.JarFile: void <clinit>()>/new org.springframework.boot.loader.util.AsciiBytes/3	org.springframework.boot.loader.jar.JarFile
+<org.springframework.boot.loader.jar.Handler: org.springframework.boot.loader.jar.JarFile getRootJarFile(java.lang.String)>/new org.springframework.boot.loader.jar.JarFile/0	org.springframework.boot.loader.jar.Handler
+<org.springframework.boot.loader.jar.ZipInflaterInputStream: void <init>(java.io.InputStream,int)>/new java.util.zip.Inflater/0	org.springframework.boot.loader.jar.ZipInflaterInputStream
+<org.springframework.boot.loader.jar.Handler: org.springframework.boot.loader.jar.JarFile getRootJarFile(java.lang.String)>/new java.io.IOException/0	org.springframework.boot.loader.jar.Handler
+<org.springframework.boot.loader.jar.Handler: org.springframework.boot.loader.jar.JarFile getRootJarFile(java.lang.String)>/new java.lang.StringBuilder/0	org.springframework.boot.loader.jar.Handler
+<org.springframework.boot.loader.LaunchedURLClassLoader: java.util.Enumeration getResources(java.lang.String)>/new org.springframework.boot.loader.LaunchedURLClassLoader$1/0	org.springframework.boot.loader.LaunchedURLClassLoader
+<org.springframework.boot.loader.jar.Handler: void addToRootFileCache(java.io.File,org.springframework.boot.loader.jar.JarFile)>/new java.util.concurrent.ConcurrentHashMap/0	org.springframework.boot.loader.jar.Handler
+<org.springframework.boot.loader.jar.Handler: void addToRootFileCache(java.io.File,org.springframework.boot.loader.jar.JarFile)>/new java.lang.ref.SoftReference/0	org.springframework.boot.loader.jar.Handler
+<org.springframework.boot.loader.jar.Handler: void <clinit>()>/new java.lang.String[]/0	org.springframework.boot.loader.jar.Handler
+<org.springframework.boot.loader.jar.Handler: void <clinit>()>/new java.lang.Class[]/0	org.springframework.boot.loader.jar.Handler
+<org.springframework.boot.loader.jar.Handler: void <clinit>()>/new java.lang.ref.SoftReference/0	org.springframework.boot.loader.jar.Handler
+<org.springframework.boot.loader.LaunchedURLClassLoader: void definePackageForFindClass(java.lang.String,java.lang.String)>/new org.springframework.boot.loader.LaunchedURLClassLoader$2/0	org.springframework.boot.loader.LaunchedURLClassLoader
+<org.springframework.boot.loader.LaunchedURLClassLoader: org.springframework.boot.loader.LaunchedURLClassLoader$LockProvider setupLockProvider()>/new org.springframework.boot.loader.LaunchedURLClassLoader$Java7LockProvider/0	org.springframework.boot.loader.LaunchedURLClassLoader
+<org.springframework.boot.loader.Launcher: java.lang.ClassLoader createClassLoader(java.util.List)>/new java.util.ArrayList/0	org.springframework.boot.loader.Launcher
+<org.springframework.boot.loader.LaunchedURLClassLoader: org.springframework.boot.loader.LaunchedURLClassLoader$LockProvider setupLockProvider()>/new org.springframework.boot.loader.LaunchedURLClassLoader$LockProvider/0	org.springframework.boot.loader.LaunchedURLClassLoader
+<org.springframework.boot.loader.Launcher: java.lang.ClassLoader createClassLoader(java.util.List)>/new java.net.URL[]/0	org.springframework.boot.loader.Launcher
+<org.springframework.boot.loader.Launcher: java.lang.ClassLoader createClassLoader(java.net.URL[])>/new org.springframework.boot.loader.LaunchedURLClassLoader/0	org.springframework.boot.loader.Launcher
+<org.springframework.boot.loader.Launcher: void launch(java.lang.String[],java.lang.String,java.lang.ClassLoader)>/new java.lang.Thread/0	org.springframework.boot.loader.Launcher
+<org.springframework.boot.loader.Launcher: java.lang.Runnable createMainMethodRunner(java.lang.String,java.lang.String[],java.lang.ClassLoader)>/new java.lang.Class[]/0	org.springframework.boot.loader.Launcher
+<org.springframework.boot.loader.Launcher: java.lang.Runnable createMainMethodRunner(java.lang.String,java.lang.String[],java.lang.ClassLoader)>/new java.lang.Object[]/0	org.springframework.boot.loader.Launcher
+<integration.models.mrp.ShipmentRecord: void <init>()>/new java.util.ArrayList/0	integration.models.mrp.ShipmentRecord
+<integration.models.mrp.ShipmentRecord: void <init>(integration.models.website.OrderMessage,java.lang.String)>/new java.text.SimpleDateFormat/0	integration.models.mrp.ShipmentRecord
+<integration.models.mrp.ShipmentRecord: void <init>(integration.models.website.OrderMessage,java.lang.String)>/new java.util.ArrayList/0	integration.models.mrp.ShipmentRecord
+<org.springframework.boot.loader.Launcher: org.springframework.boot.loader.archive.Archive createArchive()>/new java.lang.IllegalStateException/0	org.springframework.boot.loader.Launcher
+<org.springframework.boot.loader.Launcher: org.springframework.boot.loader.archive.Archive createArchive()>/new java.io.File/0	org.springframework.boot.loader.Launcher
+<integration.models.mrp.ShipmentRecord: void <init>(integration.models.website.OrderMessage,java.lang.String)>/new integration.models.mrp.DeliveryAddress/0	integration.models.mrp.ShipmentRecord
+<org.springframework.boot.loader.Launcher: org.springframework.boot.loader.archive.Archive createArchive()>/new java.lang.IllegalStateException/1	org.springframework.boot.loader.Launcher
+<org.springframework.boot.loader.Launcher: org.springframework.boot.loader.archive.Archive createArchive()>/new java.lang.StringBuilder/0	org.springframework.boot.loader.Launcher
+<integration.models.mrp.ShipmentRecord: void <init>(integration.models.website.OrderMessage,java.lang.String)>/new integration.models.mrp.PhoneInfo/0	integration.models.mrp.ShipmentRecord
+<org.springframework.boot.loader.Launcher: org.springframework.boot.loader.archive.Archive createArchive()>/new org.springframework.boot.loader.archive.ExplodedArchive/0	org.springframework.boot.loader.Launcher
+<org.springframework.boot.loader.Launcher: org.springframework.boot.loader.archive.Archive createArchive()>/new org.springframework.boot.loader.archive.JarFileArchive/0	org.springframework.boot.loader.Launcher
+<org.springframework.boot.loader.Launcher: void <clinit>()>/new java.lang.StringBuilder/0	org.springframework.boot.loader.Launcher
+<org.springframework.boot.loader.jar.Bytes: byte[] get(java.io.InputStream,long)>/new byte[]/0	org.springframework.boot.loader.jar.Bytes
+<org.springframework.boot.loader.jar.Bytes: byte[] get(java.io.InputStream,long)>/new java.io.IOException/0	org.springframework.boot.loader.jar.Bytes
+<org.springframework.boot.loader.archive.Archive: java.lang.String getMainClass()>/new java.lang.IllegalStateException/0	org.springframework.boot.loader.archive.Archive
+<org.springframework.boot.loader.archive.Archive: java.lang.String getMainClass()>/new java.lang.StringBuilder/0	org.springframework.boot.loader.archive.Archive
+<org.springframework.boot.loader.jar.Bytes: void <clinit>()>/new byte[]/0	org.springframework.boot.loader.jar.Bytes
+<smpl.ordering.repositories.mongodb.models.QuoteDetails: void <init>(smpl.ordering.models.Quote)>/new smpl.ordering.models.QuoteItemInfo[]/0	smpl.ordering.repositories.mongodb.models.QuoteDetails
+<smpl.ordering.repositories.mongodb.models.QuoteDetails: void <init>(smpl.ordering.models.Quote)>/new smpl.ordering.models.QuoteItemInfo[]/1	smpl.ordering.repositories.mongodb.models.QuoteDetails
+<smpl.ordering.repositories.mongodb.models.QuoteDetails: smpl.ordering.models.Quote toQuote()>/new smpl.ordering.models.Quote/0	smpl.ordering.repositories.mongodb.models.QuoteDetails
+<org.springframework.boot.loader.archive.FilteredArchive: java.util.Collection getEntries()>/new java.util.ArrayList/0	org.springframework.boot.loader.archive.FilteredArchive
+<org.springframework.boot.loader.archive.FilteredArchive: java.util.List getNestedArchives(org.springframework.boot.loader.archive.Archive$EntryFilter)>/new org.springframework.boot.loader.archive.FilteredArchive$1/0	org.springframework.boot.loader.archive.FilteredArchive
+<org.springframework.boot.loader.archive.FilteredArchive: org.springframework.boot.loader.archive.Archive getFilteredArchive(org.springframework.boot.loader.archive.Archive$EntryRenameFilter)>/new org.springframework.boot.loader.archive.FilteredArchive$2/0	org.springframework.boot.loader.archive.FilteredArchive
+<smpl.ordering.repositories.RepositoryFactory: void init(java.lang.String)>/new smpl.ordering.repositories.RepositoryFactory$Repositories/0	smpl.ordering.repositories.RepositoryFactory
+<smpl.ordering.repositories.RepositoryFactory: void init(java.lang.String)>/new smpl.ordering.repositories.RepositoryFactory$Repositories/1	smpl.ordering.repositories.RepositoryFactory
+<smpl.ordering.repositories.RepositoryFactory: void init(java.lang.String)>/new smpl.ordering.repositories.mock.MockCatalogItemsRepository/0	smpl.ordering.repositories.RepositoryFactory
+<smpl.ordering.repositories.RepositoryFactory: void init(java.lang.String)>/new smpl.ordering.repositories.mock.MockDealersRepository/0	smpl.ordering.repositories.RepositoryFactory
+<smpl.ordering.repositories.RepositoryFactory: void init(java.lang.String)>/new smpl.ordering.repositories.mock.MockQuoteRepository/0	smpl.ordering.repositories.RepositoryFactory
+<smpl.ordering.repositories.RepositoryFactory: void init(java.lang.String)>/new smpl.ordering.repositories.mock.MockOrderRepository/0	smpl.ordering.repositories.RepositoryFactory
+<smpl.ordering.repositories.RepositoryFactory: void init(java.lang.String)>/new smpl.ordering.repositories.mock.MockShipmentRepository/0	smpl.ordering.repositories.RepositoryFactory
+<smpl.ordering.repositories.RepositoryFactory: void init(java.lang.String)>/new smpl.ordering.repositories.mongodb.MongoCatalogItemsRepository/0	smpl.ordering.repositories.RepositoryFactory
+<smpl.ordering.repositories.RepositoryFactory: void init(java.lang.String)>/new smpl.ordering.repositories.mongodb.MongoDealersRepository/0	smpl.ordering.repositories.RepositoryFactory
+<smpl.ordering.repositories.RepositoryFactory: void init(java.lang.String)>/new smpl.ordering.repositories.mongodb.MongoQuoteRepository/0	smpl.ordering.repositories.RepositoryFactory
+<smpl.ordering.repositories.RepositoryFactory: void init(java.lang.String)>/new smpl.ordering.repositories.mongodb.MongoOrderRepository/0	smpl.ordering.repositories.RepositoryFactory
+<smpl.ordering.repositories.RepositoryFactory: void init(java.lang.String)>/new smpl.ordering.repositories.mongodb.MongoShipmentRepository/0	smpl.ordering.repositories.RepositoryFactory
+<smpl.ordering.repositories.RepositoryFactory: void reset(java.lang.String)>/new smpl.ordering.repositories.RepositoryFactory/0	smpl.ordering.repositories.RepositoryFactory
+<smpl.ordering.repositories.mock.MockOrderRepository: void <init>(smpl.ordering.repositories.QuoteRepository)>/new java.util.ArrayList/0	smpl.ordering.repositories.mock.MockOrderRepository
+<smpl.ordering.repositories.mock.MockOrderRepository: java.util.List getOrdersByStatus(smpl.ordering.models.OrderStatus)>/new java.util.ArrayList/0	smpl.ordering.repositories.mock.MockOrderRepository
+<smpl.ordering.repositories.mock.MockOrderRepository: java.util.List getOrdersByDealerName(java.lang.String,smpl.ordering.models.OrderStatus)>/new java.util.ArrayList/0	smpl.ordering.repositories.mock.MockOrderRepository
+<smpl.ordering.repositories.mock.MockOrderRepository: smpl.ordering.models.Order createOrder(java.lang.String)>/new smpl.ordering.BadRequestException/0	smpl.ordering.repositories.mock.MockOrderRepository
+<smpl.ordering.repositories.mock.MockOrderRepository: smpl.ordering.models.Order createOrder(java.lang.String)>/new java.lang.Object[]/0	smpl.ordering.repositories.mock.MockOrderRepository
+<smpl.ordering.repositories.mock.MockOrderRepository: smpl.ordering.models.Order createOrder(java.lang.String)>/new smpl.ordering.ConflictingRequestException/0	smpl.ordering.repositories.mock.MockOrderRepository
+<smpl.ordering.repositories.mock.MockOrderRepository: smpl.ordering.models.Order createOrder(java.lang.String)>/new java.lang.Object[]/1	smpl.ordering.repositories.mock.MockOrderRepository
+<smpl.ordering.repositories.mock.MockOrderRepository: smpl.ordering.models.Order createOrder(java.lang.String)>/new smpl.ordering.models.Order/0	smpl.ordering.repositories.mock.MockOrderRepository
+<smpl.ordering.repositories.mock.MockOrderRepository: smpl.ordering.models.Order createOrder(java.lang.String)>/new java.util.Date/0	smpl.ordering.repositories.mock.MockOrderRepository
+<smpl.ordering.repositories.mock.MockOrderRepository: smpl.ordering.models.Order createOrder(java.lang.String)>/new java.lang.Object[]/2	smpl.ordering.repositories.mock.MockOrderRepository
+<smpl.ordering.repositories.mock.MockOrderRepository: boolean updateOrder(java.lang.String,smpl.ordering.models.OrderUpdateInfo,java.lang.String)>/new smpl.ordering.BadRequestException/0	smpl.ordering.repositories.mock.MockOrderRepository
+<smpl.ordering.repositories.mock.MockOrderRepository: void reset()>/new java.util.concurrent.atomic.AtomicLong/0	smpl.ordering.repositories.mock.MockOrderRepository
+<smpl.ordering.repositories.mock.MockOrderRepository: void <clinit>()>/new java.util.concurrent.atomic.AtomicLong/0	smpl.ordering.repositories.mock.MockOrderRepository
+<org.springframework.boot.loader.data.ByteArrayRandomAccessData: void <init>(byte[],long,long)>/new byte[]/0	org.springframework.boot.loader.data.ByteArrayRandomAccessData
+<org.springframework.boot.loader.data.ByteArrayRandomAccessData: java.io.InputStream getInputStream(org.springframework.boot.loader.data.RandomAccessData$ResourceAccess)>/new java.io.ByteArrayInputStream/0	org.springframework.boot.loader.data.ByteArrayRandomAccessData
+<org.springframework.boot.loader.data.ByteArrayRandomAccessData: org.springframework.boot.loader.data.RandomAccessData getSubsection(long,long)>/new org.springframework.boot.loader.data.ByteArrayRandomAccessData/0	org.springframework.boot.loader.data.ByteArrayRandomAccessData
+<smpl.ordering.repositories.mock.MockShipmentRepository: void <init>(smpl.ordering.repositories.OrderRepository)>/new java.util.ArrayList/0	smpl.ordering.repositories.mock.MockShipmentRepository
+<smpl.ordering.repositories.mock.MockShipmentRepository: java.util.List getShipments(smpl.ordering.models.OrderStatus)>/new java.util.ArrayList/0	smpl.ordering.repositories.mock.MockShipmentRepository
+<smpl.ordering.repositories.mock.MockShipmentRepository: java.util.List getShipments(smpl.ordering.models.OrderStatus)>/new smpl.ordering.models.ShipmentRecord/0	smpl.ordering.repositories.mock.MockShipmentRepository
+<smpl.ordering.repositories.mock.MockShipmentRepository: java.util.List getShipments(smpl.ordering.models.OrderStatus)>/new smpl.ordering.models.ShipmentRecord/1	smpl.ordering.repositories.mock.MockShipmentRepository
+<smpl.ordering.repositories.mock.MockShipmentRepository: smpl.ordering.models.ShipmentRecord getShipmentById(java.lang.String)>/new smpl.ordering.models.ShipmentRecord/0	smpl.ordering.repositories.mock.MockShipmentRepository
+<smpl.ordering.repositories.mock.MockShipmentRepository: smpl.ordering.models.ShipmentRecord createShipment(smpl.ordering.models.ShipmentRecord)>/new smpl.ordering.BadRequestException/0	smpl.ordering.repositories.mock.MockShipmentRepository
+<smpl.ordering.repositories.mock.MockShipmentRepository: smpl.ordering.models.ShipmentRecord createShipment(smpl.ordering.models.ShipmentRecord)>/new java.lang.Object[]/0	smpl.ordering.repositories.mock.MockShipmentRepository
+<smpl.ordering.repositories.mock.MockShipmentRepository: smpl.ordering.models.ShipmentRecord createShipment(smpl.ordering.models.ShipmentRecord)>/new smpl.ordering.BadRequestException/1	smpl.ordering.repositories.mock.MockShipmentRepository
+<smpl.ordering.repositories.mock.MockShipmentRepository: smpl.ordering.models.ShipmentRecord createShipment(smpl.ordering.models.ShipmentRecord)>/new java.lang.Object[]/1	smpl.ordering.repositories.mock.MockShipmentRepository
+<smpl.ordering.repositories.mock.MockShipmentRepository: smpl.ordering.models.ShipmentRecord createShipment(smpl.ordering.models.ShipmentRecord)>/new smpl.ordering.models.ShipmentRecord/0	smpl.ordering.repositories.mock.MockShipmentRepository
+<smpl.ordering.repositories.mock.MockShipmentRepository: boolean addEvent(java.lang.String,smpl.ordering.models.ShipmentEventInfo)>/new smpl.ordering.models.ShipmentEventInfo/0	smpl.ordering.repositories.mock.MockShipmentRepository
+<smpl.ordering.repositories.mock.MockShipmentRepository: boolean updateShipment(smpl.ordering.models.ShipmentRecord)>/new smpl.ordering.models.ShipmentRecord/0	smpl.ordering.repositories.mock.MockShipmentRepository
+dropCollection	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+findAll	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+findOne	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+exists	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+find	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+findAndRemove	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+insert	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+save	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+openConnection	org.springframework.boot.loader.jar.Handler
+HEAD	org.springframework.boot.loader.PropertiesLauncher
+ordering	smpl.ordering.MongoDBProperties
+mongodb	smpl.ordering.repositories.RepositoryFactory
+File must not be null	org.springframework.boot.loader.data.RandomAccessDataFile
+File must exist	org.springframework.boot.loader.data.RandomAccessDataFile
+WEB-INF/	org.springframework.boot.loader.WarLauncher
+classes/	org.springframework.boot.loader.WarLauncher
+lib/	org.springframework.boot.loader.WarLauncher
+lib/	org.springframework.boot.loader.PropertiesLauncher
+lib/	org.springframework.boot.loader.JarLauncher
+lib-provided/	org.springframework.boot.loader.WarLauncher
+<<\\"\\">>	smpl.ordering.OrderingInitializer
+<<\\"\\">>	smpl.ordering.OrderingServiceProperties
+<<\\"\\">>	org.springframework.boot.loader.jar.JarURLConnection
+<<\\"\\">>	org.springframework.boot.loader.jar.JarFile
+<<\\"\\">>	org.springframework.boot.loader.archive.ExplodedArchive
+<<\\"\\">>	org.springframework.boot.loader.PropertiesLauncher
+<<\\"\\">>	integration.infrastructure.ConfigurationHelpers
+<<\\"\\">>	org.springframework.boot.loader.LaunchedURLClassLoader
+<<\\"\\">>	org.springframework.boot.loader.util.SystemPropertyUtils
+.jar	org.springframework.boot.loader.PropertiesLauncher$ArchiveEntryFilter
+.jar	org.springframework.boot.loader.PropertiesLauncher
+.zip	org.springframework.boot.loader.PropertiesLauncher$ArchiveEntryFilter
+.zip	org.springframework.boot.loader.PropertiesLauncher
+<<\\"Quote Created. Quote Id : \\">>	integration.services.MrpConnectService
+<<\\"Order Created. Quote Id : \\">>	integration.services.MrpConnectService
+<<\\"  Order Id : \\">>	integration.services.MrpConnectService
+<<\\"Shipment Created. Quote Id : \\">>	integration.services.MrpConnectService
+jar:	org.springframework.boot.loader.ExecutableArchiveLauncher
+jar:	org.springframework.boot.loader.jar.JarURLConnection
+!/	org.springframework.boot.loader.ExecutableArchiveLauncher
+!/	org.springframework.boot.loader.jar.JarURLConnection
+!/	org.springframework.boot.loader.jar.JarFile
+!/	org.springframework.boot.loader.jar.Handler
+%s\n%s\n	smpl.ordering.controllers.PingController
+buildinfo.properties	smpl.ordering.controllers.PingController
+build.number	smpl.ordering.controllers.PingController
+<<\\"Build number:    \\">>	smpl.ordering.controllers.PingController
+\n	smpl.ordering.controllers.PingController
+build.timestamp	smpl.ordering.controllers.PingController
+<<\\"Build timestamp: \\">>	smpl.ordering.controllers.PingController
+%d	smpl.ordering.repositories.mongodb.MongoQuoteRepository
+%d	smpl.ordering.repositories.mock.MockQuoteRepository
+Duplicate: the quote \'%s\' already exists	smpl.ordering.repositories.mongodb.MongoQuoteRepository
+Duplicate: the quote \'%s\' already exists	smpl.ordering.repositories.mock.MockQuoteRepository
+property file \'	smpl.ordering.PropertyHelper
+property file \'	integration.infrastructure.ConfigurationHelpers
+\' not found in the classpath	smpl.ordering.PropertyHelper
+\' not found in the classpath	integration.infrastructure.ConfigurationHelpers
+application.properties	smpl.ordering.PropertyHelper
+application.properties	integration.infrastructure.ConfigurationHelpers
+<<\\"JAR entry \\">>	org.springframework.boot.loader.jar.JarURLConnection
+<<\\" not found in \\">>	org.springframework.boot.loader.jar.JarURLConnection
+Invalid encoded sequence \\\"	org.springframework.boot.loader.jar.JarURLConnection$JarEntryName
+\\\"	org.springframework.boot.loader.jar.JarURLConnection$JarEntryName
+no entry name specified	org.springframework.boot.loader.jar.JarURLConnection
+x-java/jar	org.springframework.boot.loader.jar.JarURLConnection$JarEntryName
+/orders/	smpl.ordering.controllers.OrderController
+content/unknown	org.springframework.boot.loader.jar.JarURLConnection$JarEntryName
+Location	smpl.ordering.controllers.DealerController
+Location	smpl.ordering.controllers.QuoteController
+Location	smpl.ordering.controllers.OrderController
+Location	smpl.ordering.controllers.CatalogController
+Location	smpl.ordering.controllers.ShipmentController
+file:!/	org.springframework.boot.loader.jar.JarURLConnection
+There is no such quote	smpl.ordering.controllers.OrderController
+\\\"Empty %s field\\\"	smpl.ordering.Utility
+,\\\"Empty %s field\\\"	smpl.ordering.Utility
+There is no such order	smpl.ordering.controllers.OrderController
+MongoDB.%s	smpl.ordering.repositories.mongodb.MongoOperationsWithRetry
+%s %s	smpl.ordering.AppInsightsFilter
+200	smpl.ordering.AppInsightsFilter
+%s://%s%s?%s	smpl.ordering.AppInsightsFilter
+%s://%s%s	smpl.ordering.AppInsightsFilter
+500	smpl.ordering.AppInsightsFilter
+No such quote: %s	smpl.ordering.repositories.mongodb.MongoOrderRepository
+No such quote: %s	smpl.ordering.repositories.mock.MockOrderRepository
+The quote has already been used to create an order: %s	smpl.ordering.repositories.mongodb.MongoOrderRepository
+The quote has already been used to create an order: %s	smpl.ordering.repositories.mock.MockOrderRepository
+order-%s	smpl.ordering.repositories.mongodb.MongoOrderRepository
+order-%s	smpl.ordering.repositories.mock.MockOrderRepository
+<<\\"An error occurred de-serializing queue message to OrderMessage. Serialized Object : \\">>	integration.services.QueueService
+<<\\"Invalid source folder \\">>	org.springframework.boot.loader.archive.ExplodedArchive
+META-INF	org.springframework.boot.loader.archive.ExplodedArchive
+Access-Control-Allow-Origin	smpl.ordering.SimpleCORSFilter
+*	smpl.ordering.SimpleCORSFilter
+Access-Control-Allow-Methods	smpl.ordering.SimpleCORSFilter
+PUT, POST, GET, OPTIONS, DELETE	smpl.ordering.SimpleCORSFilter
+Access-Control-Max-Age	smpl.ordering.SimpleCORSFilter
+Access-Control-Allow-Headers	smpl.ordering.SimpleCORSFilter
+Origin, X-Requested-With, Content-Type, Accept, Pragma, Cache-Control, If-Modified-Since	smpl.ordering.SimpleCORSFilter
+..	org.springframework.boot.loader.archive.ExplodedArchive
+META-INF/MANIFEST.MF	org.springframework.boot.loader.jar.JarFile
+META-INF/MANIFEST.MF	org.springframework.boot.loader.archive.ExplodedArchive
+debug	org.springframework.boot.loader.PropertiesLauncher
+false	org.springframework.boot.loader.PropertiesLauncher
+DEBUG	org.springframework.boot.loader.PropertiesLauncher
+loader.home	org.springframework.boot.loader.PropertiesLauncher
+${user.dir}	org.springframework.boot.loader.PropertiesLauncher
+classpath:	org.springframework.boot.loader.PropertiesLauncher
+loader.config.name	org.springframework.boot.loader.PropertiesLauncher
+application	org.springframework.boot.loader.PropertiesLauncher
+{\\\"errors\\\": [	smpl.ordering.models.Quote
+{\\\"errors\\\": [	smpl.ordering.models.Order
+{\\\"errors\\\": [	smpl.ordering.models.DealerInfo
+{\\\"errors\\\": [	smpl.ordering.models.CatalogItem
+.properties	org.springframework.boot.loader.PropertiesLauncher
+loader.config.location	org.springframework.boot.loader.PropertiesLauncher
+]}	smpl.ordering.models.Quote
+]}	smpl.ordering.models.Order
+]}	smpl.ordering.models.DealerInfo
+]}	smpl.ordering.models.CatalogItem
+<<\\"Found: \\">>	org.springframework.boot.loader.PropertiesLauncher
+${loader.system:false}	org.springframework.boot.loader.PropertiesLauncher
+true	org.springframework.boot.loader.PropertiesLauncher
+Adding resolved properties to System properties	org.springframework.boot.loader.PropertiesLauncher
+<<\\"Not found: \\">>	org.springframework.boot.loader.PropertiesLauncher
+file:	org.springframework.boot.loader.PropertiesLauncher
+file:	org.springframework.boot.loader.jar.Handler
+//	org.springframework.boot.loader.PropertiesLauncher
+://	org.springframework.boot.loader.PropertiesLauncher
+<<\\"Unable to find ZIP central directory records after reading \\">>	org.springframework.boot.loader.jar.CentralDirectoryEndRecord
+<<\\" bytes\\">>	org.springframework.boot.loader.jar.CentralDirectoryEndRecord
+<<\\"Trying classpath: \\">>	org.springframework.boot.loader.PropertiesLauncher
+<<\\"Trying file: \\">>	org.springframework.boot.loader.PropertiesLauncher
+JNLP	org.springframework.boot.loader.PropertiesLauncher
+loader.path	org.springframework.boot.loader.PropertiesLauncher
+<<\\"Nested archive paths: \\">>	org.springframework.boot.loader.PropertiesLauncher
+,	org.springframework.boot.loader.PropertiesLauncher
+,	smpl.ordering.OrderingConfiguration
+lib	org.springframework.boot.loader.PropertiesLauncher
+loader.args	org.springframework.boot.loader.PropertiesLauncher
+\\s+	org.springframework.boot.loader.PropertiesLauncher
+loader.main	org.springframework.boot.loader.PropertiesLauncher
+Start-Class	org.springframework.boot.loader.archive.Archive
+Start-Class	org.springframework.boot.loader.PropertiesLauncher
+No \'loader.main\' or \'Start-Class\' specified	org.springframework.boot.loader.PropertiesLauncher
+loader.classLoader	org.springframework.boot.loader.PropertiesLauncher
+<<\\"Using custom class loader: \\">>	org.springframework.boot.loader.PropertiesLauncher
+Failed to determine canonical path of Java agent at path \'	org.springframework.boot.loader.InputArgumentsJavaAgentDetector
+\'	org.springframework.boot.loader.jar.JarFile
+\'	org.springframework.boot.loader.InputArgumentsJavaAgentDetector
+\'	org.springframework.boot.loader.jar.Handler
+-javaagent:	org.springframework.boot.loader.InputArgumentsJavaAgentDetector
+Property \'	org.springframework.boot.loader.PropertiesLauncher
+<<\\"\' from environment: \\">>	org.springframework.boot.loader.PropertiesLauncher
+memory	smpl.ordering.OrderingServiceProperties
+memory	smpl.ordering.repositories.RepositoryFactory
+The ordering service is available	smpl.ordering.OrderingServiceProperties
+Version unknown	smpl.ordering.OrderingServiceProperties
+<<\\"\' from properties: \\">>	org.springframework.boot.loader.PropertiesLauncher
+<<\\"\' from home directory manifest: \\">>	org.springframework.boot.loader.PropertiesLauncher
+<<\\"\' from archive manifest: \\">>	org.springframework.boot.loader.PropertiesLauncher
+<<\\"Adding classpath entries from \\">>	org.springframework.boot.loader.PropertiesLauncher
+<<\\"Adding classpath entries from archive \\">>	org.springframework.boot.loader.PropertiesLauncher
+<<\\"Adding classpath entries from nested \\">>	org.springframework.boot.loader.PropertiesLauncher
+:	org.springframework.boot.loader.PropertiesLauncher
+:	org.springframework.boot.loader.util.SystemPropertyUtils
+Found queue message. MessageId :	integration.scheduled.CreateOrderProcessTask
+Created new order in MRP system. MessageId :	integration.scheduled.CreateOrderProcessTask
+Message removed from queue. MessageId :	integration.scheduled.CreateOrderProcessTask
+Exception thrown while retrieving queue message :	integration.scheduled.CreateOrderProcessTask
+java.io.tmpdir	org.springframework.boot.loader.archive.JarFileArchive
+spring-boot-libs	org.springframework.boot.loader.archive.JarFileArchive
+/*	org.springframework.boot.loader.PropertiesLauncher
+UTF-8	org.springframework.boot.loader.util.AsciiBytes
+UTF-8	org.springframework.boot.loader.PropertiesLauncher
+UTF-8	org.springframework.boot.loader.jar.Handler
+/quotes/	smpl.ordering.controllers.QuoteController
+UNPACK:	org.springframework.boot.loader.archive.JarFileArchive
+Exception thrown while processing catalog item inventory :	integration.scheduled.UpdateProductProcessTask
+The SKU already exists	smpl.ordering.controllers.CatalogController
+/catalog/	smpl.ordering.controllers.CatalogController
+./	org.springframework.boot.loader.PropertiesLauncher
+<<\\" does not have a main method\\">>	org.springframework.boot.loader.MainMethodRunner
+\\W+	org.springframework.boot.loader.PropertiesLauncher
+${	org.springframework.boot.loader.util.SystemPropertyUtils
+Circular placeholder reference \'	org.springframework.boot.loader.util.SystemPropertyUtils
+\' in property definitions	org.springframework.boot.loader.util.SystemPropertyUtils
+Dealer already exists	smpl.ordering.controllers.DealerController
+}	org.springframework.boot.loader.util.SystemPropertyUtils
+/dealers/	smpl.ordering.controllers.DealerController
+yyyy-MM-ddTHH:mm:ss	integration.models.mrp.Quote
+yyyy-MM-ddTHH:mm:ss	integration.models.mrp.ShipmentRecord
+Website	integration.models.mrp.Quote
+_	org.springframework.boot.loader.util.SystemPropertyUtils
+r	org.springframework.boot.loader.data.RandomAccessDataFile$FilePool
+r	org.springframework.boot.loader.data.RandomAccessDataFile$DataInputStream
+Could not resolve key \'	org.springframework.boot.loader.util.SystemPropertyUtils
+\' in \'	org.springframework.boot.loader.util.SystemPropertyUtils
+<<\\"\' as system property or in environment: \\">>	org.springframework.boot.loader.util.SystemPropertyUtils
+.class	org.springframework.boot.loader.LaunchedURLClassLoader$2
+Bytes must not be null	org.springframework.boot.loader.data.RandomAccessDataFile$DataInputStream
+No order id\n	smpl.ordering.models.ShipmentRecord
+No delivery Date\n	smpl.ordering.models.ShipmentRecord
+No or incomplete delivery address\n	smpl.ordering.models.ShipmentRecord
+Contact information missing\n	smpl.ordering.models.ShipmentRecord
+azure.storage.connectionstring	integration.infrastructure.ConfigurationManager
+mrp.endpoint	integration.infrastructure.ConfigurationManager
+azure.storage.queue.orders	integration.infrastructure.ConfigurationManager
+<<\\"Order \'%s\' could not be found: \\">>	smpl.ordering.repositories.mongodb.MongoShipmentRepository
+azure.storage.queue.inventory	integration.infrastructure.ConfigurationManager
+A shipment record for order \'%s\' already exists	smpl.ordering.repositories.mongodb.MongoShipmentRepository
+A shipment record for order \'%s\' already exists	smpl.ordering.repositories.mock.MockShipmentRepository
+azure.storage.queue.message	integration.infrastructure.ConfigurationManager
+No or shipment event comment\n	smpl.ordering.models.ShipmentEventInfo
+MONGO_PORT	smpl.ordering.OrderingConfiguration
+tcp:	smpl.ordering.OrderingConfiguration
+http:	smpl.ordering.OrderingConfiguration
+A shipment record already exists	smpl.ordering.controllers.ShipmentController
+/shipments/	smpl.ordering.controllers.ShipmentController
+mismatched ids	smpl.ordering.controllers.ShipmentController
+Unable to open nested jar file \'	org.springframework.boot.loader.jar.JarFile
+SKU #	smpl.ordering.models.CatalogItem
+MRP-0001	smpl.ordering.repositories.mock.MockCatalogItemsRepository
+Brake Pads	smpl.ordering.repositories.mock.MockCatalogItemsRepository
+MRP-0002	smpl.ordering.repositories.mock.MockCatalogItemsRepository
+Brake Calipers	smpl.ordering.repositories.mock.MockCatalogItemsRepository
+MRP-0003	smpl.ordering.repositories.mock.MockCatalogItemsRepository
+Brake Calipers Guide Pin	smpl.ordering.repositories.mock.MockCatalogItemsRepository
+Unable to open nested entry \'	org.springframework.boot.loader.jar.JarFile
+<<\\"\'. It has been compressed and nested \\">>	org.springframework.boot.loader.jar.JarFile
+<<\\"jar files must be stored without compression. Please check the \\">>	org.springframework.boot.loader.jar.JarFile
+mechanism used to create your executable jar file	org.springframework.boot.loader.jar.JarFile
+Unable to open fallback handler	org.springframework.boot.loader.jar.Handler
+ZipEntry must be contained in this file	org.springframework.boot.loader.jar.JarFile
+Unable to find fallback handler	org.springframework.boot.loader.jar.Handler
+file:////	org.springframework.boot.loader.jar.JarFile
+file://	org.springframework.boot.loader.jar.JarFile
+jar	org.springframework.boot.loader.jar.JarFile
+Unable to invoke fallback open connection method	org.springframework.boot.loader.jar.Handler
+Jar URL does not contain !/ separator	org.springframework.boot.loader.jar.Handler
+java.protocol.handler.pkgs	org.springframework.boot.loader.jar.JarFile
+org.springframework.boot.loader	org.springframework.boot.loader.jar.JarFile
+|	org.springframework.boot.loader.jar.JarFile
+Not a file URL	org.springframework.boot.loader.jar.Handler
+META-INF/	org.springframework.boot.loader.jar.JarFile
+.SF	org.springframework.boot.loader.jar.JarFile
+Unable to open root Jar file \'	org.springframework.boot.loader.jar.Handler
+sun.net.www.protocol.jar.Handler	org.springframework.boot.loader.jar.Handler
+localhost	smpl.ordering.MongoDBProperties
+Unable to determine code source archive	org.springframework.boot.loader.Launcher
+<<\\"Unable to determine code source archive from \\">>	org.springframework.boot.loader.Launcher
+.MainMethodRunner	org.springframework.boot.loader.Launcher
+Unable to read bytes	org.springframework.boot.loader.jar.Bytes
+<<\\"No \'Start-Class\' manifest entry specified in \\">>	org.springframework.boot.loader.archive.Archive
+No such order	smpl.ordering.repositories.mock.MockOrderRepository
+No such order: %s	smpl.ordering.repositories.mock.MockShipmentRepository

@@ -1,0 +1,14 @@
+java.lang.String::MockObject	java.lang.String
+org.mybatis.jpetstore.service.CatalogService::MockObject	org.mybatis.jpetstore.service.CatalogService
+org.mybatis.jpetstore.web.actions.AccountActionBean::MockObject	org.mybatis.jpetstore.web.actions.AccountActionBean
+org.mybatis.jpetstore.service.AccountService::MockObject	org.mybatis.jpetstore.service.AccountService
+org.mybatis.jpetstore.web.actions.AbstractActionBean::MockObject	org.mybatis.jpetstore.web.actions.AbstractActionBean
+org.mybatis.jpetstore.web.actions.CatalogActionBean::MockObject	org.mybatis.jpetstore.web.actions.CatalogActionBean
+org.mybatis.jpetstore.domain.Category::MockObject	org.mybatis.jpetstore.domain.Category
+org.mybatis.jpetstore.domain.Product::MockObject	org.mybatis.jpetstore.domain.Product
+org.mybatis.jpetstore.domain.Item::MockObject	org.mybatis.jpetstore.domain.Item
+org.mybatis.jpetstore.service.OrderService::MockObject	org.mybatis.jpetstore.service.OrderService
+org.mybatis.jpetstore.domain.Order::MockObject	org.mybatis.jpetstore.domain.Order
+org.mybatis.jpetstore.domain.Cart::MockObject	org.mybatis.jpetstore.domain.Cart
+org.mybatis.jpetstore.web.actions.OrderActionBean::MockObject	org.mybatis.jpetstore.web.actions.OrderActionBean
+org.mybatis.jpetstore.web.actions.CartActionBean::MockObject	org.mybatis.jpetstore.web.actions.CartActionBean

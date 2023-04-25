@@ -1,0 +1,3 @@
+<org.mybatis.jpetstore.web.actions.AccountActionBean: void <clinit>()>/$stack2	<org.mybatis.jpetstore.web.actions.AccountActionBean: java.util.List LANGUAGE_LIST>
+<org.mybatis.jpetstore.web.actions.AccountActionBean: void <clinit>()>/$stack5	<org.mybatis.jpetstore.web.actions.AccountActionBean: java.util.List CATEGORY_LIST>
+<org.mybatis.jpetstore.web.actions.OrderActionBean: void <clinit>()>/$stack2	<org.mybatis.jpetstore.web.actions.OrderActionBean: java.util.List CARD_TYPE_LIST>

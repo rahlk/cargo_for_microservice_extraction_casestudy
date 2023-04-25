@@ -1,0 +1,6 @@
+smpl.ordering.controllers.PingController
+smpl.ordering.controllers.DealerController
+smpl.ordering.controllers.QuoteController
+smpl.ordering.controllers.OrderController
+smpl.ordering.controllers.CatalogController
+smpl.ordering.controllers.ShipmentController

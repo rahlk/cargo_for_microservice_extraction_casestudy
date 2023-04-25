@@ -1,0 +1,4 @@
+<org.mybatis.jpetstore.service.OrderService: org.mybatis.jpetstore.domain.Order getOrder(int)>	<org.mybatis.jpetstore.mapper.OrderMapper: org.mybatis.jpetstore.domain.Order getOrder(int)>	int
+<org.mybatis.jpetstore.service.OrderService: org.mybatis.jpetstore.domain.Order getOrder(int)>	<org.mybatis.jpetstore.mapper.LineItemMapper: java.util.List getLineItemsByOrderId(int)>	int
+<org.mybatis.jpetstore.service.OrderService: int getNextId(java.lang.String)>	<org.mybatis.jpetstore.mapper.SequenceMapper: org.mybatis.jpetstore.domain.Sequence getSequence(org.mybatis.jpetstore.domain.Sequence)>	org.mybatis.jpetstore.domain.Sequence
+<org.mybatis.jpetstore.web.actions.OrderActionBean: net.sourceforge.stripes.action.Resolution viewOrder()>	<org.mybatis.jpetstore.service.OrderService: org.mybatis.jpetstore.domain.Order getOrder(int)>	int

@@ -1,0 +1,277 @@
+[<<immutable-hcontext>>, <<main-thread>>]	<java.lang.Thread: void <init>(java.lang.ThreadGroup,java.lang.String)>
+[<<immutable-hcontext>>, <<system-thread-group>>]	<java.lang.ThreadGroup: void <init>()>
+[<<immutable-context>>, <<immutable-context>>]	<java.lang.invoke.LambdaMetafactory: java.lang.invoke.CallSite metafactory(java.lang.invoke.MethodHandles$Lookup,java.lang.String,java.lang.invoke.MethodType,java.lang.invoke.MethodType,java.lang.invoke.MethodHandle,java.lang.invoke.MethodType)>
+[<<immutable-hcontext>>, <<main-thread-group>>]	<java.lang.ThreadGroup: void <init>(java.lang.ThreadGroup,java.lang.String)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.service.CatalogService: void <init>(org.mybatis.jpetstore.mapper.CategoryMapper,org.mybatis.jpetstore.mapper.ItemMapper,org.mybatis.jpetstore.mapper.ProductMapper)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AccountActionBean: void setUsername(java.lang.String)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AccountActionBean: void setPassword(java.lang.String)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AccountActionBean: void setMyList(java.util.List)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: void setKeyword(java.lang.String)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: void setCategoryId(java.lang.String)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: void setProductId(java.lang.String)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: void setItemId(java.lang.String)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: void setCategory(org.mybatis.jpetstore.domain.Category)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: void setProduct(org.mybatis.jpetstore.domain.Product)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: void setItem(org.mybatis.jpetstore.domain.Item)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: void setCategoryList(java.util.List)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: void setProductList(java.util.List)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: void setItemList(java.util.List)>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.web.actions.AccountActionBean::MockObject]	<org.mybatis.jpetstore.web.actions.AbstractActionBean: void setMessage(java.lang.String)>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.web.actions.CatalogActionBean::MockObject]	<org.mybatis.jpetstore.web.actions.AbstractActionBean: void setMessage(java.lang.String)>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.web.actions.OrderActionBean::MockObject]	<org.mybatis.jpetstore.web.actions.AbstractActionBean: void setMessage(java.lang.String)>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.web.actions.CartActionBean::MockObject]	<org.mybatis.jpetstore.web.actions.AbstractActionBean: void setMessage(java.lang.String)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.service.OrderService: void <init>(org.mybatis.jpetstore.mapper.ItemMapper,org.mybatis.jpetstore.mapper.OrderMapper,org.mybatis.jpetstore.mapper.SequenceMapper,org.mybatis.jpetstore.mapper.LineItemMapper)>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.domain.Order::MockObject]	<org.mybatis.jpetstore.domain.Order: void setOrderId(int)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: void setOrderId(int)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: void setOrderId(int)>
+[org.mybatis.jpetstore.web.actions.OrderActionBean::MockObject, <org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: void setOrderId(int)>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.domain.Order::MockObject]	<org.mybatis.jpetstore.domain.Order: void initOrder(org.mybatis.jpetstore.domain.Account,org.mybatis.jpetstore.domain.Cart)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: void initOrder(org.mybatis.jpetstore.domain.Account,org.mybatis.jpetstore.domain.Cart)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: void initOrder(org.mybatis.jpetstore.domain.Account,org.mybatis.jpetstore.domain.Cart)>
+[org.mybatis.jpetstore.web.actions.OrderActionBean::MockObject, <org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: void initOrder(org.mybatis.jpetstore.domain.Account,org.mybatis.jpetstore.domain.Cart)>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.domain.Order::MockObject]	<org.mybatis.jpetstore.domain.Order: void addLineItem(org.mybatis.jpetstore.domain.CartItem)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: void addLineItem(org.mybatis.jpetstore.domain.CartItem)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: void addLineItem(org.mybatis.jpetstore.domain.CartItem)>
+[org.mybatis.jpetstore.web.actions.OrderActionBean::MockObject, <org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: void addLineItem(org.mybatis.jpetstore.domain.CartItem)>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.domain.Order::MockObject]	<org.mybatis.jpetstore.domain.Order: void addLineItem(org.mybatis.jpetstore.domain.LineItem)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: void addLineItem(org.mybatis.jpetstore.domain.LineItem)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: void addLineItem(org.mybatis.jpetstore.domain.LineItem)>
+[org.mybatis.jpetstore.web.actions.OrderActionBean::MockObject, <org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: void addLineItem(org.mybatis.jpetstore.domain.LineItem)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.service.AccountService: void <init>(org.mybatis.jpetstore.mapper.AccountMapper)>
+[<org.mybatis.jpetstore.web.actions.OrderActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Order/0, <org.mybatis.jpetstore.domain.Order: void addLineItem(org.mybatis.jpetstore.domain.CartItem)>/new org.mybatis.jpetstore.domain.LineItem/0]	<org.mybatis.jpetstore.domain.LineItem: void <init>(int,org.mybatis.jpetstore.domain.CartItem)>
+[<org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0, <org.mybatis.jpetstore.domain.Order: void addLineItem(org.mybatis.jpetstore.domain.CartItem)>/new org.mybatis.jpetstore.domain.LineItem/0]	<org.mybatis.jpetstore.domain.LineItem: void <init>(int,org.mybatis.jpetstore.domain.CartItem)>
+[org.mybatis.jpetstore.domain.Order::MockObject, <org.mybatis.jpetstore.domain.Order: void addLineItem(org.mybatis.jpetstore.domain.CartItem)>/new org.mybatis.jpetstore.domain.LineItem/0]	<org.mybatis.jpetstore.domain.LineItem: void <init>(int,org.mybatis.jpetstore.domain.CartItem)>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.domain.Cart::MockObject]	<org.mybatis.jpetstore.domain.Cart: boolean containsItemId(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: void clear()>/new org.mybatis.jpetstore.domain.Cart/0]	<org.mybatis.jpetstore.domain.Cart: boolean containsItemId(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Cart/0]	<org.mybatis.jpetstore.domain.Cart: boolean containsItemId(java.lang.String)>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.domain.Cart::MockObject]	<org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: void clear()>/new org.mybatis.jpetstore.domain.Cart/0]	<org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Cart/0]	<org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.domain.Cart::MockObject]	<org.mybatis.jpetstore.domain.Cart: org.mybatis.jpetstore.domain.Item removeItemById(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: void clear()>/new org.mybatis.jpetstore.domain.Cart/0]	<org.mybatis.jpetstore.domain.Cart: org.mybatis.jpetstore.domain.Item removeItemById(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Cart/0]	<org.mybatis.jpetstore.domain.Cart: org.mybatis.jpetstore.domain.Item removeItemById(java.lang.String)>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.domain.Cart::MockObject]	<org.mybatis.jpetstore.domain.Cart: void incrementQuantityByItemId(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: void clear()>/new org.mybatis.jpetstore.domain.Cart/0]	<org.mybatis.jpetstore.domain.Cart: void incrementQuantityByItemId(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Cart/0]	<org.mybatis.jpetstore.domain.Cart: void incrementQuantityByItemId(java.lang.String)>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.domain.Cart::MockObject]	<org.mybatis.jpetstore.domain.Cart: void setQuantityByItemId(java.lang.String,int)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: void clear()>/new org.mybatis.jpetstore.domain.Cart/0]	<org.mybatis.jpetstore.domain.Cart: void setQuantityByItemId(java.lang.String,int)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Cart/0]	<org.mybatis.jpetstore.domain.Cart: void setQuantityByItemId(java.lang.String,int)>
+[org.mybatis.jpetstore.domain.Cart::MockObject, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<org.mybatis.jpetstore.domain.CartItem: void setInStock(boolean)>
+[<org.mybatis.jpetstore.web.actions.CartActionBean: void clear()>/new org.mybatis.jpetstore.domain.Cart/0, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<org.mybatis.jpetstore.domain.CartItem: void setInStock(boolean)>
+[<org.mybatis.jpetstore.web.actions.CartActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Cart/0, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<org.mybatis.jpetstore.domain.CartItem: void setInStock(boolean)>
+[org.mybatis.jpetstore.domain.Cart::MockObject, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<org.mybatis.jpetstore.domain.CartItem: void setItem(org.mybatis.jpetstore.domain.Item)>
+[<org.mybatis.jpetstore.web.actions.CartActionBean: void clear()>/new org.mybatis.jpetstore.domain.Cart/0, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<org.mybatis.jpetstore.domain.CartItem: void setItem(org.mybatis.jpetstore.domain.Item)>
+[<org.mybatis.jpetstore.web.actions.CartActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Cart/0, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<org.mybatis.jpetstore.domain.CartItem: void setItem(org.mybatis.jpetstore.domain.Item)>
+[org.mybatis.jpetstore.domain.Cart::MockObject, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<org.mybatis.jpetstore.domain.CartItem: void setQuantity(int)>
+[<org.mybatis.jpetstore.web.actions.CartActionBean: void clear()>/new org.mybatis.jpetstore.domain.Cart/0, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<org.mybatis.jpetstore.domain.CartItem: void setQuantity(int)>
+[<org.mybatis.jpetstore.web.actions.CartActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Cart/0, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<org.mybatis.jpetstore.domain.CartItem: void setQuantity(int)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Account/0]	<org.mybatis.jpetstore.domain.Account: void setUsername(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: void clear()>/new org.mybatis.jpetstore.domain.Account/0]	<org.mybatis.jpetstore.domain.Account: void setUsername(java.lang.String)>
+[org.mybatis.jpetstore.web.actions.AccountActionBean::MockObject, <org.mybatis.jpetstore.web.actions.AccountActionBean: void clear()>/new org.mybatis.jpetstore.domain.Account/0]	<org.mybatis.jpetstore.domain.Account: void setUsername(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Account/0]	<org.mybatis.jpetstore.domain.Account: void setPassword(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: void clear()>/new org.mybatis.jpetstore.domain.Account/0]	<org.mybatis.jpetstore.domain.Account: void setPassword(java.lang.String)>
+[org.mybatis.jpetstore.web.actions.AccountActionBean::MockObject, <org.mybatis.jpetstore.web.actions.AccountActionBean: void clear()>/new org.mybatis.jpetstore.domain.Account/0]	<org.mybatis.jpetstore.domain.Account: void setPassword(java.lang.String)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.OrderActionBean: void setOrderId(int)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.OrderActionBean: void setOrder(org.mybatis.jpetstore.domain.Order)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.OrderActionBean: void setShippingAddressRequired(boolean)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.OrderActionBean: void setConfirmed(boolean)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CartActionBean: void setCart(org.mybatis.jpetstore.domain.Cart)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CartActionBean: void setWorkingItemId(java.lang.String)>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AccountActionBean: net.sourceforge.stripes.action.Resolution signonForm()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: net.sourceforge.stripes.action.ForwardResolution viewMain()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AccountActionBean: void <init>()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AccountActionBean: org.mybatis.jpetstore.domain.Account getAccount()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AccountActionBean: java.lang.String getUsername()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.web.actions.AccountActionBean::MockObject]	<org.mybatis.jpetstore.web.actions.AccountActionBean: java.lang.String getUsername()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AccountActionBean: java.lang.String getPassword()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.web.actions.AccountActionBean::MockObject]	<org.mybatis.jpetstore.web.actions.AccountActionBean: java.lang.String getPassword()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AccountActionBean: java.util.List getMyList()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AccountActionBean: java.util.List getLanguages()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AccountActionBean: java.util.List getCategories()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AccountActionBean: net.sourceforge.stripes.action.Resolution newAccountForm()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AccountActionBean: net.sourceforge.stripes.action.Resolution newAccount()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AccountActionBean: net.sourceforge.stripes.action.Resolution editAccountForm()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AccountActionBean: net.sourceforge.stripes.action.Resolution editAccount()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AccountActionBean: net.sourceforge.stripes.action.Resolution signon()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AccountActionBean: net.sourceforge.stripes.action.Resolution signoff()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AccountActionBean: boolean isAuthenticated()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AccountActionBean: void clear()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.web.actions.AccountActionBean::MockObject]	<org.mybatis.jpetstore.web.actions.AccountActionBean: void clear()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AccountActionBean: void <clinit>()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: void <init>()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: java.lang.String getKeyword()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: java.lang.String getCategoryId()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: java.lang.String getProductId()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: java.lang.String getItemId()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: org.mybatis.jpetstore.domain.Category getCategory()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: org.mybatis.jpetstore.domain.Product getProduct()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: org.mybatis.jpetstore.domain.Item getItem()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: java.util.List getCategoryList()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: java.util.List getProductList()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: java.util.List getItemList()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: net.sourceforge.stripes.action.ForwardResolution viewCategory()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: net.sourceforge.stripes.action.ForwardResolution viewProduct()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: net.sourceforge.stripes.action.ForwardResolution viewItem()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: net.sourceforge.stripes.action.ForwardResolution searchProducts()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CatalogActionBean: void clear()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.AbstractActionBean: void <init>()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.web.actions.AccountActionBean::MockObject]	<org.mybatis.jpetstore.web.actions.AbstractActionBean: void <init>()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.web.actions.CatalogActionBean::MockObject]	<org.mybatis.jpetstore.web.actions.AbstractActionBean: void <init>()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.web.actions.OrderActionBean::MockObject]	<org.mybatis.jpetstore.web.actions.AbstractActionBean: void <init>()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.web.actions.CartActionBean::MockObject]	<org.mybatis.jpetstore.web.actions.AbstractActionBean: void <init>()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.domain.Product: void <init>()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.domain.Item: void <init>()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.domain.Item::MockObject]	<org.mybatis.jpetstore.domain.Item: org.mybatis.jpetstore.domain.Product getProduct()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.domain.Order: void <init>()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: void <init>()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: void <init>()>
+[org.mybatis.jpetstore.web.actions.OrderActionBean::MockObject, <org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: void <init>()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.domain.Order::MockObject]	<org.mybatis.jpetstore.domain.Order: int getOrderId()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: int getOrderId()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: int getOrderId()>
+[org.mybatis.jpetstore.web.actions.OrderActionBean::MockObject, <org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: int getOrderId()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.domain.Order::MockObject]	<org.mybatis.jpetstore.domain.Order: java.lang.String getUsername()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: java.lang.String getUsername()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: java.lang.String getUsername()>
+[org.mybatis.jpetstore.web.actions.OrderActionBean::MockObject, <org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0]	<org.mybatis.jpetstore.domain.Order: java.lang.String getUsername()>
+[<org.mybatis.jpetstore.web.actions.OrderActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Order/0, <org.mybatis.jpetstore.domain.Order: void addLineItem(org.mybatis.jpetstore.domain.CartItem)>/new org.mybatis.jpetstore.domain.LineItem/0]	<org.mybatis.jpetstore.domain.LineItem: void calculateTotal()>
+[<org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0, <org.mybatis.jpetstore.domain.Order: void addLineItem(org.mybatis.jpetstore.domain.CartItem)>/new org.mybatis.jpetstore.domain.LineItem/0]	<org.mybatis.jpetstore.domain.LineItem: void calculateTotal()>
+[org.mybatis.jpetstore.domain.Order::MockObject, <org.mybatis.jpetstore.domain.Order: void addLineItem(org.mybatis.jpetstore.domain.CartItem)>/new org.mybatis.jpetstore.domain.LineItem/0]	<org.mybatis.jpetstore.domain.LineItem: void calculateTotal()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.domain.Cart: void <init>()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: void clear()>/new org.mybatis.jpetstore.domain.Cart/0]	<org.mybatis.jpetstore.domain.Cart: void <init>()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Cart/0]	<org.mybatis.jpetstore.domain.Cart: void <init>()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.domain.Cart::MockObject]	<org.mybatis.jpetstore.domain.Cart: java.util.Iterator getAllCartItems()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: void clear()>/new org.mybatis.jpetstore.domain.Cart/0]	<org.mybatis.jpetstore.domain.Cart: java.util.Iterator getAllCartItems()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Cart/0]	<org.mybatis.jpetstore.domain.Cart: java.util.Iterator getAllCartItems()>
+[org.mybatis.jpetstore.domain.Cart::MockObject, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<org.mybatis.jpetstore.domain.CartItem: void <init>()>
+[<org.mybatis.jpetstore.web.actions.CartActionBean: void clear()>/new org.mybatis.jpetstore.domain.Cart/0, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<org.mybatis.jpetstore.domain.CartItem: void <init>()>
+[<org.mybatis.jpetstore.web.actions.CartActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Cart/0, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<org.mybatis.jpetstore.domain.CartItem: void <init>()>
+[org.mybatis.jpetstore.domain.Cart::MockObject, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<org.mybatis.jpetstore.domain.CartItem: void incrementQuantity()>
+[<org.mybatis.jpetstore.web.actions.CartActionBean: void clear()>/new org.mybatis.jpetstore.domain.Cart/0, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<org.mybatis.jpetstore.domain.CartItem: void incrementQuantity()>
+[<org.mybatis.jpetstore.web.actions.CartActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Cart/0, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<org.mybatis.jpetstore.domain.CartItem: void incrementQuantity()>
+[org.mybatis.jpetstore.domain.Cart::MockObject, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<org.mybatis.jpetstore.domain.CartItem: void calculateTotal()>
+[<org.mybatis.jpetstore.web.actions.CartActionBean: void clear()>/new org.mybatis.jpetstore.domain.Cart/0, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<org.mybatis.jpetstore.domain.CartItem: void calculateTotal()>
+[<org.mybatis.jpetstore.web.actions.CartActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Cart/0, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<org.mybatis.jpetstore.domain.CartItem: void calculateTotal()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Account/0]	<org.mybatis.jpetstore.domain.Account: void <init>()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: void clear()>/new org.mybatis.jpetstore.domain.Account/0]	<org.mybatis.jpetstore.domain.Account: void <init>()>
+[org.mybatis.jpetstore.web.actions.AccountActionBean::MockObject, <org.mybatis.jpetstore.web.actions.AccountActionBean: void clear()>/new org.mybatis.jpetstore.domain.Account/0]	<org.mybatis.jpetstore.domain.Account: void <init>()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Account/0]	<org.mybatis.jpetstore.domain.Account: java.lang.String getUsername()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: void clear()>/new org.mybatis.jpetstore.domain.Account/0]	<org.mybatis.jpetstore.domain.Account: java.lang.String getUsername()>
+[org.mybatis.jpetstore.web.actions.AccountActionBean::MockObject, <org.mybatis.jpetstore.web.actions.AccountActionBean: void clear()>/new org.mybatis.jpetstore.domain.Account/0]	<org.mybatis.jpetstore.domain.Account: java.lang.String getUsername()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Account/0]	<org.mybatis.jpetstore.domain.Account: java.lang.String getPassword()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: void clear()>/new org.mybatis.jpetstore.domain.Account/0]	<org.mybatis.jpetstore.domain.Account: java.lang.String getPassword()>
+[org.mybatis.jpetstore.web.actions.AccountActionBean::MockObject, <org.mybatis.jpetstore.web.actions.AccountActionBean: void clear()>/new org.mybatis.jpetstore.domain.Account/0]	<org.mybatis.jpetstore.domain.Account: java.lang.String getPassword()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Account/0]	<org.mybatis.jpetstore.domain.Account: java.lang.String getFavouriteCategoryId()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: void clear()>/new org.mybatis.jpetstore.domain.Account/0]	<org.mybatis.jpetstore.domain.Account: java.lang.String getFavouriteCategoryId()>
+[org.mybatis.jpetstore.web.actions.AccountActionBean::MockObject, <org.mybatis.jpetstore.web.actions.AccountActionBean: void clear()>/new org.mybatis.jpetstore.domain.Account/0]	<org.mybatis.jpetstore.domain.Account: java.lang.String getFavouriteCategoryId()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.OrderActionBean: void <init>()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.OrderActionBean: int getOrderId()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.OrderActionBean: org.mybatis.jpetstore.domain.Order getOrder()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.web.actions.OrderActionBean::MockObject]	<org.mybatis.jpetstore.web.actions.OrderActionBean: org.mybatis.jpetstore.domain.Order getOrder()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.OrderActionBean: boolean isShippingAddressRequired()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.OrderActionBean: boolean isConfirmed()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.web.actions.OrderActionBean::MockObject]	<org.mybatis.jpetstore.web.actions.OrderActionBean: boolean isConfirmed()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.OrderActionBean: java.util.List getCreditCardTypes()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.OrderActionBean: java.util.List getOrderList()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.OrderActionBean: net.sourceforge.stripes.action.Resolution listOrders()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.OrderActionBean: net.sourceforge.stripes.action.Resolution newOrderForm()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.OrderActionBean: net.sourceforge.stripes.action.Resolution newOrder()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.OrderActionBean: net.sourceforge.stripes.action.Resolution viewOrder()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.web.actions.OrderActionBean::MockObject]	<org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.OrderActionBean: void <clinit>()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.domain.Category: void <init>()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CartActionBean: void <init>()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CartActionBean: org.mybatis.jpetstore.domain.Cart getCart()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.web.actions.CartActionBean::MockObject]	<org.mybatis.jpetstore.web.actions.CartActionBean: org.mybatis.jpetstore.domain.Cart getCart()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CartActionBean: net.sourceforge.stripes.action.Resolution addItemToCart()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CartActionBean: net.sourceforge.stripes.action.Resolution removeItemFromCart()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CartActionBean: net.sourceforge.stripes.action.Resolution updateCartQuantities()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CartActionBean: net.sourceforge.stripes.action.ForwardResolution viewCart()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CartActionBean: net.sourceforge.stripes.action.ForwardResolution checkOut()>
+[<<immutable-context>>, <<immutable-context>>]	<org.mybatis.jpetstore.web.actions.CartActionBean: void clear()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.service.CatalogService::MockObject]	<java.lang.Object: void <init>()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.domain.Cart::MockObject]	<java.lang.Object: void <init>()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.service.AccountService::MockObject]	<java.lang.Object: void <init>()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.service.OrderService::MockObject]	<java.lang.Object: void <init>()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.web.actions.AccountActionBean::MockObject]	<java.lang.Object: void <init>()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.web.actions.AbstractActionBean::MockObject]	<java.lang.Object: void <init>()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.web.actions.CatalogActionBean::MockObject]	<java.lang.Object: void <init>()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.web.actions.OrderActionBean::MockObject]	<java.lang.Object: void <init>()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.domain.Category::MockObject]	<java.lang.Object: void <init>()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.web.actions.CartActionBean::MockObject]	<java.lang.Object: void <init>()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.domain.Order::MockObject]	<java.lang.Object: void <init>()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.domain.Product::MockObject]	<java.lang.Object: void <init>()>
+[<<immutable-hcontext>>, org.mybatis.jpetstore.domain.Item::MockObject]	<java.lang.Object: void <init>()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Account/0]	<java.lang.Object: void <init>()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: void clear()>/new org.mybatis.jpetstore.domain.Account/0]	<java.lang.Object: void <init>()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Order/0]	<java.lang.Object: void <init>()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: void clear()>/new org.mybatis.jpetstore.domain.Cart/0]	<java.lang.Object: void <init>()>
+[org.mybatis.jpetstore.web.actions.AccountActionBean::MockObject, <org.mybatis.jpetstore.web.actions.AccountActionBean: void clear()>/new org.mybatis.jpetstore.domain.Account/0]	<java.lang.Object: void <init>()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0]	<java.lang.Object: void <init>()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Cart/0]	<java.lang.Object: void <init>()>
+[<org.mybatis.jpetstore.web.actions.OrderActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Order/0, <org.mybatis.jpetstore.domain.Order: void addLineItem(org.mybatis.jpetstore.domain.CartItem)>/new org.mybatis.jpetstore.domain.LineItem/0]	<java.lang.Object: void <init>()>
+[org.mybatis.jpetstore.web.actions.OrderActionBean::MockObject, <org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0]	<java.lang.Object: void <init>()>
+[org.mybatis.jpetstore.domain.Cart::MockObject, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<java.lang.Object: void <init>()>
+[<org.mybatis.jpetstore.web.actions.CartActionBean: void clear()>/new org.mybatis.jpetstore.domain.Cart/0, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<java.lang.Object: void <init>()>
+[<org.mybatis.jpetstore.web.actions.CartActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Cart/0, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<java.lang.Object: void <init>()>
+[<org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0, <org.mybatis.jpetstore.domain.Order: void addLineItem(org.mybatis.jpetstore.domain.CartItem)>/new org.mybatis.jpetstore.domain.LineItem/0]	<java.lang.Object: void <init>()>
+[org.mybatis.jpetstore.domain.Order::MockObject, <org.mybatis.jpetstore.domain.Order: void addLineItem(org.mybatis.jpetstore.domain.CartItem)>/new org.mybatis.jpetstore.domain.LineItem/0]	<java.lang.Object: void <init>()>
+[<<immutable-context>>, <org.mybatis.jpetstore.domain.Cart: void <init>()>/new java.util.ArrayList/0]	<java.util.ArrayList: void <init>()>
+[<<immutable-context>>, <org.mybatis.jpetstore.domain.Order: void <init>()>/new java.util.ArrayList/0]	<java.util.ArrayList: void <init>()>
+[<org.mybatis.jpetstore.web.actions.OrderActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Order/0, <org.mybatis.jpetstore.domain.Order: void <init>()>/new java.util.ArrayList/0]	<java.util.ArrayList: void <init>()>
+[<org.mybatis.jpetstore.web.actions.CartActionBean: void clear()>/new org.mybatis.jpetstore.domain.Cart/0, <org.mybatis.jpetstore.domain.Cart: void <init>()>/new java.util.ArrayList/0]	<java.util.ArrayList: void <init>()>
+[<org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0, <org.mybatis.jpetstore.domain.Order: void <init>()>/new java.util.ArrayList/0]	<java.util.ArrayList: void <init>()>
+[<org.mybatis.jpetstore.web.actions.CartActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Cart/0, <org.mybatis.jpetstore.domain.Cart: void <init>()>/new java.util.ArrayList/0]	<java.util.ArrayList: void <init>()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: net.sourceforge.stripes.action.Resolution editAccountForm()>/new net.sourceforge.stripes.action.ForwardResolution/0]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: net.sourceforge.stripes.action.Resolution newAccountForm()>/new net.sourceforge.stripes.action.ForwardResolution/0]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: net.sourceforge.stripes.action.Resolution signonForm()>/new net.sourceforge.stripes.action.ForwardResolution/0]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: net.sourceforge.stripes.action.Resolution signon()>/new net.sourceforge.stripes.action.ForwardResolution/0]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CatalogActionBean: net.sourceforge.stripes.action.ForwardResolution viewItem()>/new net.sourceforge.stripes.action.ForwardResolution/0]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CatalogActionBean: net.sourceforge.stripes.action.ForwardResolution searchProducts()>/new net.sourceforge.stripes.action.ForwardResolution/0]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CatalogActionBean: net.sourceforge.stripes.action.ForwardResolution searchProducts()>/new net.sourceforge.stripes.action.ForwardResolution/1]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CatalogActionBean: net.sourceforge.stripes.action.ForwardResolution viewMain()>/new net.sourceforge.stripes.action.ForwardResolution/0]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: net.sourceforge.stripes.action.Resolution newOrderForm()>/new net.sourceforge.stripes.action.ForwardResolution/2]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: net.sourceforge.stripes.action.Resolution newOrder()>/new net.sourceforge.stripes.action.ForwardResolution/0]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: net.sourceforge.stripes.action.Resolution newOrder()>/new net.sourceforge.stripes.action.ForwardResolution/1]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: net.sourceforge.stripes.action.Resolution newOrder()>/new net.sourceforge.stripes.action.ForwardResolution/2]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: net.sourceforge.stripes.action.Resolution addItemToCart()>/new net.sourceforge.stripes.action.ForwardResolution/0]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: net.sourceforge.stripes.action.Resolution removeItemFromCart()>/new net.sourceforge.stripes.action.ForwardResolution/0]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: net.sourceforge.stripes.action.Resolution removeItemFromCart()>/new net.sourceforge.stripes.action.ForwardResolution/1]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: net.sourceforge.stripes.action.Resolution updateCartQuantities()>/new net.sourceforge.stripes.action.ForwardResolution/0]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: net.sourceforge.stripes.action.Resolution listOrders()>/new net.sourceforge.stripes.action.ForwardResolution/0]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: net.sourceforge.stripes.action.ForwardResolution viewCart()>/new net.sourceforge.stripes.action.ForwardResolution/0]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: net.sourceforge.stripes.action.ForwardResolution checkOut()>/new net.sourceforge.stripes.action.ForwardResolution/0]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: net.sourceforge.stripes.action.Resolution newOrderForm()>/new net.sourceforge.stripes.action.ForwardResolution/1]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: net.sourceforge.stripes.action.Resolution viewOrder()>/new net.sourceforge.stripes.action.ForwardResolution/1]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CatalogActionBean: net.sourceforge.stripes.action.ForwardResolution viewCategory()>/new net.sourceforge.stripes.action.ForwardResolution/0]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CatalogActionBean: net.sourceforge.stripes.action.ForwardResolution viewProduct()>/new net.sourceforge.stripes.action.ForwardResolution/0]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: net.sourceforge.stripes.action.Resolution newOrder()>/new net.sourceforge.stripes.action.ForwardResolution/3]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: net.sourceforge.stripes.action.Resolution viewOrder()>/new net.sourceforge.stripes.action.ForwardResolution/0]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.String)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: net.sourceforge.stripes.action.Resolution newAccount()>/new net.sourceforge.stripes.action.RedirectResolution/0]	<net.sourceforge.stripes.action.RedirectResolution: void <init>(java.lang.Class)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: net.sourceforge.stripes.action.Resolution signon()>/new net.sourceforge.stripes.action.RedirectResolution/0]	<net.sourceforge.stripes.action.RedirectResolution: void <init>(java.lang.Class)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: net.sourceforge.stripes.action.Resolution signoff()>/new net.sourceforge.stripes.action.RedirectResolution/0]	<net.sourceforge.stripes.action.RedirectResolution: void <init>(java.lang.Class)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.AccountActionBean: net.sourceforge.stripes.action.Resolution editAccount()>/new net.sourceforge.stripes.action.RedirectResolution/0]	<net.sourceforge.stripes.action.RedirectResolution: void <init>(java.lang.Class)>
+[org.mybatis.jpetstore.web.actions.AccountActionBean::MockObject, <org.mybatis.jpetstore.web.actions.AbstractActionBean: void setMessage(java.lang.String)>/new net.sourceforge.stripes.action.SimpleMessage/0]	<net.sourceforge.stripes.action.SimpleMessage: void <init>(java.lang.String,java.lang.Object[])>
+[org.mybatis.jpetstore.web.actions.CatalogActionBean::MockObject, <org.mybatis.jpetstore.web.actions.AbstractActionBean: void setMessage(java.lang.String)>/new net.sourceforge.stripes.action.SimpleMessage/0]	<net.sourceforge.stripes.action.SimpleMessage: void <init>(java.lang.String,java.lang.Object[])>
+[org.mybatis.jpetstore.web.actions.OrderActionBean::MockObject, <org.mybatis.jpetstore.web.actions.AbstractActionBean: void setMessage(java.lang.String)>/new net.sourceforge.stripes.action.SimpleMessage/0]	<net.sourceforge.stripes.action.SimpleMessage: void <init>(java.lang.String,java.lang.Object[])>
+[org.mybatis.jpetstore.web.actions.CartActionBean::MockObject, <org.mybatis.jpetstore.web.actions.AbstractActionBean: void setMessage(java.lang.String)>/new net.sourceforge.stripes.action.SimpleMessage/0]	<net.sourceforge.stripes.action.SimpleMessage: void <init>(java.lang.String,java.lang.Object[])>
+[<org.mybatis.jpetstore.web.actions.OrderActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Order/0, <org.mybatis.jpetstore.domain.Order: void initOrder(org.mybatis.jpetstore.domain.Account,org.mybatis.jpetstore.domain.Cart)>/new java.util.Date/0]	<java.util.Date: void <init>()>
+[<org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0, <org.mybatis.jpetstore.domain.Order: void initOrder(org.mybatis.jpetstore.domain.Account,org.mybatis.jpetstore.domain.Cart)>/new java.util.Date/0]	<java.util.Date: void <init>()>
+[org.mybatis.jpetstore.domain.Order::MockObject, <org.mybatis.jpetstore.domain.Order: void initOrder(org.mybatis.jpetstore.domain.Account,org.mybatis.jpetstore.domain.Cart)>/new java.util.Date/0]	<java.util.Date: void <init>()>
+[<<immutable-context>>, <org.mybatis.jpetstore.domain.Cart: void <init>()>/new java.util.HashMap/0]	<java.util.HashMap: void <init>()>
+[<org.mybatis.jpetstore.web.actions.CartActionBean: void clear()>/new org.mybatis.jpetstore.domain.Cart/0, <org.mybatis.jpetstore.domain.Cart: void <init>()>/new java.util.HashMap/0]	<java.util.HashMap: void <init>()>
+[<org.mybatis.jpetstore.web.actions.CartActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Cart/0, <org.mybatis.jpetstore.domain.Cart: void <init>()>/new java.util.HashMap/0]	<java.util.HashMap: void <init>()>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.OrderActionBean: net.sourceforge.stripes.action.Resolution newOrderForm()>/new net.sourceforge.stripes.action.ForwardResolution/0]	<net.sourceforge.stripes.action.ForwardResolution: void <init>(java.lang.Class)>
+[<<immutable-context>>, <<immutable-context>>]	<java.util.Arrays: java.util.List asList(java.lang.Object[])>
+[<<immutable-context>>, <<immutable-context>>]	<java.util.Collections: java.util.List unmodifiableList(java.util.List)>
+[<org.mybatis.jpetstore.web.actions.OrderActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Order/0, <org.mybatis.jpetstore.domain.Order: void addLineItem(org.mybatis.jpetstore.domain.CartItem)>/new org.mybatis.jpetstore.domain.LineItem/0]	<java.util.Optional: java.util.Optional ofNullable(java.lang.Object)>
+[org.mybatis.jpetstore.domain.Cart::MockObject, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<java.util.Optional: java.util.Optional ofNullable(java.lang.Object)>
+[<org.mybatis.jpetstore.web.actions.CartActionBean: void clear()>/new org.mybatis.jpetstore.domain.Cart/0, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<java.util.Optional: java.util.Optional ofNullable(java.lang.Object)>
+[<org.mybatis.jpetstore.web.actions.CartActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Cart/0, <org.mybatis.jpetstore.domain.Cart: void addItem(org.mybatis.jpetstore.domain.Item,boolean)>/new org.mybatis.jpetstore.domain.CartItem/0]	<java.util.Optional: java.util.Optional ofNullable(java.lang.Object)>
+[<org.mybatis.jpetstore.web.actions.OrderActionBean: void clear()>/new org.mybatis.jpetstore.domain.Order/0, <org.mybatis.jpetstore.domain.Order: void addLineItem(org.mybatis.jpetstore.domain.CartItem)>/new org.mybatis.jpetstore.domain.LineItem/0]	<java.util.Optional: java.util.Optional ofNullable(java.lang.Object)>
+[org.mybatis.jpetstore.domain.Order::MockObject, <org.mybatis.jpetstore.domain.Order: void addLineItem(org.mybatis.jpetstore.domain.CartItem)>/new org.mybatis.jpetstore.domain.LineItem/0]	<java.util.Optional: java.util.Optional ofNullable(java.lang.Object)>
+[<<immutable-context>>, <<immutable-context>>]	<java.util.Collections: java.util.Map synchronizedMap(java.util.Map)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: void clear()>/new org.mybatis.jpetstore.domain.Cart/0]	<java.util.Collections: java.util.Map synchronizedMap(java.util.Map)>
+[<<immutable-context>>, <org.mybatis.jpetstore.web.actions.CartActionBean: void <init>()>/new org.mybatis.jpetstore.domain.Cart/0]	<java.util.Collections: java.util.Map synchronizedMap(java.util.Map)>
+[<<immutable-context>>, <<immutable-context>>]	<java.lang.Integer: int parseInt(java.lang.String)>
